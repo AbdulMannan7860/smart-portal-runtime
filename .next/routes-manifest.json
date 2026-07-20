@@ -111,6 +111,102 @@
       "namedRegex": "^/accounts/queries(?:/)?$"
     },
     {
+      "page": "/admin/academic-calendar",
+      "regex": "^/admin/academic\\-calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/academic\\-calendar(?:/)?$"
+    },
+    {
+      "page": "/admin/accounts-enrollment",
+      "regex": "^/admin/accounts\\-enrollment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/accounts\\-enrollment(?:/)?$"
+    },
+    {
+      "page": "/admin/accounts-queries",
+      "regex": "^/admin/accounts\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/accounts\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/admissions",
+      "regex": "^/admin/admissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admissions(?:/)?$"
+    },
+    {
+      "page": "/admin/admissions-queries",
+      "regex": "^/admin/admissions\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/course-management",
+      "regex": "^/admin/course\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/course\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/dashboard",
+      "regex": "^/admin/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/examination-queries",
+      "regex": "^/admin/examination\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/examination\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/institute-overview",
+      "regex": "^/admin/institute\\-overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/institute\\-overview(?:/)?$"
+    },
+    {
+      "page": "/admin/options",
+      "regex": "^/admin/options(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/options(?:/)?$"
+    },
+    {
+      "page": "/admin/query-management",
+      "regex": "^/admin/query\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/query\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/semester-management",
+      "regex": "^/admin/semester\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/semester\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/teacher-management",
+      "regex": "^/admin/teacher\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/users",
+      "regex": "^/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/users(?:/)?$"
+    },
+    {
+      "page": "/admissions/inquiries",
+      "regex": "^/admissions/inquiries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admissions/inquiries(?:/)?$"
+    },
+    {
+      "page": "/admissions/queries",
+      "regex": "^/admissions/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admissions/queries(?:/)?$"
+    },
+    {
       "page": "/api/academic-calendar/events",
       "regex": "^/api/academic\\-calendar/events(?:/)?$",
       "routeKeys": {},

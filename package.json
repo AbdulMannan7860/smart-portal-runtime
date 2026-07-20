@@ -17,6 +17,7 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
     "express": "^4.21.1",
     "formidable": "^3.5.4",
     "formidable-serverless": "^1.1.1",
@@ -46,6 +47,9 @@
     "tailwindcss": "^4"
   },
   "overrides": {
+    "exceljs": {
+      "uuid": "^11.1.1"
+    },
     "postcss": "^8.5.10"
   }
 }

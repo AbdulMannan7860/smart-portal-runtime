@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/academic-calendar/layout,_N_T_/admin/academic-calendar/page,_N_T_/admin/academic-calendar"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/academic-calendar/__PAGE__",
+    "/admin/academic-calendar",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

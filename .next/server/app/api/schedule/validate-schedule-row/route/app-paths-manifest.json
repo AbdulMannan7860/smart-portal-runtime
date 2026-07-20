@@ -1,0 +1,3 @@
+{
+  "/api/schedule/validate-schedule-row/route": "app/api/schedule/validate-schedule-row/route.js"
+}

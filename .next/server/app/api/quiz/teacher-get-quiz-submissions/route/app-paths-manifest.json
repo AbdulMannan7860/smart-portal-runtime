@@ -1,0 +1,3 @@
+{
+  "/api/quiz/teacher-get-quiz-submissions/route": "app/api/quiz/teacher-get-quiz-submissions/route.js"
+}

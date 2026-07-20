@@ -1,0 +1,3 @@
+{
+  "/api/teacher/get-all-teachers/route": "app/api/teacher/get-all-teachers/route.js"
+}

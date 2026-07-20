@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher-register/layout,_N_T_/teacher-register/page,_N_T_/teacher-register"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher-register/__PAGE__",
+    "/teacher-register",
+    "/_index",
+    "/_head"
+  ]
+}

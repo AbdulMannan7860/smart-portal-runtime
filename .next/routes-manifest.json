@@ -1,0 +1,972 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/accounts/admission-inquiries/[id]",
+      "regex": "^/api/accounts/admission\\-inquiries/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/accounts/admission\\-inquiries/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/answer-query-by-id/[id]",
+      "regex": "^/api/admin\\-apis/answer\\-query\\-by\\-id/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/admin\\-apis/answer\\-query\\-by\\-id/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/admissions/queries/[id]",
+      "regex": "^/api/admissions/queries/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/admissions/queries/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/[id]",
+      "regex": "^/api/quiz/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/quiz/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/student/get-students/[studentId]",
+      "regex": "^/api/student/get\\-students/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPstudentId": "nxtPstudentId"
+      },
+      "namedRegex": "^/api/student/get\\-students/(?<nxtPstudentId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/uploads/[...filePath]",
+      "regex": "^/api/uploads/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPfilePath": "nxtPfilePath"
+      },
+      "namedRegex": "^/api/uploads/(?<nxtPfilePath>.+?)(?:/)?$"
+    },
+    {
+      "page": "/student/quizzes/[id]",
+      "regex": "^/student/quizzes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/student/quizzes/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/accounts/enrollment",
+      "regex": "^/accounts/enrollment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/enrollment(?:/)?$"
+    },
+    {
+      "page": "/accounts/queries",
+      "regex": "^/accounts/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/queries(?:/)?$"
+    },
+    {
+      "page": "/api/academic-calendar/events",
+      "regex": "^/api/academic\\-calendar/events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/academic\\-calendar/events(?:/)?$"
+    },
+    {
+      "page": "/api/academic-calendar/holidays",
+      "regex": "^/api/academic\\-calendar/holidays(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/academic\\-calendar/holidays(?:/)?$"
+    },
+    {
+      "page": "/api/accounts/admission-inquiries",
+      "regex": "^/api/accounts/admission\\-inquiries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/accounts/admission\\-inquiries(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/announcement",
+      "regex": "^/api/admin\\-apis/announcement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/announcement(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/complete-semester",
+      "regex": "^/api/admin\\-apis/complete\\-semester(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/complete\\-semester(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/get-students-by-id",
+      "regex": "^/api/admin\\-apis/get\\-students\\-by\\-id(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/get\\-students\\-by\\-id(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/institute-overview",
+      "regex": "^/api/admin\\-apis/institute\\-overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/institute\\-overview(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/number-of-students-semester-wise",
+      "regex": "^/api/admin\\-apis/number\\-of\\-students\\-semester\\-wise(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/number\\-of\\-students\\-semester\\-wise(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/students-by-program",
+      "regex": "^/api/admin\\-apis/students\\-by\\-program(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/students\\-by\\-program(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/total-courses",
+      "regex": "^/api/admin\\-apis/total\\-courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/total\\-courses(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/total-number-of-students-status-wise",
+      "regex": "^/api/admin\\-apis/total\\-number\\-of\\-students\\-status\\-wise(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/total\\-number\\-of\\-students\\-status\\-wise(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/total-programs",
+      "regex": "^/api/admin\\-apis/total\\-programs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/total\\-programs(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/total-queries",
+      "regex": "^/api/admin\\-apis/total\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/total\\-queries(?:/)?$"
+    },
+    {
+      "page": "/api/admin-apis/total-schedules",
+      "regex": "^/api/admin\\-apis/total\\-schedules(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-apis/total\\-schedules(?:/)?$"
+    },
+    {
+      "page": "/api/admissions/public-submit",
+      "regex": "^/api/admissions/public\\-submit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admissions/public\\-submit(?:/)?$"
+    },
+    {
+      "page": "/api/admissions/queries",
+      "regex": "^/api/admissions/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admissions/queries(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/create-assignment",
+      "regex": "^/api/assignment/create\\-assignment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/create\\-assignment(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/edit-assignment",
+      "regex": "^/api/assignment/edit\\-assignment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/edit\\-assignment(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/get-assignment-by-teacher-code",
+      "regex": "^/api/assignment/get\\-assignment\\-by\\-teacher\\-code(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/get\\-assignment\\-by\\-teacher\\-code(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/get-assignments",
+      "regex": "^/api/assignment/get\\-assignments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/get\\-assignments(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/get-assignments-by-course-code-session-and-day",
+      "regex": "^/api/assignment/get\\-assignments\\-by\\-course\\-code\\-session\\-and\\-day(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/get\\-assignments\\-by\\-course\\-code\\-session\\-and\\-day(?:/)?$"
+    },
+    {
+      "page": "/api/assignment/upload-assignment",
+      "regex": "^/api/assignment/upload\\-assignment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/upload\\-assignment(?:/)?$"
+    },
+    {
+      "page": "/api/attendance/add-attendance",
+      "regex": "^/api/attendance/add\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/add\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/attendance/finalize-sessions",
+      "regex": "^/api/attendance/finalize\\-sessions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/finalize\\-sessions(?:/)?$"
+    },
+    {
+      "page": "/api/attendance/get-attendance",
+      "regex": "^/api/attendance/get\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/get\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/attendance/student-attendance",
+      "regex": "^/api/attendance/student\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/student\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/attendance/update-attendance",
+      "regex": "^/api/attendance/update\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/update\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/auth/admin-impersonate-teacher",
+      "regex": "^/api/auth/admin\\-impersonate\\-teacher(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/admin\\-impersonate\\-teacher(?:/)?$"
+    },
+    {
+      "page": "/api/auth/admin-return-from-teacher",
+      "regex": "^/api/auth/admin\\-return\\-from\\-teacher(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/admin\\-return\\-from\\-teacher(?:/)?$"
+    },
+    {
+      "page": "/api/auth/create-user",
+      "regex": "^/api/auth/create\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/create\\-user(?:/)?$"
+    },
+    {
+      "page": "/api/auth/forgot-password",
+      "regex": "^/api/auth/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/api/auth/get-student-users",
+      "regex": "^/api/auth/get\\-student\\-users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/get\\-student\\-users(?:/)?$"
+    },
+    {
+      "page": "/api/auth/get-teacher-users",
+      "regex": "^/api/auth/get\\-teacher\\-users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/get\\-teacher\\-users(?:/)?$"
+    },
+    {
+      "page": "/api/auth/login",
+      "regex": "^/api/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/logout",
+      "regex": "^/api/auth/logout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/logout(?:/)?$"
+    },
+    {
+      "page": "/api/auth/reset-password",
+      "regex": "^/api/auth/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/api/auth/session",
+      "regex": "^/api/auth/session(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/session(?:/)?$"
+    },
+    {
+      "page": "/api/auth/student-profile",
+      "regex": "^/api/auth/student\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/student\\-profile(?:/)?$"
+    },
+    {
+      "page": "/api/auth/student-register",
+      "regex": "^/api/auth/student\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/student\\-register(?:/)?$"
+    },
+    {
+      "page": "/api/auth/student-schedule",
+      "regex": "^/api/auth/student\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/student\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/auth/teacher-profile",
+      "regex": "^/api/auth/teacher\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/teacher\\-profile(?:/)?$"
+    },
+    {
+      "page": "/api/auth/teacher-register",
+      "regex": "^/api/auth/teacher\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/teacher\\-register(?:/)?$"
+    },
+    {
+      "page": "/api/auth/verify-email",
+      "regex": "^/api/auth/verify\\-email(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/verify\\-email(?:/)?$"
+    },
+    {
+      "page": "/api/course/create-course",
+      "regex": "^/api/course/create\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course/create\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/course/delete-course",
+      "regex": "^/api/course/delete\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course/delete\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/course/get-course",
+      "regex": "^/api/course/get\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course/get\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/course/update-course",
+      "regex": "^/api/course/update\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course/update\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/lecture/add-lecture",
+      "regex": "^/api/lecture/add\\-lecture(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/lecture/add\\-lecture(?:/)?$"
+    },
+    {
+      "page": "/api/lecture/get-lectures-for-student",
+      "regex": "^/api/lecture/get\\-lectures\\-for\\-student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/lecture/get\\-lectures\\-for\\-student(?:/)?$"
+    },
+    {
+      "page": "/api/makeup-classes",
+      "regex": "^/api/makeup\\-classes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/makeup\\-classes(?:/)?$"
+    },
+    {
+      "page": "/api/master-db/program-strength",
+      "regex": "^/api/master\\-db/program\\-strength(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/master\\-db/program\\-strength(?:/)?$"
+    },
+    {
+      "page": "/api/master-db/student-register",
+      "regex": "^/api/master\\-db/student\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/master\\-db/student\\-register(?:/)?$"
+    },
+    {
+      "page": "/api/outline/delete-outline",
+      "regex": "^/api/outline/delete\\-outline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/outline/delete\\-outline(?:/)?$"
+    },
+    {
+      "page": "/api/outline/get-outline",
+      "regex": "^/api/outline/get\\-outline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/outline/get\\-outline(?:/)?$"
+    },
+    {
+      "page": "/api/outline/upload-outline",
+      "regex": "^/api/outline/upload\\-outline(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/outline/upload\\-outline(?:/)?$"
+    },
+    {
+      "page": "/api/public/announcement",
+      "regex": "^/api/public/announcement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/public/announcement(?:/)?$"
+    },
+    {
+      "page": "/api/query/change-status",
+      "regex": "^/api/query/change\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/change\\-status(?:/)?$"
+    },
+    {
+      "page": "/api/query/generate-query",
+      "regex": "^/api/query/generate\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/generate\\-query(?:/)?$"
+    },
+    {
+      "page": "/api/query/get-queries-by-department",
+      "regex": "^/api/query/get\\-queries\\-by\\-department(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/get\\-queries\\-by\\-department(?:/)?$"
+    },
+    {
+      "page": "/api/query/get-query",
+      "regex": "^/api/query/get\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/get\\-query(?:/)?$"
+    },
+    {
+      "page": "/api/query/get-student-queries",
+      "regex": "^/api/query/get\\-student\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/get\\-student\\-queries(?:/)?$"
+    },
+    {
+      "page": "/api/query/reply",
+      "regex": "^/api/query/reply(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/reply(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/create-quiz",
+      "regex": "^/api/quiz/create\\-quiz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/create\\-quiz(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/edit-quiz",
+      "regex": "^/api/quiz/edit\\-quiz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/edit\\-quiz(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-get-all-quizzes",
+      "regex": "^/api/quiz/student\\-get\\-all\\-quizzes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-get\\-all\\-quizzes(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-get-available-quizzes",
+      "regex": "^/api/quiz/student\\-get\\-available\\-quizzes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-get\\-available\\-quizzes(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-get-quiz",
+      "regex": "^/api/quiz/student\\-get\\-quiz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-get\\-quiz(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-get-quiz-results",
+      "regex": "^/api/quiz/student\\-get\\-quiz\\-results(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-get\\-quiz\\-results(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-submit-announcement",
+      "regex": "^/api/quiz/student\\-submit\\-announcement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-submit\\-announcement(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/student-submit-mcq",
+      "regex": "^/api/quiz/student\\-submit\\-mcq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/student\\-submit\\-mcq(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/teacher-get-quiz-submissions",
+      "regex": "^/api/quiz/teacher\\-get\\-quiz\\-submissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/teacher\\-get\\-quiz\\-submissions(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/teacher-get-quizzes",
+      "regex": "^/api/quiz/teacher\\-get\\-quizzes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/teacher\\-get\\-quizzes(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/teacher-grade-announcement",
+      "regex": "^/api/quiz/teacher\\-grade\\-announcement(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/teacher\\-grade\\-announcement(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/create-bulk-schedule",
+      "regex": "^/api/schedule/create\\-bulk\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/create\\-bulk\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/create-schedule",
+      "regex": "^/api/schedule/create\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/create\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/delete-schedule",
+      "regex": "^/api/schedule/delete\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/delete\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/edit-schedule",
+      "regex": "^/api/schedule/edit\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/edit\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/get-schedule",
+      "regex": "^/api/schedule/get\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/get\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/unscheduled-courses-batch",
+      "regex": "^/api/schedule/unscheduled\\-courses\\-batch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/unscheduled\\-courses\\-batch(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/update-schedule",
+      "regex": "^/api/schedule/update\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/update\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/schedule/validate-schedule-row",
+      "regex": "^/api/schedule/validate\\-schedule\\-row(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/schedule/validate\\-schedule\\-row(?:/)?$"
+    },
+    {
+      "page": "/api/student/add-student",
+      "regex": "^/api/student/add\\-student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/add\\-student(?:/)?$"
+    },
+    {
+      "page": "/api/student/add-student-course",
+      "regex": "^/api/student/add\\-student\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/add\\-student\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/student/courses-award",
+      "regex": "^/api/student/courses\\-award(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/courses\\-award(?:/)?$"
+    },
+    {
+      "page": "/api/student/delete-student",
+      "regex": "^/api/student/delete\\-student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/delete\\-student(?:/)?$"
+    },
+    {
+      "page": "/api/student/edit-student",
+      "regex": "^/api/student/edit\\-student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/edit\\-student(?:/)?$"
+    },
+    {
+      "page": "/api/student/get-all-students",
+      "regex": "^/api/student/get\\-all\\-students(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/get\\-all\\-students(?:/)?$"
+    },
+    {
+      "page": "/api/student/get-total-students",
+      "regex": "^/api/student/get\\-total\\-students(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/get\\-total\\-students(?:/)?$"
+    },
+    {
+      "page": "/api/student/remove-course",
+      "regex": "^/api/student/remove\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student/remove\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/add-teacher-course",
+      "regex": "^/api/teacher/add\\-teacher\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/add\\-teacher\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/create-teacher",
+      "regex": "^/api/teacher/create\\-teacher(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/create\\-teacher(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/delete-teacher",
+      "regex": "^/api/teacher/delete\\-teacher(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/delete\\-teacher(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/edit-teacher",
+      "regex": "^/api/teacher/edit\\-teacher(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/edit\\-teacher(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/get-all-teachers",
+      "regex": "^/api/teacher/get\\-all\\-teachers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/get\\-all\\-teachers(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/remove-teacher-course",
+      "regex": "^/api/teacher/remove\\-teacher\\-course(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/remove\\-teacher\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/resend-registration-email",
+      "regex": "^/api/teacher/resend\\-registration\\-email(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/resend\\-registration\\-email(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/teacher-self-register",
+      "regex": "^/api/teacher/teacher\\-self\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/teacher\\-self\\-register(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/verify-registration-token",
+      "regex": "^/api/teacher/verify\\-registration\\-token(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
+    },
+    {
+      "page": "/examination/queries",
+      "regex": "^/examination/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/queries(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/forgot-password",
+      "regex": "^/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/management/academic-calendar",
+      "regex": "^/management/academic\\-calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/academic\\-calendar(?:/)?$"
+    },
+    {
+      "page": "/management/accounts-enrollment",
+      "regex": "^/management/accounts\\-enrollment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/accounts\\-enrollment(?:/)?$"
+    },
+    {
+      "page": "/management/accounts-queries",
+      "regex": "^/management/accounts\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/accounts\\-queries(?:/)?$"
+    },
+    {
+      "page": "/management/admission",
+      "regex": "^/management/admission(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/admission(?:/)?$"
+    },
+    {
+      "page": "/management/admission-queries",
+      "regex": "^/management/admission\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/admission\\-queries(?:/)?$"
+    },
+    {
+      "page": "/management/course-management",
+      "regex": "^/management/course\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/course\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/create-user",
+      "regex": "^/management/create\\-user(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/create\\-user(?:/)?$"
+    },
+    {
+      "page": "/management/dashboard",
+      "regex": "^/management/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/dashboard(?:/)?$"
+    },
+    {
+      "page": "/management/examination-queries",
+      "regex": "^/management/examination\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/examination\\-queries(?:/)?$"
+    },
+    {
+      "page": "/management/institute-overview",
+      "regex": "^/management/institute\\-overview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/institute\\-overview(?:/)?$"
+    },
+    {
+      "page": "/management/options",
+      "regex": "^/management/options(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/options(?:/)?$"
+    },
+    {
+      "page": "/management/query-management",
+      "regex": "^/management/query\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/query\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/semester-management",
+      "regex": "^/management/semester\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/semester\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/teacher-management",
+      "regex": "^/management/teacher\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
+    },
+    {
+      "page": "/reset-password",
+      "regex": "^/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/student/assignments",
+      "regex": "^/student/assignments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/assignments(?:/)?$"
+    },
+    {
+      "page": "/student/course-details",
+      "regex": "^/student/course\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/course\\-details(?:/)?$"
+    },
+    {
+      "page": "/student/course-registration-form",
+      "regex": "^/student/course\\-registration\\-form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/course\\-registration\\-form(?:/)?$"
+    },
+    {
+      "page": "/student/lectures",
+      "regex": "^/student/lectures(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/lectures(?:/)?$"
+    },
+    {
+      "page": "/student/marksheet",
+      "regex": "^/student/marksheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/marksheet(?:/)?$"
+    },
+    {
+      "page": "/student/marksheet-abstract",
+      "regex": "^/student/marksheet\\-abstract(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/marksheet\\-abstract(?:/)?$"
+    },
+    {
+      "page": "/student/query-form",
+      "regex": "^/student/query\\-form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/query\\-form(?:/)?$"
+    },
+    {
+      "page": "/student/quizzes",
+      "regex": "^/student/quizzes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/quizzes(?:/)?$"
+    },
+    {
+      "page": "/student/quizzes/attempt",
+      "regex": "^/student/quizzes/attempt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/quizzes/attempt(?:/)?$"
+    },
+    {
+      "page": "/student/result",
+      "regex": "^/student/result(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/result(?:/)?$"
+    },
+    {
+      "page": "/student/student-dashboard",
+      "regex": "^/student/student\\-dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/student\\-dashboard(?:/)?$"
+    },
+    {
+      "page": "/teacher/assignments",
+      "regex": "^/teacher/assignments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/assignments(?:/)?$"
+    },
+    {
+      "page": "/teacher/attendance",
+      "regex": "^/teacher/attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/attendance(?:/)?$"
+    },
+    {
+      "page": "/teacher/courses",
+      "regex": "^/teacher/courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/courses(?:/)?$"
+    },
+    {
+      "page": "/teacher/dashboard",
+      "regex": "^/teacher/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/dashboard(?:/)?$"
+    },
+    {
+      "page": "/teacher/lectures",
+      "regex": "^/teacher/lectures(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/lectures(?:/)?$"
+    },
+    {
+      "page": "/teacher/makeup-classes",
+      "regex": "^/teacher/makeup\\-classes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/makeup\\-classes(?:/)?$"
+    },
+    {
+      "page": "/teacher/quizzes",
+      "regex": "^/teacher/quizzes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/quizzes(?:/)?$"
+    },
+    {
+      "page": "/teacher/schedule",
+      "regex": "^/teacher/schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/schedule(?:/)?$"
+    },
+    {
+      "page": "/teacher-register",
+      "regex": "^/teacher\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher\\-register(?:/)?$"
+    },
+    {
+      "page": "/teacher-self-register",
+      "regex": "^/teacher\\-self\\-register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher\\-self\\-register(?:/)?$"
+    },
+    {
+      "page": "/verify-email",
+      "regex": "^/verify\\-email(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/verify\\-email(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

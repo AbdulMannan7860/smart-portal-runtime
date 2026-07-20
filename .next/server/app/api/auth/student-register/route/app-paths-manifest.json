@@ -1,0 +1,3 @@
+{
+  "/api/auth/student-register/route": "app/api/auth/student-register/route.js"
+}

@@ -1,0 +1,3 @@
+{
+  "/api/admin-apis/get-students-by-id/route": "app/api/admin-apis/get-students-by-id/route.js"
+}

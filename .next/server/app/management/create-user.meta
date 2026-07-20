@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/management/layout,_N_T_/management/create-user/layout,_N_T_/management/create-user/page,_N_T_/management/create-user"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/management/create-user/__PAGE__",
+    "/management/create-user",
+    "/management",
+    "/_index",
+    "/_head"
+  ]
+}

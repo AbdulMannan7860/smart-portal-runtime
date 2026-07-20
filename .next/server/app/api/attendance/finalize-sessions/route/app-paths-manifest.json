@@ -1,0 +1,3 @@
+{
+  "/api/attendance/finalize-sessions/route": "app/api/attendance/finalize-sessions/route.js"
+}

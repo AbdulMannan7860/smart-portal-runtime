@@ -1,0 +1,3 @@
+{
+  "/api/teacher/verify-registration-token/route": "app/api/teacher/verify-registration-token/route.js"
+}

@@ -1,0 +1,3 @@
+{
+  "/api/student/get-total-students/route": "app/api/student/get-total-students/route.js"
+}

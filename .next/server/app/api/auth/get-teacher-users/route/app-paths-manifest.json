@@ -1,0 +1,3 @@
+{
+  "/api/auth/get-teacher-users/route": "app/api/auth/get-teacher-users/route.js"
+}

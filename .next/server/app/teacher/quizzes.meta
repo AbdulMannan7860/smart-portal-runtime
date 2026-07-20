@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher/layout,_N_T_/teacher/quizzes/layout,_N_T_/teacher/quizzes/page,_N_T_/teacher/quizzes"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher/quizzes/__PAGE__",
+    "/teacher/quizzes",
+    "/teacher",
+    "/_index",
+    "/_head"
+  ]
+}

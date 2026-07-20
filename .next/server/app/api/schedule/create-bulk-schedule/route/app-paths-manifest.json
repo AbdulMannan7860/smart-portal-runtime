@@ -1,0 +1,3 @@
+{
+  "/api/schedule/create-bulk-schedule/route": "app/api/schedule/create-bulk-schedule/route.js"
+}

@@ -1,0 +1,3 @@
+{
+  "/api/assignment/get-assignments/route": "app/api/assignment/get-assignments/route.js"
+}

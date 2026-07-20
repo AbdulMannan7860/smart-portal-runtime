@@ -1,0 +1,3 @@
+{
+  "/api/schedule/create-schedule/route": "app/api/schedule/create-schedule/route.js"
+}

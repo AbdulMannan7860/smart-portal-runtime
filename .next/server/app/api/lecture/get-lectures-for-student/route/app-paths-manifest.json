@@ -1,0 +1,3 @@
+{
+  "/api/lecture/get-lectures-for-student/route": "app/api/lecture/get-lectures-for-student/route.js"
+}

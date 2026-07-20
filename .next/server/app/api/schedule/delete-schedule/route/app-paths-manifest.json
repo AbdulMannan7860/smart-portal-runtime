@@ -1,0 +1,3 @@
+{
+  "/api/schedule/delete-schedule/route": "app/api/schedule/delete-schedule/route.js"
+}

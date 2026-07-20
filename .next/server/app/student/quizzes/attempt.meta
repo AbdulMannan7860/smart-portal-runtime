@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/student/layout,_N_T_/student/quizzes/layout,_N_T_/student/quizzes/attempt/layout,_N_T_/student/quizzes/attempt/page,_N_T_/student/quizzes/attempt"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/student/quizzes/attempt/__PAGE__",
+    "/student/quizzes/attempt",
+    "/student/quizzes",
+    "/student",
+    "/_index",
+    "/_head"
+  ]
+}

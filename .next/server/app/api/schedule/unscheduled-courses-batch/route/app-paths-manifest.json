@@ -1,0 +1,3 @@
+{
+  "/api/schedule/unscheduled-courses-batch/route": "app/api/schedule/unscheduled-courses-batch/route.js"
+}

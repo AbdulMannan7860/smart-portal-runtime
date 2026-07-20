@@ -1,0 +1,3 @@
+{
+  "/api/teacher/resend-registration-email/route": "app/api/teacher/resend-registration-email/route.js"
+}

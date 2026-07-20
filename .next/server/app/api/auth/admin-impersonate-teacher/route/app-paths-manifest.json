@@ -1,0 +1,3 @@
+{
+  "/api/auth/admin-impersonate-teacher/route": "app/api/auth/admin-impersonate-teacher/route.js"
+}

@@ -1,0 +1,3 @@
+{
+  "/api/quiz/student-get-all-quizzes/route": "app/api/quiz/student-get-all-quizzes/route.js"
+}

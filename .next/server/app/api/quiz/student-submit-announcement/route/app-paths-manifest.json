@@ -1,0 +1,3 @@
+{
+  "/api/quiz/student-submit-announcement/route": "app/api/quiz/student-submit-announcement/route.js"
+}

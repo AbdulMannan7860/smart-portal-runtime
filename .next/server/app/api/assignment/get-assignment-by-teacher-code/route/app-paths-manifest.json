@@ -1,0 +1,3 @@
+{
+  "/api/assignment/get-assignment-by-teacher-code/route": "app/api/assignment/get-assignment-by-teacher-code/route.js"
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/management/layout,_N_T_/management/examination-queries/layout,_N_T_/management/examination-queries/page,_N_T_/management/examination-queries"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/management/examination-queries/__PAGE__",
+    "/management/examination-queries",
+    "/management",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -465,6 +465,18 @@
       "namedRegex": "^/api/auth/verify\\-email(?:/)?$"
     },
     {
+      "page": "/api/chat/groups",
+      "regex": "^/api/chat/groups(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/chat/groups(?:/)?$"
+    },
+    {
+      "page": "/api/chat/messages",
+      "regex": "^/api/chat/messages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/chat/messages(?:/)?$"
+    },
+    {
       "page": "/api/course/create-course",
       "regex": "^/api/course/create\\-course(?:/)?$",
       "routeKeys": {},
@@ -921,6 +933,12 @@
       "namedRegex": "^/student/assignments(?:/)?$"
     },
     {
+      "page": "/student/chats",
+      "regex": "^/student/chats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/chats(?:/)?$"
+    },
+    {
       "page": "/student/course-details",
       "regex": "^/student/course\\-details(?:/)?$",
       "routeKeys": {},
@@ -991,6 +1009,12 @@
       "regex": "^/teacher/attendance(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/attendance(?:/)?$"
+    },
+    {
+      "page": "/teacher/chats",
+      "regex": "^/teacher/chats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/chats(?:/)?$"
     },
     {
       "page": "/teacher/courses",

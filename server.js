@@ -1,11 +1,11 @@
 const { createServer } = require("node:http");
 const next = require("next");
-const jwt = require("jsonwebtoken");
 const {
   REALTIME_PATH,
   getRequestToken,
   resourceFromPath,
   shouldBroadcastMutation,
+  verifyHs256Jwt,
 } = require("./realtime-protocol.cjs");
 
 const dev = process.env.NODE_ENV !== "production";
@@ -19,13 +19,9 @@ let realtimeSequence = 0;
 function verifyRealtimeSession(request) {
   const token = getRequestToken(request);
   if (!token || !process.env.JWT_SECRET) return null;
-  try {
-    const payload = jwt.verify(token, process.env.JWT_SECRET);
-    const userId = payload.impersonatedTeacherId || payload.id;
-    return userId ? { userId: String(userId) } : null;
-  } catch {
-    return null;
-  }
+  const payload = verifyHs256Jwt(token, process.env.JWT_SECRET);
+  const userId = payload?.impersonatedTeacherId || payload?.id;
+  return userId ? { userId: String(userId) } : null;
 }
 
 function writeRealtimeEvent(response, event, data, id) {

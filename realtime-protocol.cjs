@@ -1,3 +1,5 @@
+const { createHmac, timingSafeEqual } = require("node:crypto");
+
 const REALTIME_PATH = "/api/realtime/events";
 const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
 const EXCLUDED_PATHS = new Set([
@@ -33,6 +35,37 @@ function getRequestToken(request) {
   return parseCookies(request.headers.cookie).jwt || null;
 }
 
+function verifyHs256Jwt(token, secret, nowSeconds = Math.floor(Date.now() / 1000)) {
+  if (!token || !secret) return null;
+  const parts = String(token).split(".");
+  if (parts.length !== 3) return null;
+
+  try {
+    const header = JSON.parse(Buffer.from(parts[0], "base64url").toString("utf8"));
+    if (header.alg !== "HS256") return null;
+
+    const expected = createHmac("sha256", secret)
+      .update(`${parts[0]}.${parts[1]}`)
+      .digest();
+    const received = Buffer.from(parts[2], "base64url");
+    if (
+      expected.length !== received.length ||
+      !timingSafeEqual(expected, received)
+    ) {
+      return null;
+    }
+
+    const payload = JSON.parse(
+      Buffer.from(parts[1], "base64url").toString("utf8")
+    );
+    if (payload.exp != null && Number(payload.exp) <= nowSeconds) return null;
+    if (payload.nbf != null && Number(payload.nbf) > nowSeconds) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
 function shouldBroadcastMutation(method, pathname, statusCode) {
   return (
     MUTATING_METHODS.has(method) &&
@@ -57,4 +90,5 @@ module.exports = {
   parseCookies,
   resourceFromPath,
   shouldBroadcastMutation,
+  verifyHs256Jwt,
 };

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/schedule/unscheduled-courses-batch/route.js")
-R.c("server/chunks/[root-of-the-server]__16zx63d._.js")
+R.c("server/chunks/[root-of-the-server]__0fr--gq._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/_1i57zwq._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")

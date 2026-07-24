@@ -1,6 +1,6 @@
 {
   "name": "smart-portal",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,8 @@
     "start": "node server.js",
     "lint": "eslint",
     "test": "node --experimental-default-type=module --test tests/*.test.mjs",
-    "check": "npm run lint && npm test && npm run build"
+    "test:realtime": "node scripts/realtime-smoke.cjs",
+    "check": "npm run lint && npm test && npm run build && npm run test:realtime"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",

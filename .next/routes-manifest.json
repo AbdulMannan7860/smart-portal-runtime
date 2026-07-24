@@ -47,6 +47,22 @@
       "namedRegex": "^/api/admissions/queries/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/api/chat/messages/[id]",
+      "regex": "^/api/chat/messages/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/chat/messages/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/chat/messages/[id]/info",
+      "regex": "^/api/chat/messages/([^/]+?)/info(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/chat/messages/(?<nxtPid>[^/]+?)/info(?:/)?$"
+    },
+    {
       "page": "/api/quiz/[id]",
       "regex": "^/api/quiz/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -477,6 +493,18 @@
       "namedRegex": "^/api/chat/messages(?:/)?$"
     },
     {
+      "page": "/api/chat/read",
+      "regex": "^/api/chat/read(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/chat/read(?:/)?$"
+    },
+    {
+      "page": "/api/chat/unread-count",
+      "regex": "^/api/chat/unread\\-count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/chat/unread\\-count(?:/)?$"
+    },
+    {
       "page": "/api/course/create-course",
       "regex": "^/api/course/create\\-course(?:/)?$",
       "routeKeys": {},
@@ -585,10 +613,28 @@
       "namedRegex": "^/api/query/get\\-student\\-queries(?:/)?$"
     },
     {
+      "page": "/api/query/mark-read",
+      "regex": "^/api/query/mark\\-read(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/mark\\-read(?:/)?$"
+    },
+    {
       "page": "/api/query/reply",
       "regex": "^/api/query/reply(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/query/reply(?:/)?$"
+    },
+    {
+      "page": "/api/query/student-profile",
+      "regex": "^/api/query/student\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/student\\-profile(?:/)?$"
+    },
+    {
+      "page": "/api/query/unread-count",
+      "regex": "^/api/query/unread\\-count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/query/unread\\-count(?:/)?$"
     },
     {
       "page": "/api/quiz/create-quiz",

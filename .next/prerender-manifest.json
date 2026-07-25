@@ -146,6 +146,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/academic-operations": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/academic-operations",
+      "dataRoute": "/admin/academic-operations.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/accounts-enrollment": {
       "experimentalBypassFor": [
         {
@@ -434,6 +458,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/student-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/student-reports",
+      "dataRoute": "/admin/student-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/teacher-management": {
       "experimentalBypassFor": [
         {
@@ -554,6 +602,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/examination/results": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/results",
+      "dataRoute": "/examination/results.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -646,6 +718,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/academic-calendar",
       "dataRoute": "/management/academic-calendar.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/management/academic-operations": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/academic-operations",
+      "dataRoute": "/management/academic-operations.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -958,6 +1054,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/semester-management",
       "dataRoute": "/management/semester-management.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/management/student-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/student-reports",
+      "dataRoute": "/management/student-reports.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1399,6 +1519,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/class-cancellations": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/class-cancellations",
+      "dataRoute": "/teacher/class-cancellations.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/course-planner": {
       "experimentalBypassFor": [
         {
@@ -1643,8 +1787,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "edeb76f2d33eb5ce18882a4506cb5da8",
-    "previewModeSigningKey": "b7f9ed87932076910f050a2c94a0024bac02747e766f5be5ca4aefc96b04d204",
-    "previewModeEncryptionKey": "67befafe23b3e3f8d59e2db2f72ef454bb29b6e62db9a435bbefa0a69d217832"
+    "previewModeId": "786d5798e576ce634adda40805203154",
+    "previewModeSigningKey": "8fdd8f6e53ab9574b93912a4e1393311b19046c942ce430d3c35769d5297f379",
+    "previewModeEncryptionKey": "633801af98156ae5ec8f389691b7fb8f3ab3d0f5bb919bdc1d77d97398be9088"
   }
 }

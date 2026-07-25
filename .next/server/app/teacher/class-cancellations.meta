@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher/layout,_N_T_/teacher/class-cancellations/layout,_N_T_/teacher/class-cancellations/page,_N_T_/teacher/class-cancellations"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher/class-cancellations/__PAGE__",
+    "/teacher/class-cancellations",
+    "/teacher",
+    "/_index",
+    "/_head"
+  ]
+}

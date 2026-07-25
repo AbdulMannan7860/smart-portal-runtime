@@ -266,6 +266,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/course-planner": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/course-planner",
+      "dataRoute": "/admin/course-planner.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard": {
       "experimentalBypassFor": [
         {
@@ -742,6 +766,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/course-management",
       "dataRoute": "/management/course-management.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/management/course-planner": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/course-planner",
+      "dataRoute": "/management/course-planner.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1351,6 +1399,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/course-planner": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/course-planner",
+      "dataRoute": "/teacher/course-planner.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/courses": {
       "experimentalBypassFor": [
         {
@@ -1571,8 +1643,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "8acf74a6fe6ac9cd9d6f348fa15f13dc",
-    "previewModeSigningKey": "136c951f911118d13806099b048289313c0a2a368b54b2278f9cb593ba8aab73",
-    "previewModeEncryptionKey": "1c1bd73d0d500a3221140cbd2a0d2575e1f1f7cdaefcf24871022f63cc387d47"
+    "previewModeId": "edeb76f2d33eb5ce18882a4506cb5da8",
+    "previewModeSigningKey": "b7f9ed87932076910f050a2c94a0024bac02747e766f5be5ca4aefc96b04d204",
+    "previewModeEncryptionKey": "67befafe23b3e3f8d59e2db2f72ef454bb29b6e62db9a435bbefa0a69d217832"
   }
 }

@@ -163,6 +163,12 @@
       "namedRegex": "^/admin/course\\-management(?:/)?$"
     },
     {
+      "page": "/admin/course-planner",
+      "regex": "^/admin/course\\-planner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/course\\-planner(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard",
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
@@ -527,6 +533,12 @@
       "regex": "^/api/course/update\\-course(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/course/update\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/course-planner",
+      "regex": "^/api/course\\-planner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
       "page": "/api/lecture/add-lecture",
@@ -913,6 +925,12 @@
       "namedRegex": "^/management/course\\-management(?:/)?$"
     },
     {
+      "page": "/management/course-planner",
+      "regex": "^/management/course\\-planner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/course\\-planner(?:/)?$"
+    },
+    {
       "page": "/management/create-user",
       "regex": "^/management/create\\-user(?:/)?$",
       "routeKeys": {},
@@ -1061,6 +1079,12 @@
       "regex": "^/teacher/chats(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/chats(?:/)?$"
+    },
+    {
+      "page": "/teacher/course-planner",
+      "regex": "^/teacher/course\\-planner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/course\\-planner(?:/)?$"
     },
     {
       "page": "/teacher/courses",

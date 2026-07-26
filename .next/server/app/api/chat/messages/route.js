@@ -1,8 +1,8 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/chat/messages/route.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__0lj1up_._.js")
-R.c("server/chunks/_0e6f7zc._.js")
+R.c("server/chunks/[root-of-the-server]__1_0ldxb._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
+R.c("server/chunks/_0e6f7zc._.js")
 R.c("server/chunks/_next-internal_server_app_api_chat_messages_route_actions_0j2ylxp.js")
 R.m(34403)
 module.exports=R.m(34403).exports

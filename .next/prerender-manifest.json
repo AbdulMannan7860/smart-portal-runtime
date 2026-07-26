@@ -626,6 +626,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/examination/student-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/student-reports",
+      "dataRoute": "/examination/student-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -1054,30 +1078,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/semester-management",
       "dataRoute": "/management/semester-management.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/management/student-reports": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/management/student-reports",
-      "dataRoute": "/management/student-reports.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1787,8 +1787,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "0aafd9d9b6767ecd0dc52a095b8a8561",
-    "previewModeSigningKey": "b836e0ad13081b5243a5b1b538935b528a5f8ce0984d18fa4fac7104763862e6",
-    "previewModeEncryptionKey": "b26d1cfcc18cd975e03176b74ce3328a02be52ca00369a85f9f5afac5cb96a32"
+    "previewModeId": "6c6a495e4c431cf700c313c51fa7b3b5",
+    "previewModeSigningKey": "a042bd829ed5a863808ab9581be37521b242ebfc57741e1c136ccc6cb69d51f7",
+    "previewModeEncryptionKey": "6afc76cd277814a357650bb1887ac0855072fbb38d28f0f5893e2023239b9dc1"
   }
 }

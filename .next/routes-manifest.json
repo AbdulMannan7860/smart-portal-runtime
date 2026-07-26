@@ -913,6 +913,12 @@
       "namedRegex": "^/examination/results(?:/)?$"
     },
     {
+      "page": "/examination/student-reports",
+      "regex": "^/examination/student\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/student\\-reports(?:/)?$"
+    },
+    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
@@ -1019,12 +1025,6 @@
       "regex": "^/management/semester\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/semester\\-management(?:/)?$"
-    },
-    {
-      "page": "/management/student-reports",
-      "regex": "^/management/student\\-reports(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/management/student\\-reports(?:/)?$"
     },
     {
       "page": "/management/teacher-management",

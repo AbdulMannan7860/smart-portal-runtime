@@ -7,6 +7,11 @@ const {
   shouldBroadcastMutation,
   verifyHs256Jwt,
 } = require("./realtime-protocol.cjs");
+const {
+  recordRequest,
+  setRealtimeConnections,
+  startOperationsMetrics,
+} = require("./operations-metrics.cjs");
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = process.env.HOST || "0.0.0.0";
@@ -15,6 +20,7 @@ const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
 const realtimeClients = new Map();
 let realtimeSequence = 0;
+startOperationsMetrics();
 
 function verifyRealtimeSession(request) {
   const token = getRequestToken(request);
@@ -47,6 +53,7 @@ function broadcastRealtimeChange({ method, pathname, initiatorClientId }) {
       writeRealtimeEvent(client.response, "data.changed", event, id);
     } catch {
       realtimeClients.delete(clientId);
+      setRealtimeConnections(realtimeClients.size);
     }
   }
 }
@@ -94,6 +101,7 @@ function openRealtimeStream(request, response) {
     response,
     userId: session.userId,
   });
+  setRealtimeConnections(realtimeClients.size);
   const heartbeat = setInterval(() => {
     if (!response.destroyed) response.write(`: heartbeat ${Date.now()}\n\n`);
   }, 25_000);
@@ -102,6 +110,7 @@ function openRealtimeStream(request, response) {
   const close = () => {
     clearInterval(heartbeat);
     realtimeClients.delete(clientId);
+    setRealtimeConnections(realtimeClients.size);
     if (!response.writableEnded) response.end();
   };
   request.once("close", close);
@@ -111,6 +120,15 @@ function openRealtimeStream(request, response) {
 app.prepare().then(() => {
   const server = createServer((request, response) => {
     const requestUrl = new URL(request.url, `http://${request.headers.host || "localhost"}`);
+    const startedAt = process.hrtime.bigint();
+    response.once("finish", () => {
+      recordRequest({
+        method: request.method,
+        pathname: requestUrl.pathname,
+        statusCode: response.statusCode,
+        durationMs: Number(process.hrtime.bigint() - startedAt) / 1_000_000,
+      });
+    });
 
     if (request.method === "GET" && requestUrl.pathname === REALTIME_PATH) {
       openRealtimeStream(request, response);
@@ -151,6 +169,7 @@ app.prepare().then(() => {
       client.response.end();
     }
     realtimeClients.clear();
+    setRealtimeConnections(0);
     server.close(() => process.exit(0));
   };
 

@@ -193,6 +193,12 @@
       "namedRegex": "^/admin/institute\\-overview(?:/)?$"
     },
     {
+      "page": "/admin/it-operations",
+      "regex": "^/admin/it\\-operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/it\\-operations(?:/)?$"
+    },
+    {
       "page": "/admin/options",
       "regex": "^/admin/options(?:/)?$",
       "routeKeys": {},
@@ -557,6 +563,12 @@
       "regex": "^/api/course\\-planner(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/course\\-planner(?:/)?$"
+    },
+    {
+      "page": "/api/it/operations",
+      "regex": "^/api/it/operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it/operations(?:/)?$"
     },
     {
       "page": "/api/lecture/add-lecture",
@@ -929,6 +941,12 @@
       "regex": "^/forgot\\-password(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/it/operations",
+      "regex": "^/it/operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/operations(?:/)?$"
     },
     {
       "page": "/login",

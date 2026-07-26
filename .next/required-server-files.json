@@ -63,11 +63,28 @@
           "search": ""
         }
       ],
-      "remotePatterns": [],
+      "remotePatterns": [
+        {
+          "protocol": "https",
+          "hostname": "emaan.edu.pk"
+        },
+        {
+          "protocol": "https",
+          "hostname": "www.emaan.edu.pk"
+        },
+        {
+          "protocol": "https",
+          "hostname": "cdn.pixabay.com"
+        },
+        {
+          "protocol": "https",
+          "hostname": "images.unsplash.com"
+        }
+      ],
       "qualities": [
         75
       ],
-      "unoptimized": false,
+      "unoptimized": true,
       "customCacheHandler": false
     },
     "devIndicators": {

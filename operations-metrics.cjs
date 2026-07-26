@@ -13,6 +13,10 @@ function createState() {
     totalRequests: 0,
     statusCounts: { success: 0, redirect: 0, clientError: 0, serverError: 0 },
     realtimeConnections: 0,
+    realtimeEvents: 0,
+    realtimeDeliveries: 0,
+    realtimeRemoteEvents: 0,
+    lastRealtimeEventAt: null,
     eventLoopHistogram: null,
     lastPrunedAt: 0,
     lastCpuUsage: process.cpuUsage(),
@@ -77,6 +81,16 @@ function recordRequest({ method, pathname, statusCode, durationMs }) {
 
 function setRealtimeConnections(count) {
   state.realtimeConnections = Math.max(0, Number(count) || 0);
+}
+
+function recordRealtimeBroadcast({ deliveries = 0, remote = false } = {}) {
+  state.realtimeEvents = (state.realtimeEvents || 0) + 1;
+  state.realtimeDeliveries =
+    (state.realtimeDeliveries || 0) + Math.max(0, Number(deliveries) || 0);
+  if (remote) {
+    state.realtimeRemoteEvents = (state.realtimeRemoteEvents || 0) + 1;
+  }
+  state.lastRealtimeEventAt = Date.now();
 }
 
 function percentile(values, fraction) {
@@ -157,12 +171,19 @@ function getOperationsSnapshot() {
     },
     realtime: {
       activeConnections: state.realtimeConnections,
+      eventsSinceStart: state.realtimeEvents || 0,
+      deliveriesSinceStart: state.realtimeDeliveries || 0,
+      remoteEventsSinceStart: state.realtimeRemoteEvents || 0,
+      lastEventAt: state.lastRealtimeEventAt
+        ? new Date(state.lastRealtimeEventAt).toISOString()
+        : null,
     },
   };
 }
 
 module.exports = {
   getOperationsSnapshot,
+  recordRealtimeBroadcast,
   recordRequest,
   setRealtimeConnections,
   startOperationsMetrics,

@@ -1,3 +1,0 @@
-module.exports=[47608,a=>{"use strict";a.s(["getStudentDisplayName",0,function(a,b=""){let c=String(a||"").trim();if(!c)return"";let d=c.split(/\s{2,}/);return(""!==String(b||"").trim()&&d.length>1?d[0]:c).replace(/\s+/g," ").trim()}])},76273,a=>{a.v(b=>Promise.all(["server/chunks/ssr/[externals]__08umc8o._.js","server/chunks/ssr/[root-of-the-server]__0joo1sh._.js"].map(b=>a.l(b))).then(()=>b(70802)))},52143,a=>{a.v(b=>Promise.all(["server/chunks/ssr/[externals]__0gs0oe2._.js","server/chunks/ssr/[root-of-the-server]__0hm7mdw._.js"].map(b=>a.l(b))).then(()=>b(32596)))},86089,a=>{a.v(b=>Promise.all(["server/chunks/ssr/node_modules_jspdf-autotable_dist_jspdf_plugin_autotable_mjs_0sl6xtj._.js"].map(b=>a.l(b))).then(()=>b(77894)))}];
-
-//# sourceMappingURL=_0pfs3sz._.js.map

@@ -8,6 +8,7 @@ const {
   verifyHs256Jwt,
 } = require("./realtime-protocol.cjs");
 const {
+  recordRealtimeBroadcast,
   recordRequest,
   setRealtimeConnections,
   startOperationsMetrics,
@@ -58,7 +59,8 @@ function createRealtimeChange({ method, pathname, initiatorClientId }) {
   };
 }
 
-function broadcastRealtimeChange(event) {
+function broadcastRealtimeChange(event, { remote = false } = {}) {
+  let deliveries = 0;
   for (const [clientId, client] of realtimeClients) {
     if (
       event.initiatorClientId &&
@@ -68,11 +70,13 @@ function broadcastRealtimeChange(event) {
     }
     try {
       writeRealtimeEvent(client.response, "data.changed", event, event.id);
+      deliveries += 1;
     } catch {
       realtimeClients.delete(clientId);
       setRealtimeConnections(realtimeClients.size);
     }
   }
+  recordRealtimeBroadcast({ deliveries, remote });
 }
 
 function openRealtimeStream(request, response) {
@@ -182,7 +186,7 @@ app.prepare().then(() => {
         event?.type === "data.changed" &&
         event.originInstanceId !== realtimeInstanceId
       ) {
-        broadcastRealtimeChange(event);
+        broadcastRealtimeChange(event, { remote: true });
       }
     }).then((unsubscribe) => {
       unsubscribeRealtime = unsubscribe;

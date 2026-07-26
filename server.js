@@ -12,6 +12,11 @@ const {
   setRealtimeConnections,
   startOperationsMetrics,
 } = require("./operations-metrics.cjs");
+const {
+  closeRedis,
+  publish: publishRedis,
+  subscribe: subscribeRedis,
+} = require("./redis-runtime.cjs");
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = process.env.HOST || "0.0.0.0";
@@ -19,7 +24,11 @@ const port = Number(process.env.PORT || 3000);
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
 const realtimeClients = new Map();
+const realtimeInstanceId = `${process.pid}-${Date.now()}-${Math.random()
+  .toString(36)
+  .slice(2, 10)}`;
 let realtimeSequence = 0;
+let unsubscribeRealtime = null;
 startOperationsMetrics();
 
 function verifyRealtimeSession(request) {
@@ -36,21 +45,29 @@ function writeRealtimeEvent(response, event, data, id) {
   response.write(`data: ${JSON.stringify(data)}\n\n`);
 }
 
-function broadcastRealtimeChange({ method, pathname, initiatorClientId }) {
+function createRealtimeChange({ method, pathname, initiatorClientId }) {
   realtimeSequence += 1;
-  const id = String(realtimeSequence);
-  const event = {
-    id,
+  return {
+    id: `${realtimeInstanceId}-${realtimeSequence}`,
     type: "data.changed",
     resource: resourceFromPath(pathname),
     method,
     occurredAt: new Date().toISOString(),
+    initiatorClientId,
+    originInstanceId: realtimeInstanceId,
   };
+}
 
+function broadcastRealtimeChange(event) {
   for (const [clientId, client] of realtimeClients) {
-    if (initiatorClientId && client.clientId === initiatorClientId) continue;
+    if (
+      event.initiatorClientId &&
+      client.clientId === event.initiatorClientId
+    ) {
+      continue;
+    }
     try {
-      writeRealtimeEvent(client.response, "data.changed", event, id);
+      writeRealtimeEvent(client.response, "data.changed", event, event.id);
     } catch {
       realtimeClients.delete(clientId);
       setRealtimeConnections(realtimeClients.size);
@@ -144,11 +161,13 @@ app.prepare().then(() => {
             response.statusCode
           )
         ) {
-          broadcastRealtimeChange({
+          const event = createRealtimeChange({
             initiatorClientId: request.headers["x-realtime-client"],
             method: request.method,
             pathname: requestUrl.pathname,
           });
+          broadcastRealtimeChange(event);
+          void publishRedis("realtime-data-changed", event);
         }
       });
     }
@@ -158,9 +177,19 @@ app.prepare().then(() => {
 
   server.listen(port, hostname, () => {
     console.log(`Smart Portal is listening on ${hostname}:${port}`);
+    void subscribeRedis("realtime-data-changed", (event) => {
+      if (
+        event?.type === "data.changed" &&
+        event.originInstanceId !== realtimeInstanceId
+      ) {
+        broadcastRealtimeChange(event);
+      }
+    }).then((unsubscribe) => {
+      unsubscribeRealtime = unsubscribe;
+    });
   });
 
-  const shutdown = () => {
+  const shutdown = async () => {
     for (const client of realtimeClients.values()) {
       writeRealtimeEvent(client.response, "server.shutdown", {
         type: "server.shutdown",
@@ -170,11 +199,13 @@ app.prepare().then(() => {
     }
     realtimeClients.clear();
     setRealtimeConnections(0);
+    await unsubscribeRealtime?.();
+    await closeRedis();
     server.close(() => process.exit(0));
   };
 
-  process.on("SIGINT", shutdown);
-  process.on("SIGTERM", shutdown);
+  process.on("SIGINT", () => void shutdown());
+  process.on("SIGTERM", () => void shutdown());
 }).catch((error) => {
   console.error("Unable to start Smart Portal:", error);
   process.exit(1);

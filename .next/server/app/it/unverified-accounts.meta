@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/it/layout,_N_T_/it/unverified-accounts/layout,_N_T_/it/unverified-accounts/page,_N_T_/it/unverified-accounts"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/it/unverified-accounts/__PAGE__",
+    "/it/unverified-accounts",
+    "/it",
+    "/_index",
+    "/_head"
+  ]
+}

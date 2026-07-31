@@ -63,6 +63,14 @@
       "namedRegex": "^/api/chat/messages/(?<nxtPid>[^/]+?)/info(?:/)?$"
     },
     {
+      "page": "/api/it-support/[id]",
+      "regex": "^/api/it\\-support/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/it\\-support/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/api/quiz/[id]",
       "regex": "^/api/quiz/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -199,16 +207,40 @@
       "namedRegex": "^/admin/it\\-operations(?:/)?$"
     },
     {
+      "page": "/admin/it-queries",
+      "regex": "^/admin/it\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/it\\-queries(?:/)?$"
+    },
+    {
       "page": "/admin/options",
       "regex": "^/admin/options(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/options(?:/)?$"
     },
     {
+      "page": "/admin/portal-it-queries",
+      "regex": "^/admin/portal\\-it\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/portal\\-it\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/public-it-queries",
+      "regex": "^/admin/public\\-it\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/public\\-it\\-queries(?:/)?$"
+    },
+    {
       "page": "/admin/query-management",
       "regex": "^/admin/query\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/query\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/result-publication",
+      "regex": "^/admin/result\\-publication(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/result\\-publication(?:/)?$"
     },
     {
       "page": "/admin/semester-management",
@@ -227,6 +259,12 @@
       "regex": "^/admin/teacher\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/unverified-accounts",
+      "regex": "^/admin/unverified\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/unverified\\-accounts(?:/)?$"
     },
     {
       "page": "/admin/users",
@@ -569,6 +607,18 @@
       "regex": "^/api/it/operations(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/it/operations(?:/)?$"
+    },
+    {
+      "page": "/api/it/unverified-accounts",
+      "regex": "^/api/it/unverified\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it/unverified\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/api/it-support",
+      "regex": "^/api/it\\-support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it\\-support(?:/)?$"
     },
     {
       "page": "/api/lecture/add-lecture",
@@ -947,6 +997,42 @@
       "regex": "^/it/operations(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/it/operations(?:/)?$"
+    },
+    {
+      "page": "/it/portal-queries",
+      "regex": "^/it/portal\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/portal\\-queries(?:/)?$"
+    },
+    {
+      "page": "/it/public-queries",
+      "regex": "^/it/public\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/public\\-queries(?:/)?$"
+    },
+    {
+      "page": "/it/queries",
+      "regex": "^/it/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/queries(?:/)?$"
+    },
+    {
+      "page": "/it/unverified-accounts",
+      "regex": "^/it/unverified\\-accounts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/unverified\\-accounts(?:/)?$"
+    },
+    {
+      "page": "/it-support",
+      "regex": "^/it\\-support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it\\-support(?:/)?$"
+    },
+    {
+      "page": "/it-support/portal",
+      "regex": "^/it\\-support/portal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it\\-support/portal(?:/)?$"
     },
     {
       "page": "/login",

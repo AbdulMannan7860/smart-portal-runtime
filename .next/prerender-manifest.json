@@ -266,6 +266,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/completed-courses": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/completed-courses",
+      "dataRoute": "/admin/completed-courses.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/course-management": {
       "experimentalBypassFor": [
         {
@@ -545,6 +569,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/result-publication",
       "dataRoute": "/admin/result-publication.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/semester-control": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/semester-control",
+      "dataRoute": "/admin/semester-control.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2099,8 +2147,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "ae4ef696ea1c0384c455a03aa761b968",
-    "previewModeSigningKey": "6b2dd884a08497f94aad8f9dfb90ecb3271703fba87ab2b2a89e924f3c065a8c",
-    "previewModeEncryptionKey": "43c41cc08a16d511111354696c8cf7efc48079211e829ad2b4ddbb3df40e46f4"
+    "previewModeId": "0f3a9757f3b1c3ef108a1d604c6125f8",
+    "previewModeSigningKey": "e1eb57b6387b34e5dd682da39d51025d23fd8c3c962313c8ad7b0a585e6ed2ad",
+    "previewModeEncryptionKey": "ed97360fe24d3ec626ad3d423e19cdf1788fa4c3ec04c4aedce92ec0ad109545"
   }
 }

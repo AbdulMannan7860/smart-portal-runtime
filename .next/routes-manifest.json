@@ -171,6 +171,12 @@
       "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/completed-courses",
+      "regex": "^/admin/completed\\-courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/completed\\-courses(?:/)?$"
+    },
+    {
       "page": "/admin/course-management",
       "regex": "^/admin/course\\-management(?:/)?$",
       "routeKeys": {},
@@ -243,6 +249,12 @@
       "namedRegex": "^/admin/result\\-publication(?:/)?$"
     },
     {
+      "page": "/admin/semester-control",
+      "regex": "^/admin/semester\\-control(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/semester\\-control(?:/)?$"
+    },
+    {
       "page": "/admin/semester-management",
       "regex": "^/admin/semester\\-management(?:/)?$",
       "routeKeys": {},
@@ -295,6 +307,24 @@
       "regex": "^/api/academic\\-calendar/holidays(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/academic\\-calendar/holidays(?:/)?$"
+    },
+    {
+      "page": "/api/academic-semester",
+      "regex": "^/api/academic\\-semester(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/academic\\-semester(?:/)?$"
+    },
+    {
+      "page": "/api/academic-semester/complete-program",
+      "regex": "^/api/academic\\-semester/complete\\-program(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/academic\\-semester/complete\\-program(?:/)?$"
+    },
+    {
+      "page": "/api/academic-semester/completed-courses",
+      "regex": "^/api/academic\\-semester/completed\\-courses(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/academic\\-semester/completed\\-courses(?:/)?$"
     },
     {
       "page": "/api/accounts/admission-inquiries",

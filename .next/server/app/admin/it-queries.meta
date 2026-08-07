@@ -1,7 +1,5 @@
 {
-  "status": 307,
   "headers": {
-    "location": "/admin/public-it-queries",
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/it-queries/layout,_N_T_/admin/it-queries/page,_N_T_/admin/it-queries"

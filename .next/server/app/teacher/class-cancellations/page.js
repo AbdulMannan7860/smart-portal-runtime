@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/teacher/class-cancellations/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0q7-1qr._.js")
-R.c("server/chunks/ssr/node_modules_0ev7kv1._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1qvjgso._.js")
+R.c("server/chunks/ssr/node_modules_09r9c10._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1h4iom6.js")
 R.c("server/chunks/ssr/[root-of-the-server]__05a5hj0._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_1au0nys._.js")

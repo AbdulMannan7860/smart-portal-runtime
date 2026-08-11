@@ -465,6 +465,12 @@
       "namedRegex": "^/api/attendance/get\\-attendance(?:/)?$"
     },
     {
+      "page": "/api/attendance/recovery-settings",
+      "regex": "^/api/attendance/recovery\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance/recovery\\-settings(?:/)?$"
+    },
+    {
       "page": "/api/attendance/student-attendance",
       "regex": "^/api/attendance/student\\-attendance(?:/)?$",
       "routeKeys": {},

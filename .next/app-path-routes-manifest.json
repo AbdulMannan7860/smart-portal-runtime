@@ -61,6 +61,7 @@
   "/api/attendance/add-attendance/route": "/api/attendance/add-attendance",
   "/api/attendance/finalize-sessions/route": "/api/attendance/finalize-sessions",
   "/api/attendance/get-attendance/route": "/api/attendance/get-attendance",
+  "/api/attendance/recovery-settings/route": "/api/attendance/recovery-settings",
   "/api/attendance/student-attendance/route": "/api/attendance/student-attendance",
   "/api/attendance/update-attendance/route": "/api/attendance/update-attendance",
   "/api/auth/admin-impersonate-teacher/route": "/api/auth/admin-impersonate-teacher",

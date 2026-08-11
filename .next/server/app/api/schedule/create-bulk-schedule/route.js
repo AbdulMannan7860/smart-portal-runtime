@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/schedule/create-bulk-schedule/route.js")
 R.c("server/chunks/[root-of-the-server]__1c27aqd._.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__1pgf76p._.js")
+R.c("server/chunks/[root-of-the-server]__1jgo2ok._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/_02tuxsl._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")

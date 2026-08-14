@@ -237,6 +237,12 @@
       "namedRegex": "^/admin/public\\-it\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/qec-folders",
+      "regex": "^/admin/qec\\-folders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/qec\\-folders(?:/)?$"
+    },
+    {
       "page": "/admin/query-management",
       "regex": "^/admin/query\\-management(?:/)?$",
       "routeKeys": {},
@@ -711,6 +717,12 @@
       "namedRegex": "^/api/public/announcement(?:/)?$"
     },
     {
+      "page": "/api/qec/folders",
+      "regex": "^/api/qec/folders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/qec/folders(?:/)?$"
+    },
+    {
       "page": "/api/query/change-status",
       "regex": "^/api/query/change\\-status(?:/)?$",
       "routeKeys": {},
@@ -1173,6 +1185,12 @@
       "namedRegex": "^/management/teacher\\-management(?:/)?$"
     },
     {
+      "page": "/qec/folders",
+      "regex": "^/qec/folders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/qec/folders(?:/)?$"
+    },
+    {
       "page": "/register",
       "regex": "^/register(?:/)?$",
       "routeKeys": {},
@@ -1309,6 +1327,12 @@
       "regex": "^/teacher/makeup\\-classes(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/makeup\\-classes(?:/)?$"
+    },
+    {
+      "page": "/teacher/qec-folder",
+      "regex": "^/teacher/qec\\-folder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/qec\\-folder(?:/)?$"
     },
     {
       "page": "/teacher/quizzes",

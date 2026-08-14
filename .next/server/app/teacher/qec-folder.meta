@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher/layout,_N_T_/teacher/qec-folder/layout,_N_T_/teacher/qec-folder/page,_N_T_/teacher/qec-folder"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher/qec-folder/__PAGE__",
+    "/teacher/qec-folder",
+    "/teacher",
+    "/_index",
+    "/_head"
+  ]
+}

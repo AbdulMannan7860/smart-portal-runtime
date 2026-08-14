@@ -530,6 +530,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/qec-folders": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/qec-folders",
+      "dataRoute": "/admin/qec-folders.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/query-management": {
       "experimentalBypassFor": [
         {
@@ -1471,6 +1495,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/qec/folders": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/qec/folders",
+      "dataRoute": "/qec/folders.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/register": {
       "experimentalBypassFor": [
         {
@@ -2023,6 +2071,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/qec-folder": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/qec-folder",
+      "dataRoute": "/teacher/qec-folder.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/quizzes": {
       "experimentalBypassFor": [
         {
@@ -2147,8 +2219,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "ca9fc0f125706ab9fa178d21940bf9f9",
-    "previewModeSigningKey": "fbe281faaa8aa554af4a6db7e20835ed3bc604acd7101bdfa0eff2e9113d11be",
-    "previewModeEncryptionKey": "442033b3b24cc83a6bf10ed2ae0750b0df160d24dfd21e9b4ed4ac93f2572bff"
+    "previewModeId": "f9e747d56f437cbb77e5c7b30a8aa543",
+    "previewModeSigningKey": "8997ed0647abb0b4d8b33bc567583d7ddef800c92e42dd6751953e4193e00891",
+    "previewModeEncryptionKey": "f4c878dbb448351e3aabe0deb2241a559c95d05066d52882019855bca8c94d54"
   }
 }

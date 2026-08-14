@@ -1,0 +1,3 @@
+module.exports=[6297,a=>{"use strict";var b=a.i(87924),c=a.i(8698),d=a.i(53783);a.s(["default",0,function(){return(0,b.jsx)(c.default,{children:(0,b.jsx)(d.default,{departmentFilter:"Examination",title:"Examination Query Management",subtitle:"Manage and respond to student queries for the Examination department",enablePrint:!0})})}])}];
+
+//# sourceMappingURL=src_app_admin_examination-queries_page_jsx_1a4e8-b._.js.map

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher/layout,_N_T_/teacher/examination-papers/layout,_N_T_/teacher/examination-papers/page,_N_T_/teacher/examination-papers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher/examination-papers/__PAGE__",
+    "/teacher/examination-papers",
+    "/teacher",
+    "/_index",
+    "/_head"
+  ]
+}

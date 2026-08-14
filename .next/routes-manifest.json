@@ -195,6 +195,12 @@
       "namedRegex": "^/admin/dashboard(?:/)?$"
     },
     {
+      "page": "/admin/examination-papers",
+      "regex": "^/admin/examination\\-papers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/examination\\-papers(?:/)?$"
+    },
+    {
       "page": "/admin/examination-queries",
       "regex": "^/admin/examination\\-queries(?:/)?$",
       "routeKeys": {},
@@ -645,6 +651,12 @@
       "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
+      "page": "/api/examination-papers",
+      "regex": "^/api/examination\\-papers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/examination\\-papers(?:/)?$"
+    },
+    {
       "page": "/api/it/operations",
       "regex": "^/api/it/operations(?:/)?$",
       "routeKeys": {},
@@ -1011,6 +1023,12 @@
       "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
     },
     {
+      "page": "/examination/papers",
+      "regex": "^/examination/papers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/papers(?:/)?$"
+    },
+    {
       "page": "/examination/queries",
       "regex": "^/examination/queries(?:/)?$",
       "routeKeys": {},
@@ -1315,6 +1333,12 @@
       "regex": "^/teacher/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/dashboard(?:/)?$"
+    },
+    {
+      "page": "/teacher/examination-papers",
+      "regex": "^/teacher/examination\\-papers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/examination\\-papers(?:/)?$"
     },
     {
       "page": "/teacher/lectures",

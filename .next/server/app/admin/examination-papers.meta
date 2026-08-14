@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/examination-papers/layout,_N_T_/admin/examination-papers/page,_N_T_/admin/examination-papers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/examination-papers/__PAGE__",
+    "/admin/examination-papers",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

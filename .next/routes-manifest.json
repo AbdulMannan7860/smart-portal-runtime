@@ -71,6 +71,14 @@
       "namedRegex": "^/api/it\\-support/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/api/qec/evidence/[id]/file",
+      "regex": "^/api/qec/evidence/([^/]+?)/file(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/qec/evidence/(?<nxtPid>[^/]+?)/file(?:/)?$"
+    },
+    {
       "page": "/api/quiz/[id]",
       "regex": "^/api/quiz/([^/]+?)(?:/)?$",
       "routeKeys": {

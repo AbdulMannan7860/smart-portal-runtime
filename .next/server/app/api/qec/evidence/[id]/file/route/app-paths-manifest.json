@@ -1,0 +1,3 @@
+{
+  "/api/qec/evidence/[id]/file/route": "app/api/qec/evidence/[id]/file/route.js"
+}

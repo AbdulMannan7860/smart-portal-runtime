@@ -108,6 +108,7 @@
   "/api/outline/get-outline/route": "/api/outline/get-outline",
   "/api/outline/upload-outline/route": "/api/outline/upload-outline",
   "/api/public/announcement/route": "/api/public/announcement",
+  "/api/qec/evidence/[id]/file/route": "/api/qec/evidence/[id]/file",
   "/api/qec/folders/route": "/api/qec/folders",
   "/api/query/change-status/route": "/api/query/change-status",
   "/api/query/generate-query/route": "/api/query/generate-query",

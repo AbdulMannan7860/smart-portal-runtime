@@ -722,6 +722,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/teacher-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/teacher-reports",
+      "dataRoute": "/admin/teacher-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/unverified-accounts": {
       "experimentalBypassFor": [
         {
@@ -2315,8 +2339,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "6c70aafae0ba9e550dfa6504b9a42958",
-    "previewModeSigningKey": "f1a9918dff1683b2ab0d3f55faf5910d7caa0eaaf3f48f76fa51374c3b9caabd",
-    "previewModeEncryptionKey": "8bcf79e9f5df364ff699bb2757e5e99a25bcefd11aaa4f6deb569701c59ed7cc"
+    "previewModeId": "54585049332cf185bd9e385d336046bc",
+    "previewModeSigningKey": "ebc29ff0f34637347fc46783f8a2a1d354084d9161bed847c9d91bca4472ea9a",
+    "previewModeEncryptionKey": "529df32236a5e854ba6f8c034061a7e23bef11459c09e6cf979d050b5ab09ceb"
   }
 }

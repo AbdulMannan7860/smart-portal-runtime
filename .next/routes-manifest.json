@@ -293,6 +293,12 @@
       "namedRegex": "^/admin/teacher\\-management(?:/)?$"
     },
     {
+      "page": "/admin/teacher-reports",
+      "regex": "^/admin/teacher\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-reports(?:/)?$"
+    },
+    {
       "page": "/admin/unverified-accounts",
       "regex": "^/admin/unverified\\-accounts(?:/)?$",
       "routeKeys": {},
@@ -1029,6 +1035,12 @@
       "regex": "^/api/teacher/verify\\-registration\\-token(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
+    },
+    {
+      "page": "/api/teacher-reports",
+      "regex": "^/api/teacher\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher\\-reports(?:/)?$"
     },
     {
       "page": "/examination/papers",

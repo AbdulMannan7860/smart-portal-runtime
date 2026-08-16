@@ -199,6 +199,7 @@
   "/student/chats/page": "app/student/chats/page.js",
   "/student/course-details/page": "app/student/course-details/page.js",
   "/student/course-registration-form/page": "app/student/course-registration-form/page.js",
+  "/student/leave-requests/page": "app/student/leave-requests/page.js",
   "/student/lectures/page": "app/student/lectures/page.js",
   "/student/marksheet-abstract/page": "app/student/marksheet-abstract/page.js",
   "/student/marksheet/page": "app/student/marksheet/page.js",

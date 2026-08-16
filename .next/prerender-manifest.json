@@ -1711,6 +1711,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/student/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/student/leave-requests",
+      "dataRoute": "/student/leave-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/student/lectures": {
       "experimentalBypassFor": [
         {
@@ -2291,8 +2315,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "24c3d6c3e28de58142e6644b8d73f7a2",
-    "previewModeSigningKey": "de6eb6a90f353d1faa8c7e4a75209b54e9b647da9258693c10169701b85512ef",
-    "previewModeEncryptionKey": "6d227033fbcac1a8dcb6a38435c7b6a778edf04f7c2e0b6ef75945ccb652bd9a"
+    "previewModeId": "b5942e8859a41e124bfb2bcfca9dbe0a",
+    "previewModeSigningKey": "ae79286410b04bc605ee86b5722c869f3d80746d400bb68ccdc4d57116783f5b",
+    "previewModeEncryptionKey": "7c0e4df75850c2861ae7b2c794f1aaa73cdb7db3f1d3ae681db9008ea2cda403"
   }
 }

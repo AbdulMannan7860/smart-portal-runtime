@@ -1253,6 +1253,12 @@
       "namedRegex": "^/student/course\\-registration\\-form(?:/)?$"
     },
     {
+      "page": "/student/leave-requests",
+      "regex": "^/student/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/leave\\-requests(?:/)?$"
+    },
+    {
       "page": "/student/lectures",
       "regex": "^/student/lectures(?:/)?$",
       "routeKeys": {},

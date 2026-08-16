@@ -1,8 +1,9 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/class-cancellations/route.js")
-R.c("server/chunks/[root-of-the-server]__04xdqbj._.js")
-R.c("server/chunks/_1rfsoxw._.js")
+R.c("server/chunks/[root-of-the-server]__1icn7v8._.js")
+R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1q7b0z5.js")
 R.c("server/chunks/_16cnris._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
+R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/_next-internal_server_app_api_class-cancellations_route_actions_0f9mr0s.js")
 R.m(17424)
 module.exports=R.m(17424).exports

@@ -199,6 +199,7 @@
   "/student/chats/page": "/student/chats",
   "/student/course-details/page": "/student/course-details",
   "/student/course-registration-form/page": "/student/course-registration-form",
+  "/student/leave-requests/page": "/student/leave-requests",
   "/student/lectures/page": "/student/lectures",
   "/student/marksheet-abstract/page": "/student/marksheet-abstract",
   "/student/marksheet/page": "/student/marksheet",

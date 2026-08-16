@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/student/course-registration-form/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__14u_cf4._.js")
-R.c("server/chunks/ssr/node_modules_0ev7kv1._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__02qi790._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1i6m6s0.js")
 R.c("server/chunks/ssr/[root-of-the-server]__05a5hj0._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_1au0nys._.js")

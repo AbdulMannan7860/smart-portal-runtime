@@ -1,10 +1,10 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/academic-calendar/events/route.js")
 R.c("server/chunks/[root-of-the-server]__1q0lbmt._.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/_0nnnn_t._.js")
+R.c("server/chunks/_1d_l6mx._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
+R.c("server/chunks/_08i6l3j._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
-R.c("server/chunks/_16cnris._.js")
 R.c("server/chunks/_next-internal_server_app_api_academic-calendar_events_route_actions_1t9ro3x.js")
 R.m(51863)
 module.exports=R.m(51863).exports

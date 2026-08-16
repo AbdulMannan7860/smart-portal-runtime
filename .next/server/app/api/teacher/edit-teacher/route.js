@@ -1,10 +1,10 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/teacher/edit-teacher/route.js")
-R.c("server/chunks/_1arna74._.js")
+R.c("server/chunks/_177wiq1._.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__0yol67d._.js")
+R.c("server/chunks/[root-of-the-server]__12k7jqp._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
-R.c("server/chunks/_02tuxsl._.js")
+R.c("server/chunks/_0bkdb6g._.js")
 R.c("server/chunks/_next-internal_server_app_api_teacher_edit-teacher_route_actions_0h97jd9.js")
 R.m(29677)
 module.exports=R.m(29677).exports

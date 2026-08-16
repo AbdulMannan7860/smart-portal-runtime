@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /privacy-policy
+Allow: /login
+Disallow: /api/
+Disallow: /admin/
+Disallow: /management/
+Disallow: /student/
+Disallow: /teacher/
+Disallow: /examination/
+Disallow: /accounts/
+Disallow: /admissions/
+Disallow: /it/
+Disallow: /qec/
+
+Sitemap: https://lms.emaan.edu.pk/sitemap.xml

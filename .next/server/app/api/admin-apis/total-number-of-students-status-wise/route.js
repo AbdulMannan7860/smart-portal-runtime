@@ -2,7 +2,7 @@ var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/admin
 R.c("server/chunks/[root-of-the-server]__0t3y9fi._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
-R.c("server/chunks/_16cnris._.js")
+R.c("server/chunks/_1_5b-n8._.js")
 R.c("server/chunks/1jng_app_api_admin-apis_total-number-of-students-status-wise_route_actions_214vkj3.js")
 R.m(9968)
 module.exports=R.m(9968).exports

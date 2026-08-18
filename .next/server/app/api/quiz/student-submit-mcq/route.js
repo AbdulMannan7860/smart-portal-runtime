@@ -4,5 +4,5 @@ R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/_1_5b-n8._.js")
 R.c("server/chunks/_next-internal_server_app_api_quiz_student-submit-mcq_route_actions_0p0pato.js")
-R.m(71265)
-module.exports=R.m(71265).exports
+R.m(571265)
+module.exports=R.m(571265).exports

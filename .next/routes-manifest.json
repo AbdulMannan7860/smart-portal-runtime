@@ -137,6 +137,12 @@
       "namedRegex": "^/accounts/enrollment(?:/)?$"
     },
     {
+      "page": "/accounts/it-query",
+      "regex": "^/accounts/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/it\\-query(?:/)?$"
+    },
+    {
       "page": "/accounts/queries",
       "regex": "^/accounts/queries(?:/)?$",
       "routeKeys": {},
@@ -165,6 +171,12 @@
       "regex": "^/admin/accounts\\-queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/accounts\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/administrator-queries",
+      "regex": "^/admin/administrator\\-queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/administrator\\-queries(?:/)?$"
     },
     {
       "page": "/admin/admissions",
@@ -231,6 +243,12 @@
       "regex": "^/admin/it\\-queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/it\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/it-query",
+      "regex": "^/admin/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/it\\-query(?:/)?$"
     },
     {
       "page": "/admin/options",
@@ -315,6 +333,12 @@
       "regex": "^/admissions/inquiries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admissions/inquiries(?:/)?$"
+    },
+    {
+      "page": "/admissions/it-query",
+      "regex": "^/admissions/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admissions/it\\-query(?:/)?$"
     },
     {
       "page": "/admissions/queries",
@@ -1043,6 +1067,12 @@
       "namedRegex": "^/api/teacher\\-reports(?:/)?$"
     },
     {
+      "page": "/examination/it-query",
+      "regex": "^/examination/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/it\\-query(?:/)?$"
+    },
+    {
       "page": "/examination/papers",
       "regex": "^/examination/papers(?:/)?$",
       "routeKeys": {},
@@ -1113,12 +1143,6 @@
       "regex": "^/it\\-support(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/it\\-support(?:/)?$"
-    },
-    {
-      "page": "/it-support/portal",
-      "regex": "^/it\\-support/portal(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/it\\-support/portal(?:/)?$"
     },
     {
       "page": "/login",
@@ -1199,6 +1223,12 @@
       "namedRegex": "^/management/institute\\-overview(?:/)?$"
     },
     {
+      "page": "/management/it-query",
+      "regex": "^/management/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/it\\-query(?:/)?$"
+    },
+    {
       "page": "/management/options",
       "regex": "^/management/options(?:/)?$",
       "routeKeys": {},
@@ -1233,6 +1263,12 @@
       "regex": "^/qec/folders(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/qec/folders(?:/)?$"
+    },
+    {
+      "page": "/qec/it-query",
+      "regex": "^/qec/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/qec/it\\-query(?:/)?$"
     },
     {
       "page": "/register",
@@ -1281,6 +1317,12 @@
       "regex": "^/student/course\\-registration\\-form(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/student/course\\-registration\\-form(?:/)?$"
+    },
+    {
+      "page": "/student/it-query",
+      "regex": "^/student/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/it\\-query(?:/)?$"
     },
     {
       "page": "/student/leave-requests",
@@ -1385,6 +1427,12 @@
       "namedRegex": "^/teacher/examination\\-papers(?:/)?$"
     },
     {
+      "page": "/teacher/it-query",
+      "regex": "^/teacher/it\\-query(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/it\\-query(?:/)?$"
+    },
+    {
       "page": "/teacher/lectures",
       "regex": "^/teacher/lectures(?:/)?$",
       "routeKeys": {},
@@ -1401,6 +1449,12 @@
       "regex": "^/teacher/qec\\-folder(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/qec\\-folder(?:/)?$"
+    },
+    {
+      "page": "/teacher/queries",
+      "regex": "^/teacher/queries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/queries(?:/)?$"
     },
     {
       "page": "/teacher/quizzes",

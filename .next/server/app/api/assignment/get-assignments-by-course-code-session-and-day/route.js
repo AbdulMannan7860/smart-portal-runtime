@@ -5,5 +5,5 @@ R.c("server/chunks/_1_5b-n8._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/07_e_assignment_get-assignments-by-course-code-session-and-day_route_actions_0fdzm10.js")
-R.m(84303)
-module.exports=R.m(84303).exports
+R.m(184303)
+module.exports=R.m(184303).exports

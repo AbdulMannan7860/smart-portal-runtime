@@ -7,5 +7,5 @@ R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_0dsr8un.js")
 R.c("server/chunks/1oeh_server_app_api_schedule_unscheduled-courses-batch_route_actions_0x456c7.js")
-R.m(34599)
-module.exports=R.m(34599).exports
+R.m(234599)
+module.exports=R.m(234599).exports

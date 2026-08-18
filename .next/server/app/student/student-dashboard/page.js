@@ -12,5 +12,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/src_210wrm3._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_student_student-dashboard_page_actions_06t6mfb.js")
-R.m(38009)
-module.exports=R.m(38009).exports
+R.m(838009)
+module.exports=R.m(838009).exports

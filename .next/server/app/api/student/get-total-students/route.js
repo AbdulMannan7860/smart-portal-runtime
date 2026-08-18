@@ -7,5 +7,5 @@ R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_15ss-sf.js")
 R.c("server/chunks/_next-internal_server_app_api_student_get-total-students_route_actions_0e6_xg6.js")
-R.m(20808)
-module.exports=R.m(20808).exports
+R.m(220808)
+module.exports=R.m(220808).exports

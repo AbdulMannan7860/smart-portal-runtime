@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/accounts/layout,_N_T_/accounts/it-query/layout,_N_T_/accounts/it-query/page,_N_T_/accounts/it-query"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/accounts/it-query/__PAGE__",
+    "/accounts/it-query",
+    "/accounts",
+    "/_index",
+    "/_head"
+  ]
+}

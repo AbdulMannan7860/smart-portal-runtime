@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_management_teacher-management_page_actions_0d_ipuv.js")
-R.m(55597)
-module.exports=R.m(55597).exports
+R.m(955597)
+module.exports=R.m(955597).exports

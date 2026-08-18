@@ -98,6 +98,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/accounts/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/accounts/it-query",
+      "dataRoute": "/accounts/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/accounts/queries": {
       "experimentalBypassFor": [
         {
@@ -209,6 +233,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/accounts-queries",
       "dataRoute": "/admin/accounts-queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/administrator-queries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/administrator-queries",
+      "dataRoute": "/admin/administrator-queries.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -473,6 +521,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/it-queries",
       "dataRoute": "/admin/it-queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/it-query",
+      "dataRoute": "/admin/it-query.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -818,6 +890,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admissions/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admissions/it-query",
+      "dataRoute": "/admissions/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admissions/queries": {
       "experimentalBypassFor": [
         {
@@ -833,6 +929,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admissions/queries",
       "dataRoute": "/admissions/queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/it-query",
+      "dataRoute": "/examination/it-query.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1126,30 +1246,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/it-support",
       "dataRoute": "/it-support.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/it-support/portal": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/it-support/portal",
-      "dataRoute": "/it-support/portal.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1471,6 +1567,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/management/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/it-query",
+      "dataRoute": "/management/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/management/options": {
       "experimentalBypassFor": [
         {
@@ -1606,6 +1726,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/qec/folders",
       "dataRoute": "/qec/folders.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/qec/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/qec/it-query",
+      "dataRoute": "/qec/it-query.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1808,6 +1952,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/student/course-registration-form",
       "dataRoute": "/student/course-registration-form.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/student/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/student/it-query",
+      "dataRoute": "/student/it-query.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2225,6 +2393,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/it-query": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/it-query",
+      "dataRoute": "/teacher/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/lectures": {
       "experimentalBypassFor": [
         {
@@ -2288,6 +2480,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/teacher/qec-folder",
       "dataRoute": "/teacher/qec-folder.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/teacher/queries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/queries",
+      "dataRoute": "/teacher/queries.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2421,8 +2637,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "b844003ee66fe050b50cb21ab8570691",
-    "previewModeSigningKey": "598c7987e39bde10d0f375b32d80ac4d604b40e77ee99f2420134e0add760648",
-    "previewModeEncryptionKey": "559da50b72fae54e70a824242e0ac773b92852b1e80386cea260d52b0800eac9"
+    "previewModeId": "0d43e0bb65cb6287e735af73ee2004fc",
+    "previewModeSigningKey": "d0774cac403af06bd6f35386974c86203290df4aac13abeaff4ef2fa4d190360",
+    "previewModeEncryptionKey": "8b7dbeb878b53cd557eff8cc1611bc3a5ce36b68aedac3f466635dbd771d5abb"
   }
 }

@@ -5,5 +5,5 @@ R.c("server/chunks/_1_5b-n8._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0domq1v._.js")
 R.c("server/chunks/_next-internal_server_app_api_auth_student-profile_route_actions_10fs35b.js")
-R.m(92133)
-module.exports=R.m(92133).exports
+R.m(392133)
+module.exports=R.m(392133).exports

@@ -1,5 +1,5 @@
 var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/admin-apis/answer-query-by-id/[id]/route.js")
-R.c("server/chunks/[root-of-the-server]__0n8adwj._.js")
+R.c("server/chunks/[root-of-the-server]__1_yojm1._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/_0bkdb6g._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")

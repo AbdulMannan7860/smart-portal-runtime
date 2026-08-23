@@ -1,3 +1,0 @@
-module.exports=[824046,a=>{"use strict";var b=a.i(187924),c=a.i(408698),d=a.i(815988);a.s(["default",0,function(){return(0,b.jsx)(c.default,{children:(0,b.jsx)(d.default,{departmentFilter:"Admissions",title:"Admissions Query Management",subtitle:"Manage and respond to student queries for the Admissions department"})})}])}];
-
-//# sourceMappingURL=src_app_admin_admissions-queries_page_jsx_1rwlpux._.js.map

@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/academic-semester/completed-courses/route.js")
-R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_01dqpm9.js")
-R.c("server/chunks/[root-of-the-server]__16n4art._.js")
+R.c("server/chunks/_0mbt9no._.js")
+R.c("server/chunks/[root-of-the-server]__0jnyuki._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/_1_5b-n8._.js")
 R.c("server/chunks/_1rfsoxw._.js")

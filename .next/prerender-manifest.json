@@ -146,6 +146,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/accounts/teacher-attendance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/accounts/teacher-attendance",
+      "dataRoute": "/accounts/teacher-attendance.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/academic-calendar": {
       "experimentalBypassFor": [
         {
@@ -305,6 +329,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/admissions-queries",
       "dataRoute": "/admin/admissions-queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/attendance-employees": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/attendance-employees",
+      "dataRoute": "/admin/attendance-employees.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -761,6 +809,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/student-reports",
       "dataRoute": "/admin/student-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/teacher-attendance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/teacher-attendance",
+      "dataRoute": "/admin/teacher-attendance.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2637,8 +2709,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "0d43e0bb65cb6287e735af73ee2004fc",
-    "previewModeSigningKey": "d0774cac403af06bd6f35386974c86203290df4aac13abeaff4ef2fa4d190360",
-    "previewModeEncryptionKey": "8b7dbeb878b53cd557eff8cc1611bc3a5ce36b68aedac3f466635dbd771d5abb"
+    "previewModeId": "1c6c514b4fa87b86139ca6d79ebe1446",
+    "previewModeSigningKey": "7895bb034c4eb21edb0e7960fa3799d1525110ed957bee6e2c32035d1896cde3",
+    "previewModeEncryptionKey": "7c62a005eaeb3a52172410fd3112c92ae626ec8752c599264ccec49736e4b060"
   }
 }

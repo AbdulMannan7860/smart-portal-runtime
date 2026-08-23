@@ -149,6 +149,12 @@
       "namedRegex": "^/accounts/queries(?:/)?$"
     },
     {
+      "page": "/accounts/teacher-attendance",
+      "regex": "^/accounts/teacher\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/teacher\\-attendance(?:/)?$"
+    },
+    {
       "page": "/admin/academic-calendar",
       "regex": "^/admin/academic\\-calendar(?:/)?$",
       "routeKeys": {},
@@ -189,6 +195,12 @@
       "regex": "^/admin/admissions\\-queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/attendance-employees",
+      "regex": "^/admin/attendance\\-employees(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/attendance\\-employees(?:/)?$"
     },
     {
       "page": "/admin/completed-courses",
@@ -305,6 +317,12 @@
       "namedRegex": "^/admin/student\\-reports(?:/)?$"
     },
     {
+      "page": "/admin/teacher-attendance",
+      "regex": "^/admin/teacher\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-attendance(?:/)?$"
+    },
+    {
       "page": "/admin/teacher-management",
       "regex": "^/admin/teacher\\-management(?:/)?$",
       "routeKeys": {},
@@ -381,6 +399,24 @@
       "regex": "^/api/accounts/admission\\-inquiries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/accounts/admission\\-inquiries(?:/)?$"
+    },
+    {
+      "page": "/api/accounts/teacher-attendance",
+      "regex": "^/api/accounts/teacher\\-attendance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/accounts/teacher\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/admin/attendance-employees",
+      "regex": "^/api/admin/attendance\\-employees(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/attendance\\-employees(?:/)?$"
+    },
+    {
+      "page": "/api/admin/teacher-shifts",
+      "regex": "^/api/admin/teacher\\-shifts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/teacher\\-shifts(?:/)?$"
     },
     {
       "page": "/api/admin-apis/announcement",
@@ -725,6 +761,12 @@
       "namedRegex": "^/api/lecture/get\\-lectures\\-for\\-student(?:/)?$"
     },
     {
+      "page": "/api/lecture/teacher-lectures",
+      "regex": "^/api/lecture/teacher\\-lectures(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/lecture/teacher\\-lectures(?:/)?$"
+    },
+    {
       "page": "/api/makeup-classes",
       "regex": "^/api/makeup\\-classes(?:/)?$",
       "routeKeys": {},
@@ -1035,6 +1077,12 @@
       "regex": "^/api/teacher/get\\-all\\-teachers(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/teacher/get\\-all\\-teachers(?:/)?$"
+    },
+    {
+      "page": "/api/teacher/manual-submissions",
+      "regex": "^/api/teacher/manual\\-submissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher/manual\\-submissions(?:/)?$"
     },
     {
       "page": "/api/teacher/remove-teacher-course",

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/academic-calendar/holidays/route.js")
-R.c("server/chunks/[root-of-the-server]__05lccd9._.js")
+R.c("server/chunks/[root-of-the-server]__1iwve2n._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0xuaoik._.js")
 R.c("server/chunks/_1_5b-n8._.js")

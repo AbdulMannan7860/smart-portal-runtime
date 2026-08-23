@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[347257,["/_next/static/chunks/25m_tl3om6k-x.js","/_next/static/chunks/1ntn7efqc-iiw.js"],"ClientPageRoot"]
-3:I[959185,["/_next/static/chunks/25m_tl3om6k-x.js","/_next/static/chunks/1ntn7efqc-iiw.js","/_next/static/chunks/36ob5akppq-l5.js","/_next/static/chunks/3qk5xxfzyzo88.js"],"default"]
-6:I[897367,["/_next/static/chunks/25m_tl3om6k-x.js","/_next/static/chunks/1ntn7efqc-iiw.js"],"OutletBoundary"]
+2:I[347257,["/_next/static/chunks/1ac4_iymewd0_.js","/_next/static/chunks/1ntn7efqc-iiw.js","/_next/static/chunks/1jf8z6cwhhjxn.js"],"ClientPageRoot"]
+3:I[959185,["/_next/static/chunks/1ac4_iymewd0_.js","/_next/static/chunks/1ntn7efqc-iiw.js","/_next/static/chunks/1jf8z6cwhhjxn.js","/_next/static/chunks/0ucfvbzzsgj9_.js","/_next/static/chunks/3-0bxdjdmvo27.js"],"default"]
+6:I[897367,["/_next/static/chunks/1ac4_iymewd0_.js","/_next/static/chunks/1ntn7efqc-iiw.js","/_next/static/chunks/1jf8z6cwhhjxn.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/36ob5akppq-l5.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3qk5xxfzyzo88.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tcncdKNMD0oPOEBJus0YE"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/0ucfvbzzsgj9_.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3-0bxdjdmvo27.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"E5wBnXjdxnPApKNIeGumH"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null

@@ -1,3 +1,0 @@
-module.exports=[427412,a=>{"use strict";var b=a.i(187924),c=a.i(408698),d=a.i(815988);a.s(["default",0,function(){return(0,b.jsx)(c.default,{children:(0,b.jsx)(d.default,{departmentFilter:"Management",title:"Academics Query Management",subtitle:"Manage and respond to student queries for the Academics department"})})}])}];
-
-//# sourceMappingURL=src_app_admin_query-management_page_jsx_0swlm5t._.js.map

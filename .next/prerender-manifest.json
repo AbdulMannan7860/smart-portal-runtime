@@ -122,6 +122,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/accounts/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/accounts/leave-requests",
+      "dataRoute": "/accounts/leave-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/accounts/queries": {
       "experimentalBypassFor": [
         {
@@ -449,6 +473,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/dashboard",
       "dataRoute": "/admin/dashboard.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/employee-leaves": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/employee-leaves",
+      "dataRoute": "/admin/employee-leaves.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -986,6 +1034,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admissions/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admissions/leave-requests",
+      "dataRoute": "/admissions/leave-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admissions/queries": {
       "experimentalBypassFor": [
         {
@@ -1025,6 +1097,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/it-query",
       "dataRoute": "/examination/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/leave-requests",
+      "dataRoute": "/examination/leave-requests.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1174,6 +1270,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/forgot-password",
       "dataRoute": "/forgot-password.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/it/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/it/leave-requests",
+      "dataRoute": "/it/leave-requests.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1663,6 +1783,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/management/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/leave-requests",
+      "dataRoute": "/management/leave-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/management/options": {
       "experimentalBypassFor": [
         {
@@ -1822,6 +1966,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/qec/it-query",
       "dataRoute": "/qec/it-query.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/qec/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/qec/leave-requests",
+      "dataRoute": "/qec/leave-requests.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2489,6 +2657,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/leave-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/leave-requests",
+      "dataRoute": "/teacher/leave-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/lectures": {
       "experimentalBypassFor": [
         {
@@ -2709,8 +2901,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "1c6c514b4fa87b86139ca6d79ebe1446",
-    "previewModeSigningKey": "7895bb034c4eb21edb0e7960fa3799d1525110ed957bee6e2c32035d1896cde3",
-    "previewModeEncryptionKey": "7c62a005eaeb3a52172410fd3112c92ae626ec8752c599264ccec49736e4b060"
+    "previewModeId": "c7dab142017c661e788bd83093ebe730",
+    "previewModeSigningKey": "e7768094665dec3ee5c0160d114806cf50f4c948d427462dbd4a6fbb123b8b37",
+    "previewModeEncryptionKey": "9717d9f681718a7006da9acea1d024fcd7e0680d75e59f0d994471e5cf63bf40"
   }
 }

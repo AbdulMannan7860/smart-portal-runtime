@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/qec/layout,_N_T_/qec/leave-requests/layout,_N_T_/qec/leave-requests/page,_N_T_/qec/leave-requests"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/qec/leave-requests/__PAGE__",
+    "/qec/leave-requests",
+    "/qec",
+    "/_index",
+    "/_head"
+  ]
+}

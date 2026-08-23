@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/management/layout,_N_T_/management/leave-requests/layout,_N_T_/management/leave-requests/page,_N_T_/management/leave-requests"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/management/leave-requests/__PAGE__",
+    "/management/leave-requests",
+    "/management",
+    "/_index",
+    "/_head"
+  ]
+}

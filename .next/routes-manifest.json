@@ -143,6 +143,12 @@
       "namedRegex": "^/accounts/it\\-query(?:/)?$"
     },
     {
+      "page": "/accounts/leave-requests",
+      "regex": "^/accounts/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/leave\\-requests(?:/)?$"
+    },
+    {
       "page": "/accounts/queries",
       "regex": "^/accounts/queries(?:/)?$",
       "routeKeys": {},
@@ -225,6 +231,12 @@
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/employee-leaves",
+      "regex": "^/admin/employee\\-leaves(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/employee\\-leaves(?:/)?$"
     },
     {
       "page": "/admin/examination-papers",
@@ -357,6 +369,12 @@
       "regex": "^/admissions/it\\-query(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admissions/it\\-query(?:/)?$"
+    },
+    {
+      "page": "/admissions/leave-requests",
+      "regex": "^/admissions/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admissions/leave\\-requests(?:/)?$"
     },
     {
       "page": "/admissions/queries",
@@ -723,6 +741,12 @@
       "regex": "^/api/course\\-planner(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/course\\-planner(?:/)?$"
+    },
+    {
+      "page": "/api/employee-leaves",
+      "regex": "^/api/employee\\-leaves(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/employee\\-leaves(?:/)?$"
     },
     {
       "page": "/api/examination-papers",
@@ -1121,6 +1145,12 @@
       "namedRegex": "^/examination/it\\-query(?:/)?$"
     },
     {
+      "page": "/examination/leave-requests",
+      "regex": "^/examination/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/leave\\-requests(?:/)?$"
+    },
+    {
       "page": "/examination/papers",
       "regex": "^/examination/papers(?:/)?$",
       "routeKeys": {},
@@ -1155,6 +1185,12 @@
       "regex": "^/forgot\\-password(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/it/leave-requests",
+      "regex": "^/it/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/leave\\-requests(?:/)?$"
     },
     {
       "page": "/it/operations",
@@ -1277,6 +1313,12 @@
       "namedRegex": "^/management/it\\-query(?:/)?$"
     },
     {
+      "page": "/management/leave-requests",
+      "regex": "^/management/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/leave\\-requests(?:/)?$"
+    },
+    {
       "page": "/management/options",
       "regex": "^/management/options(?:/)?$",
       "routeKeys": {},
@@ -1317,6 +1359,12 @@
       "regex": "^/qec/it\\-query(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/qec/it\\-query(?:/)?$"
+    },
+    {
+      "page": "/qec/leave-requests",
+      "regex": "^/qec/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/qec/leave\\-requests(?:/)?$"
     },
     {
       "page": "/register",
@@ -1479,6 +1527,12 @@
       "regex": "^/teacher/it\\-query(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/it\\-query(?:/)?$"
+    },
+    {
+      "page": "/teacher/leave-requests",
+      "regex": "^/teacher/leave\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/leave\\-requests(?:/)?$"
     },
     {
       "page": "/teacher/lectures",

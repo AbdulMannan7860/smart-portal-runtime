@@ -419,6 +419,12 @@
       "namedRegex": "^/api/accounts/admission\\-inquiries(?:/)?$"
     },
     {
+      "page": "/api/accounts/attendance-access",
+      "regex": "^/api/accounts/attendance\\-access(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/accounts/attendance\\-access(?:/)?$"
+    },
+    {
       "page": "/api/accounts/teacher-attendance",
       "regex": "^/api/accounts/teacher\\-attendance(?:/)?$",
       "routeKeys": {},

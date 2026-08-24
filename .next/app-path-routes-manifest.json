@@ -50,6 +50,7 @@
   "/api/academic-semester/route": "/api/academic-semester",
   "/api/accounts/admission-inquiries/[id]/route": "/api/accounts/admission-inquiries/[id]",
   "/api/accounts/admission-inquiries/route": "/api/accounts/admission-inquiries",
+  "/api/accounts/attendance-access/route": "/api/accounts/attendance-access",
   "/api/accounts/teacher-attendance/route": "/api/accounts/teacher-attendance",
   "/api/admin-apis/announcement/route": "/api/admin-apis/announcement",
   "/api/admin-apis/answer-query-by-id/[id]/route": "/api/admin-apis/answer-query-by-id/[id]",

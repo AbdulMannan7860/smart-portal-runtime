@@ -50,6 +50,7 @@
   "/api/academic-semester/route": "app/api/academic-semester/route.js",
   "/api/accounts/admission-inquiries/[id]/route": "app/api/accounts/admission-inquiries/[id]/route.js",
   "/api/accounts/admission-inquiries/route": "app/api/accounts/admission-inquiries/route.js",
+  "/api/accounts/attendance-access/route": "app/api/accounts/attendance-access/route.js",
   "/api/accounts/teacher-attendance/route": "app/api/accounts/teacher-attendance/route.js",
   "/api/admin-apis/announcement/route": "app/api/admin-apis/announcement/route.js",
   "/api/admin-apis/answer-query-by-id/[id]/route": "app/api/admin-apis/answer-query-by-id/[id]/route.js",

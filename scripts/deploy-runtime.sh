@@ -15,7 +15,7 @@ if [[ ! -f "${APP_ROOT}/.env.production" ]]; then
   exit 1
 fi
 
-for required_path in server.js realtime-protocol.cjs operations-metrics.cjs redis-runtime.cjs package.json node_modules .next public; do
+for required_path in server.js realtime-protocol.cjs operations-metrics.cjs redis-runtime.cjs scripts/runtime-watchdog.sh package.json node_modules .next public; do
   if [[ ! -e "${RUNTIME_ROOT}/${required_path}" ]]; then
     echo "Runtime artifact is incomplete: missing ${required_path}"
     exit 1
@@ -84,7 +84,22 @@ cp -a "${RUNTIME_ROOT}/operations-metrics.cjs" "${APP_ROOT}/operations-metrics.c
 cp -a "${RUNTIME_ROOT}/redis-runtime.cjs" "${APP_ROOT}/redis-runtime.cjs"
 cp -a "${RUNTIME_ROOT}/package.json" "${APP_ROOT}/package.json"
 
-mkdir -p "${APP_ROOT}/tmp"
+mkdir -p "${APP_ROOT}/tmp" "${APP_ROOT}/logs" "${APP_ROOT}/scripts"
+cp -a "${RUNTIME_ROOT}/scripts/runtime-watchdog.sh" "${APP_ROOT}/scripts/runtime-watchdog.sh"
+chmod 755 "${APP_ROOT}/scripts/runtime-watchdog.sh"
 touch "${APP_ROOT}/tmp/restart.txt"
+
+# Keep the watchdog outside Passenger so it can recover a wedged application.
+# Installation is best-effort because some shared-hosting plans hide crontab.
+if command -v crontab >/dev/null 2>&1; then
+  watchdog_marker="smart-portal-runtime-watchdog"
+  watchdog_line="*/2 * * * * /bin/bash ${APP_ROOT}/scripts/runtime-watchdog.sh >/dev/null 2>&1 # ${watchdog_marker}"
+  {
+    crontab -l 2>/dev/null | grep -v "${watchdog_marker}" || true
+    printf '%s\n' "${watchdog_line}"
+  } | crontab - || echo "Warning: unable to install the runtime watchdog cron entry."
+else
+  echo "Warning: crontab is unavailable; install scripts/runtime-watchdog.sh every two minutes in cPanel."
+fi
 
 echo "Smart Portal runtime deployed successfully."

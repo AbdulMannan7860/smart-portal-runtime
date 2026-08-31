@@ -15,6 +15,7 @@ function createState() {
     realtimeConnections: 0,
     realtimeEvents: 0,
     realtimeDeliveries: 0,
+    realtimePolls: 0,
     realtimeRemoteEvents: 0,
     lastRealtimeEventAt: null,
     eventLoopHistogram: null,
@@ -91,6 +92,12 @@ function recordRealtimeBroadcast({ deliveries = 0, remote = false } = {}) {
     state.realtimeRemoteEvents = (state.realtimeRemoteEvents || 0) + 1;
   }
   state.lastRealtimeEventAt = Date.now();
+}
+
+function recordRealtimePoll({ deliveries = 0 } = {}) {
+  state.realtimePolls = (state.realtimePolls || 0) + 1;
+  state.realtimeDeliveries =
+    (state.realtimeDeliveries || 0) + Math.max(0, Number(deliveries) || 0);
 }
 
 function percentile(values, fraction) {
@@ -170,7 +177,9 @@ function getOperationsSnapshot() {
       })),
     },
     realtime: {
+      transport: "short-poll",
       activeConnections: state.realtimeConnections,
+      pollsSinceStart: state.realtimePolls || 0,
       eventsSinceStart: state.realtimeEvents || 0,
       deliveriesSinceStart: state.realtimeDeliveries || 0,
       remoteEventsSinceStart: state.realtimeRemoteEvents || 0,
@@ -184,6 +193,7 @@ function getOperationsSnapshot() {
 module.exports = {
   getOperationsSnapshot,
   recordRealtimeBroadcast,
+  recordRealtimePoll,
   recordRequest,
   setRealtimeConnections,
   startOperationsMetrics,

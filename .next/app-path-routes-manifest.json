@@ -111,6 +111,7 @@
   "/api/course/update-course/route": "/api/course/update-course",
   "/api/employee-leaves/route": "/api/employee-leaves",
   "/api/examination-papers/route": "/api/examination-papers",
+  "/api/health/ready/route": "/api/health/ready",
   "/api/it-support/[id]/route": "/api/it-support/[id]",
   "/api/it-support/route": "/api/it-support",
   "/api/it/operations/route": "/api/it/operations",

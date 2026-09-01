@@ -214,12 +214,25 @@ async function deleteKeys(keys) {
 async function acquireLock(name, ttlMs = 30_000) {
   const key = redisKey("lock", name);
   const owner = crypto.randomUUID();
-  const result = await runRedis((client) =>
+  const lockTtlMs = parsePositiveInteger(ttlMs, 30_000);
+  let result = await runRedis((client) =>
     client.set(key, owner, {
       NX: true,
-      PX: parsePositiveInteger(ttlMs, 30_000),
+      PX: lockTtlMs,
     })
   );
+
+  if (result !== "OK") {
+    result = await runRedis((client) =>
+      client.eval(
+        "if redis.call('exists', KEYS[1]) == 1 and redis.call('pttl', KEYS[1]) == -1 then redis.call('del', KEYS[1]); return redis.call('set', KEYS[1], ARGV[1], 'NX', 'PX', ARGV[2]) else return nil end",
+        {
+          keys: [key],
+          arguments: [owner, String(lockTtlMs)],
+        }
+      )
+    );
+  }
   return result === "OK" ? { key, owner } : null;
 }
 

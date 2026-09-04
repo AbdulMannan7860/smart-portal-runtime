@@ -35,6 +35,7 @@
   "/admin/semester-management/page": "app/admin/semester-management/page.js",
   "/admin/student-reports/page": "app/admin/student-reports/page.js",
   "/admin/teacher-attendance/page": "app/admin/teacher-attendance/page.js",
+  "/admin/teacher-creation-requests/page": "app/admin/teacher-creation-requests/page.js",
   "/admin/teacher-management/page": "app/admin/teacher-management/page.js",
   "/admin/teacher-reports/page": "app/admin/teacher-reports/page.js",
   "/admin/unverified-accounts/page": "app/admin/unverified-accounts/page.js",

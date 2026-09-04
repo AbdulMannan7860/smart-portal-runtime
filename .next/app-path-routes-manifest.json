@@ -35,6 +35,7 @@
   "/admin/semester-management/page": "/admin/semester-management",
   "/admin/student-reports/page": "/admin/student-reports",
   "/admin/teacher-attendance/page": "/admin/teacher-attendance",
+  "/admin/teacher-creation-requests/page": "/admin/teacher-creation-requests",
   "/admin/teacher-management/page": "/admin/teacher-management",
   "/admin/teacher-reports/page": "/admin/teacher-reports",
   "/admin/unverified-accounts/page": "/admin/unverified-accounts",

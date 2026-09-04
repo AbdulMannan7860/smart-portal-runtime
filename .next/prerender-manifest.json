@@ -1399,6 +1399,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/it/teacher-creation-requests": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/it/teacher-creation-requests",
+      "dataRoute": "/it/teacher-creation-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/it/unverified-accounts": {
       "experimentalBypassFor": [
         {
@@ -2901,8 +2925,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7ef791bda5eebfd481499c8d9c35022c",
-    "previewModeSigningKey": "d105459af4b3d501911cca5a449047d6841e5fb38cf13b4cdc68d2ff3018248d",
-    "previewModeEncryptionKey": "c2eb28fad999f93243614588e7f49b65b49dfd4251fcc1761e8c877ec405a658"
+    "previewModeId": "dbdc2cca15ab3d1a0be10b6475fdf0c7",
+    "previewModeSigningKey": "5f3ca668b5b8391ebcaa52c84a132ff96a326e4281d8fb622f073deb152a567d",
+    "previewModeEncryptionKey": "3ee80149101d5c29fd404e374d7a6c3c91a82cdc0cb77725505eb1a8ce67cef4"
   }
 }

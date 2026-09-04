@@ -773,6 +773,12 @@
       "namedRegex": "^/api/it/operations(?:/)?$"
     },
     {
+      "page": "/api/it/teacher-creation-requests",
+      "regex": "^/api/it/teacher\\-creation\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it/teacher\\-creation\\-requests(?:/)?$"
+    },
+    {
       "page": "/api/it/unverified-accounts",
       "regex": "^/api/it/unverified\\-accounts(?:/)?$",
       "routeKeys": {},
@@ -1227,6 +1233,12 @@
       "regex": "^/it/queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/it/queries(?:/)?$"
+    },
+    {
+      "page": "/it/teacher-creation-requests",
+      "regex": "^/it/teacher\\-creation\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/teacher\\-creation\\-requests(?:/)?$"
     },
     {
       "page": "/it/unverified-accounts",

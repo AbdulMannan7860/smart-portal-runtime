@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/it/layout,_N_T_/it/teacher-creation-requests/layout,_N_T_/it/teacher-creation-requests/page,_N_T_/it/teacher-creation-requests"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/it/teacher-creation-requests/__PAGE__",
+    "/it/teacher-creation-requests",
+    "/it",
+    "/_index",
+    "/_head"
+  ]
+}

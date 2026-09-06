@@ -1,0 +1,3 @@
+{
+  "/admin/teacher-performance/[teacherCode]/page": "app/admin/teacher-performance/[teacherCode]/page.js"
+}

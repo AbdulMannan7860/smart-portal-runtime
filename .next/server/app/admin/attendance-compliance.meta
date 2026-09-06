@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/attendance-compliance/layout,_N_T_/admin/attendance-compliance/page,_N_T_/admin/attendance-compliance"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/attendance-compliance/__PAGE__",
+    "/admin/attendance-compliance",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

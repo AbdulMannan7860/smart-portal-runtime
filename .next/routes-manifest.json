@@ -23,6 +23,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/admin/teacher-performance/[teacherCode]",
+      "regex": "^/admin/teacher\\-performance/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPteacherCode": "nxtPteacherCode"
+      },
+      "namedRegex": "^/admin/teacher\\-performance/(?<nxtPteacherCode>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/api/accounts/admission-inquiries/[id]",
       "regex": "^/api/accounts/admission\\-inquiries/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -203,6 +211,12 @@
       "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/attendance-compliance",
+      "regex": "^/admin/attendance\\-compliance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/attendance\\-compliance(?:/)?$"
+    },
+    {
       "page": "/admin/attendance-employees",
       "regex": "^/admin/attendance\\-employees(?:/)?$",
       "routeKeys": {},
@@ -345,6 +359,12 @@
       "regex": "^/admin/teacher\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/teacher-performance",
+      "regex": "^/admin/teacher\\-performance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-performance(?:/)?$"
     },
     {
       "page": "/admin/teacher-reports",
@@ -597,6 +617,12 @@
       "regex": "^/api/attendance/update\\-attendance(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/attendance/update\\-attendance(?:/)?$"
+    },
+    {
+      "page": "/api/attendance-compliance-report",
+      "regex": "^/api/attendance\\-compliance\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/attendance\\-compliance\\-report(?:/)?$"
     },
     {
       "page": "/api/auth/admin-impersonate-teacher",
@@ -1155,6 +1181,12 @@
       "regex": "^/api/teacher/verify\\-registration\\-token(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
+    },
+    {
+      "page": "/api/teacher-performance",
+      "regex": "^/api/teacher\\-performance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher\\-performance(?:/)?$"
     },
     {
       "page": "/api/teacher-reports",

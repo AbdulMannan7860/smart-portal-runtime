@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/schedule/unscheduled-courses-batch/route.js")
 R.c("server/chunks/src_app_lib_1uavohj._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_0dsr8un.js")
-R.c("server/chunks/[root-of-the-server]__1cbp05u._.js")
+R.c("server/chunks/[root-of-the-server]__20py1vi._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")

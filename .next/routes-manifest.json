@@ -793,6 +793,12 @@
       "namedRegex": "^/api/examination\\-papers(?:/)?$"
     },
     {
+      "page": "/api/examination-papers/media",
+      "regex": "^/api/examination\\-papers/media(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/examination\\-papers/media(?:/)?$"
+    },
+    {
       "page": "/api/health/ready",
       "regex": "^/api/health/ready(?:/)?$",
       "routeKeys": {},

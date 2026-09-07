@@ -115,6 +115,7 @@
   "/api/course/get-course/route": "/api/course/get-course",
   "/api/course/update-course/route": "/api/course/update-course",
   "/api/employee-leaves/route": "/api/employee-leaves",
+  "/api/examination-papers/media/route": "/api/examination-papers/media",
   "/api/examination-papers/route": "/api/examination-papers",
   "/api/health/ready/route": "/api/health/ready",
   "/api/it-support/[id]/route": "/api/it-support/[id]",

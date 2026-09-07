@@ -115,6 +115,7 @@
   "/api/course/get-course/route": "app/api/course/get-course/route.js",
   "/api/course/update-course/route": "app/api/course/update-course/route.js",
   "/api/employee-leaves/route": "app/api/employee-leaves/route.js",
+  "/api/examination-papers/media/route": "app/api/examination-papers/media/route.js",
   "/api/examination-papers/route": "app/api/examination-papers/route.js",
   "/api/health/ready/route": "app/api/health/ready/route.js",
   "/api/it-support/[id]/route": "app/api/it-support/[id]/route.js",

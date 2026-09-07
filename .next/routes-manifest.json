@@ -583,6 +583,12 @@
       "namedRegex": "^/api/assignment/upload\\-assignment(?:/)?$"
     },
     {
+      "page": "/api/assignment/withdraw-submission",
+      "regex": "^/api/assignment/withdraw\\-submission(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/assignment/withdraw\\-submission(?:/)?$"
+    },
+    {
       "page": "/api/attendance/add-attendance",
       "regex": "^/api/attendance/add\\-attendance(?:/)?$",
       "routeKeys": {},
@@ -1013,6 +1019,12 @@
       "regex": "^/api/quiz/teacher\\-grade\\-announcement(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/quiz/teacher\\-grade\\-announcement(?:/)?$"
+    },
+    {
+      "page": "/api/quiz/withdraw-submission",
+      "regex": "^/api/quiz/withdraw\\-submission(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/quiz/withdraw\\-submission(?:/)?$"
     },
     {
       "page": "/api/result-publication",

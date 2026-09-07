@@ -1,0 +1,3 @@
+{
+  "/api/quiz/withdraw-submission/route": "app/api/quiz/withdraw-submission/route.js"
+}

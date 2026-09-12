@@ -1,4 +1,4 @@
 :HL["/_next/static/chunks/1xtkmadt3e49t.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"admin","param":null,"prefetchHints":0,"slots":{"children":{"name":"teacher-reports","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Ktb6uQDwl0z9FDh14rOyn"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"admin","param":null,"prefetchHints":0,"slots":{"children":{"name":"teacher-reports","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"D_YtrxY6b09TwS9w9IMEf"}

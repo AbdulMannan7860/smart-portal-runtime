@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/teacher-evaluations/layout,_N_T_/admin/teacher-evaluations/page,_N_T_/admin/teacher-evaluations"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/teacher-evaluations/__PAGE__",
+    "/admin/teacher-evaluations",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

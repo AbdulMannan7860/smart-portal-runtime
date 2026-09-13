@@ -23,6 +23,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/admin/teacher-evaluations/[scopeKey]",
+      "regex": "^/admin/teacher\\-evaluations/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPscopeKey": "nxtPscopeKey"
+      },
+      "namedRegex": "^/admin/teacher\\-evaluations/(?<nxtPscopeKey>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/admin/teacher-performance/[teacherCode]",
       "regex": "^/admin/teacher\\-performance/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -361,6 +369,12 @@
       "regex": "^/admin/teacher\\-creation\\-requests(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/teacher\\-creation\\-requests(?:/)?$"
+    },
+    {
+      "page": "/admin/teacher-evaluations",
+      "regex": "^/admin/teacher\\-evaluations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-evaluations(?:/)?$"
     },
     {
       "page": "/admin/teacher-management",

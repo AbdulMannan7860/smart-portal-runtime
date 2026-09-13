@@ -37,6 +37,8 @@
   "/admin/student-reports/page": "/admin/student-reports",
   "/admin/teacher-attendance/page": "/admin/teacher-attendance",
   "/admin/teacher-creation-requests/page": "/admin/teacher-creation-requests",
+  "/admin/teacher-evaluations/[scopeKey]/page": "/admin/teacher-evaluations/[scopeKey]",
+  "/admin/teacher-evaluations/page": "/admin/teacher-evaluations",
   "/admin/teacher-management/page": "/admin/teacher-management",
   "/admin/teacher-performance/[teacherCode]/page": "/admin/teacher-performance/[teacherCode]",
   "/admin/teacher-performance/page": "/admin/teacher-performance",

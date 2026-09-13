@@ -37,6 +37,8 @@
   "/admin/student-reports/page": "app/admin/student-reports/page.js",
   "/admin/teacher-attendance/page": "app/admin/teacher-attendance/page.js",
   "/admin/teacher-creation-requests/page": "app/admin/teacher-creation-requests/page.js",
+  "/admin/teacher-evaluations/[scopeKey]/page": "app/admin/teacher-evaluations/[scopeKey]/page.js",
+  "/admin/teacher-evaluations/page": "app/admin/teacher-evaluations/page.js",
   "/admin/teacher-management/page": "app/admin/teacher-management/page.js",
   "/admin/teacher-performance/[teacherCode]/page": "app/admin/teacher-performance/[teacherCode]/page.js",
   "/admin/teacher-performance/page": "app/admin/teacher-performance/page.js",

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/qec/layout,_N_T_/qec/teacher-evaluations/layout,_N_T_/qec/teacher-evaluations/page,_N_T_/qec/teacher-evaluations"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/qec/teacher-evaluations/__PAGE__",
+    "/qec/teacher-evaluations",
+    "/qec",
+    "/_index",
+    "/_head"
+  ]
+}

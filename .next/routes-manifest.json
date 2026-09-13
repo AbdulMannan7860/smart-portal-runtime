@@ -111,6 +111,14 @@
       "namedRegex": "^/api/uploads/(?<nxtPfilePath>.+?)(?:/)?$"
     },
     {
+      "page": "/qec/teacher-evaluations/[scopeKey]",
+      "regex": "^/qec/teacher\\-evaluations/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPscopeKey": "nxtPscopeKey"
+      },
+      "namedRegex": "^/qec/teacher\\-evaluations/(?<nxtPscopeKey>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/student/quizzes/[id]",
       "regex": "^/student/quizzes/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -901,6 +909,12 @@
       "namedRegex": "^/api/qec/folders(?:/)?$"
     },
     {
+      "page": "/api/qec/teacher-evaluations",
+      "regex": "^/api/qec/teacher\\-evaluations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/qec/teacher\\-evaluations(?:/)?$"
+    },
+    {
       "page": "/api/query/change-status",
       "regex": "^/api/query/change\\-status(?:/)?$",
       "routeKeys": {},
@@ -1201,6 +1215,12 @@
       "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
     },
     {
+      "page": "/api/teacher-evaluations",
+      "regex": "^/api/teacher\\-evaluations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher\\-evaluations(?:/)?$"
+    },
+    {
       "page": "/api/teacher-performance",
       "regex": "^/api/teacher\\-performance(?:/)?$",
       "routeKeys": {},
@@ -1445,6 +1465,12 @@
       "regex": "^/qec/leave\\-requests(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/qec/leave\\-requests(?:/)?$"
+    },
+    {
+      "page": "/qec/teacher-evaluations",
+      "regex": "^/qec/teacher\\-evaluations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/qec/teacher\\-evaluations(?:/)?$"
     },
     {
       "page": "/register",

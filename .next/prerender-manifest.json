@@ -2095,6 +2095,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/qec/teacher-evaluations": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/qec/teacher-evaluations",
+      "dataRoute": "/qec/teacher-evaluations.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/register": {
       "experimentalBypassFor": [
         {
@@ -2997,8 +3021,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "25057996dd200db6a692b30673356a48",
-    "previewModeSigningKey": "b0306036545d2f89df4c6bd2919178f73545220057515523e8dc560a19268eb5",
-    "previewModeEncryptionKey": "8e2ef6c11bb999b3892f422629575be31a0e92d60f59494e8df56693e9118395"
+    "previewModeId": "2e39dc1d505f7316c62305ea6eb33e39",
+    "previewModeSigningKey": "51e264d97f93116e6062b6eb28292ae0adc839c20d726ffa6213051b374a968d",
+    "previewModeEncryptionKey": "6ba9dbe42a4fc0b02f1400888baa6bae41cfdc2e1b4cd921de201abd60360185"
   }
 }

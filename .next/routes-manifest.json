@@ -269,6 +269,12 @@
       "namedRegex": "^/admin/employee\\-leaves(?:/)?$"
     },
     {
+      "page": "/admin/exam-periods",
+      "regex": "^/admin/exam\\-periods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/exam\\-periods(?:/)?$"
+    },
+    {
       "page": "/admin/examination-papers",
       "regex": "^/admin/examination\\-papers(?:/)?$",
       "routeKeys": {},
@@ -815,6 +821,12 @@
       "namedRegex": "^/api/employee\\-leaves(?:/)?$"
     },
     {
+      "page": "/api/exam-periods",
+      "regex": "^/api/exam\\-periods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/exam\\-periods(?:/)?$"
+    },
+    {
       "page": "/api/examination-papers",
       "regex": "^/api/examination\\-papers(?:/)?$",
       "routeKeys": {},
@@ -1247,6 +1259,12 @@
       "namedRegex": "^/api/teacher\\-reports(?:/)?$"
     },
     {
+      "page": "/examination/exam-periods",
+      "regex": "^/examination/exam\\-periods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/exam\\-periods(?:/)?$"
+    },
+    {
       "page": "/examination/it-query",
       "regex": "^/examination/it\\-query(?:/)?$",
       "routeKeys": {},
@@ -1407,6 +1425,12 @@
       "regex": "^/management/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/dashboard(?:/)?$"
+    },
+    {
+      "page": "/management/exam-periods",
+      "regex": "^/management/exam\\-periods(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/exam\\-periods(?:/)?$"
     },
     {
       "page": "/management/examination-queries",

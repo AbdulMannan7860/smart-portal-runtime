@@ -530,6 +530,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/exam-periods": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/exam-periods",
+      "dataRoute": "/admin/exam-periods.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/examination-papers": {
       "experimentalBypassFor": [
         {
@@ -1169,6 +1193,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admissions/queries",
       "dataRoute": "/admissions/queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/exam-periods": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/exam-periods",
+      "dataRoute": "/examination/exam-periods.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1822,6 +1870,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/dashboard",
       "dataRoute": "/management/dashboard.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/management/exam-periods": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/exam-periods",
+      "dataRoute": "/management/exam-periods.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3045,8 +3117,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7048b59d185f6f5a2a4d99a24b4d9143",
-    "previewModeSigningKey": "7f9f69499366d094e47db19e181648a5befb5429c640c953c8adcd42882b529d",
-    "previewModeEncryptionKey": "4aa05af0df3c34efb26acc610810b7c194d5e1b369afc8caf6ac70036a667753"
+    "previewModeId": "83cfc595342f37f32eeddf3838981edf",
+    "previewModeSigningKey": "9fd7c68ed160cc679084a344df445346a5d3067966dbf02bd95366bc258a3eb0",
+    "previewModeEncryptionKey": "b9a48fa4a6cdcb0e6556b4a515c03ab182824a9993d4277324b9e39c756a0dab"
   }
 }

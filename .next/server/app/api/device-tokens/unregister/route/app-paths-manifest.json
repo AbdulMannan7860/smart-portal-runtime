@@ -1,0 +1,3 @@
+{
+  "/api/device-tokens/unregister/route": "app/api/device-tokens/unregister/route.js"
+}

@@ -815,6 +815,18 @@
       "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
+      "page": "/api/device-tokens/register",
+      "regex": "^/api/device\\-tokens/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/device\\-tokens/register(?:/)?$"
+    },
+    {
+      "page": "/api/device-tokens/unregister",
+      "regex": "^/api/device\\-tokens/unregister(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/device\\-tokens/unregister(?:/)?$"
+    },
+    {
       "page": "/api/employee-leaves",
       "regex": "^/api/employee\\-leaves(?:/)?$",
       "routeKeys": {},
@@ -903,6 +915,24 @@
       "regex": "^/api/master\\-db/student\\-register(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/master\\-db/student\\-register(?:/)?$"
+    },
+    {
+      "page": "/api/mobile/notifications",
+      "regex": "^/api/mobile/notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/mobile/notifications(?:/)?$"
+    },
+    {
+      "page": "/api/mobile/notifications/mark-read",
+      "regex": "^/api/mobile/notifications/mark\\-read(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/mobile/notifications/mark\\-read(?:/)?$"
+    },
+    {
+      "page": "/api/mobile/notifications/unread-count",
+      "regex": "^/api/mobile/notifications/unread\\-count(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/mobile/notifications/unread\\-count(?:/)?$"
     },
     {
       "page": "/api/outline/delete-outline",

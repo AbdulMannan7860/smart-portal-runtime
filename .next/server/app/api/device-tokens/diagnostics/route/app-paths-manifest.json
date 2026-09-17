@@ -1,0 +1,3 @@
+{
+  "/api/device-tokens/diagnostics/route": "app/api/device-tokens/diagnostics/route.js"
+}

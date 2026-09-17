@@ -815,12 +815,6 @@
       "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
-      "page": "/api/device-tokens/diagnostics",
-      "regex": "^/api/device\\-tokens/diagnostics(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/device\\-tokens/diagnostics(?:/)?$"
-    },
-    {
       "page": "/api/device-tokens/register",
       "regex": "^/api/device\\-tokens/register(?:/)?$",
       "routeKeys": {},

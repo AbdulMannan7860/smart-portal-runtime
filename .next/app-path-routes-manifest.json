@@ -118,7 +118,6 @@
   "/api/course/delete-course/route": "/api/course/delete-course",
   "/api/course/get-course/route": "/api/course/get-course",
   "/api/course/update-course/route": "/api/course/update-course",
-  "/api/device-tokens/diagnostics/route": "/api/device-tokens/diagnostics",
   "/api/device-tokens/register/route": "/api/device-tokens/register",
   "/api/device-tokens/unregister/route": "/api/device-tokens/unregister",
   "/api/employee-leaves/route": "/api/employee-leaves",

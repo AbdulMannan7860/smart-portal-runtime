@@ -118,7 +118,6 @@
   "/api/course/delete-course/route": "app/api/course/delete-course/route.js",
   "/api/course/get-course/route": "app/api/course/get-course/route.js",
   "/api/course/update-course/route": "app/api/course/update-course/route.js",
-  "/api/device-tokens/diagnostics/route": "app/api/device-tokens/diagnostics/route.js",
   "/api/device-tokens/register/route": "app/api/device-tokens/register/route.js",
   "/api/device-tokens/unregister/route": "app/api/device-tokens/unregister/route.js",
   "/api/employee-leaves/route": "app/api/employee-leaves/route.js",

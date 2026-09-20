@@ -671,6 +671,12 @@
       "namedRegex": "^/api/auth/admin\\-return\\-from\\-teacher(?:/)?$"
     },
     {
+      "page": "/api/auth/change-password",
+      "regex": "^/api/auth/change\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/change\\-password(?:/)?$"
+    },
+    {
       "page": "/api/auth/create-user",
       "regex": "^/api/auth/create\\-user(?:/)?$",
       "routeKeys": {},
@@ -879,6 +885,12 @@
       "regex": "^/api/it\\-support(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/it\\-support(?:/)?$"
+    },
+    {
+      "page": "/api/it-support/mine",
+      "regex": "^/api/it\\-support/mine(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it\\-support/mine(?:/)?$"
     },
     {
       "page": "/api/lecture/add-lecture",

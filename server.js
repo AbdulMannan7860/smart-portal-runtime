@@ -20,6 +20,10 @@ const {
   publish: publishRedis,
   subscribe: subscribeRedis,
 } = require("./redis-runtime.cjs");
+const {
+  mobileApiCorsHeaders,
+  resolveMobileApiCors,
+} = require("./mobile-api-cors.cjs");
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = process.env.HOST || "0.0.0.0";
@@ -153,6 +157,17 @@ app.prepare().then(() => {
   const server = createServer((request, response) => {
     const requestUrl = new URL(request.url, `http://${request.headers.host || "localhost"}`);
     const isApiRequest = requestUrl.pathname.startsWith("/api/");
+    const usesDedicatedAdmissionsCors =
+      requestUrl.pathname === "/api/admissions/public-submit";
+    const mobileCors = usesDedicatedAdmissionsCors
+      ? { allowed: true, allowOrigin: "" }
+      : resolveMobileApiCors(request.headers.origin);
+    const mobileCorsHeaders = usesDedicatedAdmissionsCors
+      ? {}
+      : mobileApiCorsHeaders(request.headers.origin);
+    for (const [name, value] of Object.entries(mobileCorsHeaders)) {
+      response.setHeader(name, value);
+    }
     const startedAt = process.hrtime.bigint();
     let completed = false;
     const completeRequest = () => {
@@ -184,6 +199,16 @@ app.prepare().then(() => {
     if (isApiRequest) activeApiRequests += 1;
     response.once("finish", completeRequest);
     response.once("close", completeRequest);
+
+    if (isApiRequest && request.method === "OPTIONS" && !usesDedicatedAdmissionsCors) {
+      if (!mobileCors.allowed) {
+        sendJson(response, 403, { error: "Origin not allowed" });
+        return;
+      }
+      response.writeHead(204, mobileCorsHeaders);
+      response.end();
+      return;
+    }
 
     if (request.method === "GET" && requestUrl.pathname === "/api/health/live") {
       sendJson(response, 200, {

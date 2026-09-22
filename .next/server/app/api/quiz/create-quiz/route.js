@@ -5,7 +5,7 @@ R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
-R.c("server/chunks/[root-of-the-server]__05a3ew5._.js")
+R.c("server/chunks/[root-of-the-server]__11gmdt7._.js")
 R.c("server/chunks/_next-internal_server_app_api_quiz_create-quiz_route_actions_0fyzu4i.js")
 R.m(72391)
 module.exports=R.m(72391).exports

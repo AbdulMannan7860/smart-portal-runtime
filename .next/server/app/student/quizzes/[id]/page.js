@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/student/quizzes/[id]/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0yflsyn._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__19xs-8n._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0qrk3i8.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1sasv8e.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -12,5 +12,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/src_210wrm3._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_student_quizzes_[id]_page_actions_1amec48.js")
-R.m(808945)
-module.exports=R.m(808945).exports
+R.m(920942)
+module.exports=R.m(920942).exports

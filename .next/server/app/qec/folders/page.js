@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/qec/folders/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0anxycx._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1jgobsv._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0j84vky.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1c9rmka.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_qec_folders_page_actions_1erccmf.js")
-R.m(285742)
-module.exports=R.m(285742).exports
+R.m(934194)
+module.exports=R.m(934194).exports

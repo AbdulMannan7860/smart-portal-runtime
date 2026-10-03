@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/admin/teacher-attendance/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0kxsmyw._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__16f2g91._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0cfapum.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0ppc3yw.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_admin_teacher-attendance_page_actions_1_ls9rz.js")
-R.m(261622)
-module.exports=R.m(261622).exports
+R.m(989018)
+module.exports=R.m(989018).exports

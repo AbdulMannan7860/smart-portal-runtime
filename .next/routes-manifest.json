@@ -155,6 +155,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/accounts/employee-attendance-report",
+      "regex": "^/accounts/employee\\-attendance\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/employee\\-attendance\\-report(?:/)?$"
+    },
+    {
       "page": "/accounts/enrollment",
       "regex": "^/accounts/enrollment(?:/)?$",
       "routeKeys": {},
@@ -261,6 +267,12 @@
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/employee-attendance-report",
+      "regex": "^/admin/employee\\-attendance\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/employee\\-attendance\\-report(?:/)?$"
     },
     {
       "page": "/admin/employee-leaves",
@@ -1307,6 +1319,12 @@
       "namedRegex": "^/api/teacher\\-reports(?:/)?$"
     },
     {
+      "page": "/apple-icon.png",
+      "regex": "^/apple\\-icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
+    },
+    {
       "page": "/examination/exam-periods",
       "regex": "^/examination/exam\\-periods(?:/)?$",
       "routeKeys": {},
@@ -1359,6 +1377,12 @@
       "regex": "^/forgot\\-password(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/icon.png",
+      "regex": "^/icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.png(?:/)?$"
     },
     {
       "page": "/it/leave-requests",
@@ -1527,6 +1551,12 @@
       "regex": "^/management/teacher\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
     },
     {
       "page": "/privacy-policy",

@@ -5,7 +5,7 @@ R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
-R.c("server/chunks/[root-of-the-server]__1yubvlo._.js")
+R.c("server/chunks/[root-of-the-server]__1hicdco._.js")
 R.c("server/chunks/1oeh_server_app_api_quiz_student-submit-announcement_route_actions_0p0hx2j.js")
 R.m(860806)
 module.exports=R.m(860806).exports

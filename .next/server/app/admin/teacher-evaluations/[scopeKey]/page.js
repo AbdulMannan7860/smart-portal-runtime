@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/admin/teacher-evaluations/[scopeKey]/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0rgpwrz._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1zw8qrn._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1cvs05n.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_16f9fzg.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/1oeh_server_app_admin_teacher-evaluations_[scopeKey]_page_actions_0ijvzzi.js")
-R.m(428182)
-module.exports=R.m(428182).exports
+R.m(904847)
+module.exports=R.m(904847).exports

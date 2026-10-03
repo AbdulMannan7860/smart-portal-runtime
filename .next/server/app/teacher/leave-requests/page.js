@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/teacher/leave-requests/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1ooea84._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1l4eqz7._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_17j_6ru.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0b1wq-c.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -12,5 +12,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/src_0rx3gbt._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_teacher_leave-requests_page_actions_17v21p-.js")
-R.m(51513)
-module.exports=R.m(51513).exports
+R.m(816345)
+module.exports=R.m(816345).exports

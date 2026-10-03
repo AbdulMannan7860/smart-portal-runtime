@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/student/course-registration-form/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__02qi790._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0k108ln._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1i6m6s0.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1qzh7ro.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -12,5 +12,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/src_210wrm3._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_student_course-registration-form_page_actions_0uxu-cg.js")
-R.m(199357)
-module.exports=R.m(199357).exports
+R.m(441611)
+module.exports=R.m(441611).exports

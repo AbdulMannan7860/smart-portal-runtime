@@ -1,7 +1,7 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/forgot-password/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0zly6f9._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1cs53fo._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0i0yp-u.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0-hv_9u.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_forgot-password_page_actions_20f55ri.js")
-R.m(626011)
-module.exports=R.m(626011).exports
+R.m(76826)
+module.exports=R.m(76826).exports

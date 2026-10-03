@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/accounts/layout,_N_T_/accounts/employee-attendance-report/layout,_N_T_/accounts/employee-attendance-report/page,_N_T_/accounts/employee-attendance-report"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/accounts/employee-attendance-report/__PAGE__",
+    "/accounts/employee-attendance-report",
+    "/accounts",
+    "/_index",
+    "/_head"
+  ]
+}

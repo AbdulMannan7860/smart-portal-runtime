@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/teacher/makeup-classes/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__142rjbk._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1pxq1gr._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1pz-qyy.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0btwn24.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -12,5 +12,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthor
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/src_0rx3gbt._.js")
 R.c("server/chunks/ssr/_next-internal_server_app_teacher_makeup-classes_page_actions_04a7l4u.js")
-R.m(328614)
-module.exports=R.m(328614).exports
+R.m(186672)
+module.exports=R.m(186672).exports

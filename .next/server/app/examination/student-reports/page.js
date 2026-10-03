@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/examination/student-reports/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0r86udn._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1261jzu._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_1occmcs.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_12jnlff.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_examination_student-reports_page_actions_1-o6ad2.js")
-R.m(906197)
-module.exports=R.m(906197).exports
+R.m(365418)
+module.exports=R.m(365418).exports

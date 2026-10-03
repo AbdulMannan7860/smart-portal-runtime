@@ -1,7 +1,7 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/admissions/leave-requests/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1ni57tg._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__094-_va._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_0gqiype._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0sb-uci.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_17gz3_t.js")
 R.c("server/chunks/ssr/[root-of-the-server]__193g1um._.js")
 R.c("server/chunks/ssr/node_modules_0x4t8jd._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0pe3gnn._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
 R.c("server/chunks/ssr/src_app_global-error_0imf2kw.js")
 R.c("server/chunks/ssr/_next-internal_server_app_admissions_leave-requests_page_actions_0lzell5.js")
-R.m(332412)
-module.exports=R.m(332412).exports
+R.m(906247)
+module.exports=R.m(906247).exports

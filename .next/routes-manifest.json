@@ -485,6 +485,12 @@
       "namedRegex": "^/api/accounts/teacher\\-attendance(?:/)?$"
     },
     {
+      "page": "/api/accounts/teacher-attendance/report",
+      "regex": "^/api/accounts/teacher\\-attendance/report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/accounts/teacher\\-attendance/report(?:/)?$"
+    },
+    {
       "page": "/api/admin/attendance-employees",
       "regex": "^/api/admin/attendance\\-employees(?:/)?$",
       "routeKeys": {},

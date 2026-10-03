@@ -1,7 +1,7 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/employee-leaves/route.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_10p5w-h.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__1oov4p3._.js")
+R.c("server/chunks/[root-of-the-server]__08ba3qi._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")

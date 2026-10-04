@@ -23,6 +23,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/admin/dashboard/classes/[classKey]",
+      "regex": "^/admin/dashboard/classes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPclassKey": "nxtPclassKey"
+      },
+      "namedRegex": "^/admin/dashboard/classes/(?<nxtPclassKey>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/admin/teacher-evaluations/[scopeKey]",
       "regex": "^/admin/teacher\\-evaluations/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -507,6 +515,12 @@
       "regex": "^/api/admin/attendance\\-employees(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/admin/attendance\\-employees(?:/)?$"
+    },
+    {
+      "page": "/api/admin/dashboard",
+      "regex": "^/api/admin/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/dashboard(?:/)?$"
     },
     {
       "page": "/api/admin/teacher-shifts",

@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/admin/attendance-employees/route.js")
-R.c("server/chunks/[root-of-the-server]__1li--e0._.js")
+R.c("server/chunks/[root-of-the-server]__1yuc3ee._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1ngdr4t.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")

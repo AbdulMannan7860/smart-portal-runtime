@@ -409,6 +409,12 @@
       "namedRegex": "^/admin/teacher\\-management(?:/)?$"
     },
     {
+      "page": "/admin/teacher-operations",
+      "regex": "^/admin/teacher\\-operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-operations(?:/)?$"
+    },
+    {
       "page": "/admin/teacher-performance",
       "regex": "^/admin/teacher\\-performance(?:/)?$",
       "routeKeys": {},

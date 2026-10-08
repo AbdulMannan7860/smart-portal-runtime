@@ -44,6 +44,7 @@
   "/admin/teacher-evaluations/[scopeKey]/page": "app/admin/teacher-evaluations/[scopeKey]/page.js",
   "/admin/teacher-evaluations/page": "app/admin/teacher-evaluations/page.js",
   "/admin/teacher-management/page": "app/admin/teacher-management/page.js",
+  "/admin/teacher-operations/page": "app/admin/teacher-operations/page.js",
   "/admin/teacher-performance/[teacherCode]/page": "app/admin/teacher-performance/[teacherCode]/page.js",
   "/admin/teacher-performance/page": "app/admin/teacher-performance/page.js",
   "/admin/teacher-reports/page": "app/admin/teacher-reports/page.js",

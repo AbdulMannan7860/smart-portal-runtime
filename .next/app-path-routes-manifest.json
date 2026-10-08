@@ -44,6 +44,7 @@
   "/admin/teacher-evaluations/[scopeKey]/page": "/admin/teacher-evaluations/[scopeKey]",
   "/admin/teacher-evaluations/page": "/admin/teacher-evaluations",
   "/admin/teacher-management/page": "/admin/teacher-management",
+  "/admin/teacher-operations/page": "/admin/teacher-operations",
   "/admin/teacher-performance/[teacherCode]/page": "/admin/teacher-performance/[teacherCode]",
   "/admin/teacher-performance/page": "/admin/teacher-performance",
   "/admin/teacher-reports/page": "/admin/teacher-reports",

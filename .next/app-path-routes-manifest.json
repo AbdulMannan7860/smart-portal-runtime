@@ -76,6 +76,7 @@
   "/api/admin-apis/total-programs/route": "/api/admin-apis/total-programs",
   "/api/admin-apis/total-queries/route": "/api/admin-apis/total-queries",
   "/api/admin-apis/total-schedules/route": "/api/admin-apis/total-schedules",
+  "/api/admin/academic-departments/route": "/api/admin/academic-departments",
   "/api/admin/attendance-employees/route": "/api/admin/attendance-employees",
   "/api/admin/dashboard/route": "/api/admin/dashboard",
   "/api/admin/teacher-shifts/route": "/api/admin/teacher-shifts",
@@ -131,6 +132,8 @@
   "/api/exam-periods/route": "/api/exam-periods",
   "/api/examination-papers/media/route": "/api/examination-papers/media",
   "/api/examination-papers/route": "/api/examination-papers",
+  "/api/faculty-tasks/route": "/api/faculty-tasks",
+  "/api/faculty-tasks/scope/route": "/api/faculty-tasks/scope",
   "/api/health/ready/route": "/api/health/ready",
   "/api/it-support/[id]/route": "/api/it-support/[id]",
   "/api/it-support/mine/route": "/api/it-support/mine",
@@ -211,6 +214,8 @@
   "/api/teacher/verify-registration-token/route": "/api/teacher/verify-registration-token",
   "/api/uploads/[...filePath]/route": "/api/uploads/[...filePath]",
   "/apple-icon.png/route": "/apple-icon.png",
+  "/dean/dashboard/page": "/dean/dashboard",
+  "/dean/tasks/page": "/dean/tasks",
   "/examination/exam-periods/page": "/examination/exam-periods",
   "/examination/it-query/page": "/examination/it-query",
   "/examination/leave-requests/page": "/examination/leave-requests",
@@ -294,5 +299,6 @@
   "/teacher/queries/page": "/teacher/queries",
   "/teacher/quizzes/page": "/teacher/quizzes",
   "/teacher/schedule/page": "/teacher/schedule",
+  "/teacher/tasks/page": "/teacher/tasks",
   "/verify-email/page": "/verify-email"
 }

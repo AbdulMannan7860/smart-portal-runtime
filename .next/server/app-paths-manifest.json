@@ -76,6 +76,7 @@
   "/api/admin-apis/total-programs/route": "app/api/admin-apis/total-programs/route.js",
   "/api/admin-apis/total-queries/route": "app/api/admin-apis/total-queries/route.js",
   "/api/admin-apis/total-schedules/route": "app/api/admin-apis/total-schedules/route.js",
+  "/api/admin/academic-departments/route": "app/api/admin/academic-departments/route.js",
   "/api/admin/attendance-employees/route": "app/api/admin/attendance-employees/route.js",
   "/api/admin/dashboard/route": "app/api/admin/dashboard/route.js",
   "/api/admin/teacher-shifts/route": "app/api/admin/teacher-shifts/route.js",
@@ -131,6 +132,8 @@
   "/api/exam-periods/route": "app/api/exam-periods/route.js",
   "/api/examination-papers/media/route": "app/api/examination-papers/media/route.js",
   "/api/examination-papers/route": "app/api/examination-papers/route.js",
+  "/api/faculty-tasks/route": "app/api/faculty-tasks/route.js",
+  "/api/faculty-tasks/scope/route": "app/api/faculty-tasks/scope/route.js",
   "/api/health/ready/route": "app/api/health/ready/route.js",
   "/api/it-support/[id]/route": "app/api/it-support/[id]/route.js",
   "/api/it-support/mine/route": "app/api/it-support/mine/route.js",
@@ -211,6 +214,8 @@
   "/api/teacher/verify-registration-token/route": "app/api/teacher/verify-registration-token/route.js",
   "/api/uploads/[...filePath]/route": "app/api/uploads/[...filePath]/route.js",
   "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/dean/dashboard/page": "app/dean/dashboard/page.js",
+  "/dean/tasks/page": "app/dean/tasks/page.js",
   "/examination/exam-periods/page": "app/examination/exam-periods/page.js",
   "/examination/it-query/page": "app/examination/it-query/page.js",
   "/examination/leave-requests/page": "app/examination/leave-requests/page.js",
@@ -294,5 +299,6 @@
   "/teacher/queries/page": "app/teacher/queries/page.js",
   "/teacher/quizzes/page": "app/teacher/quizzes/page.js",
   "/teacher/schedule/page": "app/teacher/schedule/page.js",
+  "/teacher/tasks/page": "app/teacher/tasks/page.js",
   "/verify-email/page": "app/verify-email/page.js"
 }

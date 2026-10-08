@@ -517,6 +517,12 @@
       "namedRegex": "^/api/accounts/teacher\\-attendance/report(?:/)?$"
     },
     {
+      "page": "/api/admin/academic-departments",
+      "regex": "^/api/admin/academic\\-departments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/academic\\-departments(?:/)?$"
+    },
+    {
       "page": "/api/admin/attendance-employees",
       "regex": "^/api/admin/attendance\\-employees(?:/)?$",
       "routeKeys": {},
@@ -893,6 +899,18 @@
       "regex": "^/api/examination\\-papers/media(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/examination\\-papers/media(?:/)?$"
+    },
+    {
+      "page": "/api/faculty-tasks",
+      "regex": "^/api/faculty\\-tasks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/faculty\\-tasks(?:/)?$"
+    },
+    {
+      "page": "/api/faculty-tasks/scope",
+      "regex": "^/api/faculty\\-tasks/scope(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/faculty\\-tasks/scope(?:/)?$"
     },
     {
       "page": "/api/health/ready",
@@ -1343,6 +1361,18 @@
       "regex": "^/apple\\-icon\\.png(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/dean/dashboard",
+      "regex": "^/dean/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dean/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dean/tasks",
+      "regex": "^/dean/tasks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dean/tasks(?:/)?$"
     },
     {
       "page": "/examination/exam-periods",
@@ -1811,6 +1841,12 @@
       "regex": "^/teacher/schedule(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/schedule(?:/)?$"
+    },
+    {
+      "page": "/teacher/tasks",
+      "regex": "^/teacher/tasks(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/tasks(?:/)?$"
     },
     {
       "page": "/teacher-register",

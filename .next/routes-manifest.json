@@ -873,6 +873,12 @@
       "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
+      "page": "/api/dean/dashboard",
+      "regex": "^/api/dean/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/dean/dashboard(?:/)?$"
+    },
+    {
       "page": "/api/device-tokens/register",
       "regex": "^/api/device\\-tokens/register(?:/)?$",
       "routeKeys": {},

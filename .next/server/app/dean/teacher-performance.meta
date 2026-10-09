@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dean/layout,_N_T_/dean/teacher-performance/layout,_N_T_/dean/teacher-performance/page,_N_T_/dean/teacher-performance"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dean/teacher-performance/__PAGE__",
+    "/dean/teacher-performance",
+    "/dean",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1327,6 +1327,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/dean/employee-leaves": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dean/employee-leaves",
+      "dataRoute": "/dean/employee-leaves.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/dean/tasks": {
       "experimentalBypassFor": [
         {
@@ -1342,6 +1366,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dean/tasks",
       "dataRoute": "/dean/tasks.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/dean/teacher-performance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/dean/teacher-performance",
+      "dataRoute": "/dean/teacher-performance.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3348,8 +3396,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "1d5935fb37c1dfe32bd249b0ce7bf1db",
-    "previewModeSigningKey": "f54b15ff04ec517766dcf14b7522e6faa8f8d9149f9597b1a38e2202428e585e",
-    "previewModeEncryptionKey": "4d8cbbe15d71f18b4bdffaff2f7f0e6c6381849d883c180f5924a10af9f794e7"
+    "previewModeId": "62c5e7f1888a346042eafc3d5075b410",
+    "previewModeSigningKey": "74cd95498405e7340c7986af74109a75085ef370c445003d19b2b649ab69b4ef",
+    "previewModeEncryptionKey": "dc556aaa4ec8f9843a46db74bfbe08b6022fec6bbabc66663224439854a65203"
   }
 }

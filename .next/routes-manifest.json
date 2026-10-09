@@ -127,6 +127,14 @@
       "namedRegex": "^/api/uploads/(?<nxtPfilePath>.+?)(?:/)?$"
     },
     {
+      "page": "/dean/teacher-performance/[teacherCode]",
+      "regex": "^/dean/teacher\\-performance/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPteacherCode": "nxtPteacherCode"
+      },
+      "namedRegex": "^/dean/teacher\\-performance/(?<nxtPteacherCode>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/qec/teacher-evaluations/[scopeKey]",
       "regex": "^/qec/teacher\\-evaluations/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -1369,10 +1377,22 @@
       "namedRegex": "^/dean/dashboard(?:/)?$"
     },
     {
+      "page": "/dean/employee-leaves",
+      "regex": "^/dean/employee\\-leaves(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dean/employee\\-leaves(?:/)?$"
+    },
+    {
       "page": "/dean/tasks",
       "regex": "^/dean/tasks(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dean/tasks(?:/)?$"
+    },
+    {
+      "page": "/dean/teacher-performance",
+      "regex": "^/dean/teacher\\-performance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dean/teacher\\-performance(?:/)?$"
     },
     {
       "page": "/examination/exam-periods",

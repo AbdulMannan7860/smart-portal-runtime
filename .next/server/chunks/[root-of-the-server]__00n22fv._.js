@@ -194,7 +194,41 @@ Cell: ${e.phone||""}`})),await Promise.all(d),{success:!0}}catch(e){return conso
         `,text:`${u}
 Applicant: ${i||""}
 Program: ${s||""}
-Updated By: ${r||""}`})),await Promise.all(g),{success:!0}}catch(e){return console.error("sendAdmissionStatusEmail error:",e),{success:!1,error:e.message}}},g=async({department:e,studentProfile:t,studentUser:i,queryDetails:n})=>{try{let r=function(e,t){if("Management"===e){let e=(0,s.getMasterStudentSession)(t).toLowerCase();return"morning"===e?process.env.MORNING_MANAGEMENT_EMAIL:"evening"===e?process.env.EVENING_MANAGEMENT_EMAIL:null}return"Examination"===e?process.env.EXAMINATION_EMAIL:"Admissions"===e?process.env.ADMISSIONS_QUERY_EMAIL||process.env.ADMISSIONS_REPRESENTATIVE_EMAILS?.split(",")[0]?.trim():"Accounts"===e?process.env.ACCOUNTS_EMAIL:null}(e,t);if(!r)return console.warn(`No recipient email configured for department: ${e}`),{success:!1,error:"No recipient configured"};let p=o(),c=n.departmentLabel||e,l=(0,a.getStudentDisplayName)(t?.FullName,t?.FatherName)||i?.code||"Student",d=t?.Reg_no||i?.code||"N/A",m=t?.Prog_Title||"N/A",h=t?.phone1||"N/A",u=`New Student Query - ${c} (Ticket #${n.ticket})`,f=`
+Updated By: ${r||""}`})),await Promise.all(g),{success:!0}}catch(e){return console.error("sendAdmissionStatusEmail error:",e),{success:!1,error:e.message}}},g=e=>String(e??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"),x=async({recipients:e=[],report:t,pdfBuffer:i,pdfFileName:a,logoBase64:s})=>{let n=[...new Set(e.map(e=>String(e||"").trim().toLowerCase()).filter(Boolean))];if(!n.length)return{success:!1,error:"No report recipients configured"};try{let e=o(),r=(t?.teachers||[]).map(e=>{let t=Number(e.conductedClasses||0),i=Number(e.totalClasses||e.classTotal||0),a=t>0&&Number(e.plannedClasses||0)===t&&Number(e.attendanceMarkedClasses||0)===t&&Number(e.lectureUploadedClasses||0)===t;return`<tr>
+        <td style="padding:9px;border:1px solid #ddd;"><strong>${g(e.teacherName)}</strong><br><small>ID ${g(e.teacherCode)}</small></td>
+        <td style="padding:9px;border:1px solid #ddd;">${t}/${i}</td>
+        <td style="padding:9px;border:1px solid #ddd;color:#991b1b;font-weight:600;">${Number(e.cancelledClasses||0)}</td>
+        <td style="padding:9px;border:1px solid #ddd;">${Number(e.plannedClasses||0)}/${t}</td>
+        <td style="padding:9px;border:1px solid #ddd;">${Number(e.attendanceMarkedClasses||0)}/${t}</td>
+        <td style="padding:9px;border:1px solid #ddd;">${Number(e.lectureUploadedClasses||0)}/${t}</td>
+        <td style="padding:9px;border:1px solid #ddd;color:${a?"#047857":"#92400e"};font-weight:600;">${a?"Complete":t?"Needs attention":"No conducted class"}</td>
+      </tr>`}).join(""),p=`Weekly Teacher Operations Report | ${t.from} to ${t.to}`,c="https://lms.emaan.edu.pk/admin/teacher-operations";return await e.sendMail({from:{name:"Emaan Institute LMS Reports",address:process.env.SMTP_USER},to:n,subject:p,html:`<div style="font-family:Arial,sans-serif;background:#f3f4f6;padding:28px 14px;color:#1f2937;">
+        <div style="max-width:920px;margin:auto;background:#ffffff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;box-shadow:0 8px 24px rgba(74,4,8,.10);">
+          <div style="padding:20px 24px;text-align:center;background:#ffffff;">
+            ${s?'<img src="cid:eims-logo" alt="Emaan Institute of Management and Sciences" style="display:block;width:230px;max-width:80%;height:auto;margin:0 auto 12px;">':""}
+            <h1 style="margin:0;color:#4b0509;font-family:Georgia,serif;font-size:23px;line-height:1.25;">Emaan Institute of Management and Sciences</h1>
+            <p style="margin:6px 0 0;color:#6b7280;font-size:12px;letter-spacing:.12em;text-transform:uppercase;">Learning Management System</p>
+          </div>
+          <div style="background:linear-gradient(135deg,#801016,#b20b15 62%,#d10012);color:white;padding:20px 24px;text-align:center;">
+            <h2 style="margin:0;font-size:22px;">Weekly Teacher Operations Report</h2>
+            <p style="margin:7px 0 0;color:#fee2e2;font-size:14px;">${g(t.from)} to ${g(t.to)}</p>
+          </div>
+          <div style="padding:24px;">
+            <p style="margin:0 0 18px;line-height:1.65;color:#4b5563;">This report summarizes each teacher's conducted and cancelled classes together with course plans, attendance submissions, and lecture uploads. The complete branded PDF is attached.</p>
+            <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:13px;">
+              <thead><tr style="background:#111827;color:white;"><th style="padding:10px;text-align:left;">Teacher</th><th style="padding:10px;">Conducted / total</th><th style="padding:10px;">Cancelled</th><th style="padding:10px;">Plans</th><th style="padding:10px;">Attendance</th><th style="padding:10px;">Lectures</th><th style="padding:10px;">Status</th></tr></thead>
+              <tbody>${r}</tbody>
+            </table></div>
+            <p style="margin-top:22px;"><a href="${c}" style="display:inline-block;background:#8f1118;color:white;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600;">Open detailed report</a></p>
+          </div>
+          <div style="border-top:1px solid #e5e7eb;background:#f9fafb;padding:16px 24px;text-align:center;color:#6b7280;font-size:12px;line-height:1.6;">
+            <strong style="color:#4b0509;">This report is generated by EIMS LMS.</strong><br>
+            &copy; ${new Date().getFullYear()} Emaan Institute of Management and Sciences. This is an automated email.
+          </div>
+        </div>
+      </div>`,text:`Weekly Teacher Operations Report
+${t.from} to ${t.to}
+Open the detailed report: ${c}`,attachments:[...s?[{filename:"eims-logo.png",content:Buffer.from(s,"base64"),contentType:"image/png",cid:"eims-logo"}]:[],...i?[{filename:a||`teacher-operations-${t.from}-to-${t.to}.pdf`,content:i,contentType:"application/pdf"}]:[]]}),{success:!0,recipientCount:n.length}}catch(e){return console.error("sendWeeklyTeacherOperationsEmail error:",e),{success:!1,error:e.message}}},v=async({department:e,studentProfile:t,studentUser:i,queryDetails:n})=>{try{let r=function(e,t){if("Management"===e){let e=(0,s.getMasterStudentSession)(t).toLowerCase();return"morning"===e?process.env.MORNING_MANAGEMENT_EMAIL:"evening"===e?process.env.EVENING_MANAGEMENT_EMAIL:null}return"Examination"===e?process.env.EXAMINATION_EMAIL:"Admissions"===e?process.env.ADMISSIONS_QUERY_EMAIL||process.env.ADMISSIONS_REPRESENTATIVE_EMAILS?.split(",")[0]?.trim():"Accounts"===e?process.env.ACCOUNTS_EMAIL:null}(e,t);if(!r)return console.warn(`No recipient email configured for department: ${e}`),{success:!1,error:"No recipient configured"};let p=o(),c=n.departmentLabel||e,l=(0,a.getStudentDisplayName)(t?.FullName,t?.FatherName)||i?.code||"Student",d=t?.Reg_no||i?.code||"N/A",m=t?.Prog_Title||"N/A",h=t?.phone1||"N/A",u=`New Student Query - ${c} (Ticket #${n.ticket})`,f=`
 A new student query has been submitted.
 
 Ticket Number: ${n.ticket}
@@ -232,6 +266,6 @@ Please log in to Smart Portal to review and respond.
           <div style="text-align:center; padding:20px; background:#f8f9fa; font-size:12px; color:#6c757d;">&copy; ${new Date().getFullYear()} Emaan Institute of Management & Sciences. Automated message.</div>
         </div>
       </div>
-    `;return await p.sendMail({from:{name:"Emaan Institute Query System",address:process.env.SMTP_USER},to:r,subject:u,html:g,text:f}),{success:!0}}catch(e){return console.error("sendQueryDepartmentEmail error:",e),{success:!1,error:e.message}}};e.s(["sendAdmissionStatusEmail",0,f,"sendAdmissionSubmissionEmail",0,u,"sendNotificationEmail",0,d,"sendPasswordResetEmail",0,l,"sendQueryDepartmentEmail",0,g,"sendRegistrationEmail",0,n,"sendStaffVerificationEmail",0,c,"sendStudentVerificationEmail",0,r,"sendTeacherVerificationEmail",0,p,"verifyRegistrationToken",0,e=>{try{let t=i.default.verify(e,process.env.JWT_SECRET);if("teacher_registration"!==t.purpose)throw Error("Invalid token purpose");return{valid:!0,teacherId:t.teacherId,email:t.email}}catch(e){return{valid:!1,error:e.message}}}])}];
+    `;return await p.sendMail({from:{name:"Emaan Institute Query System",address:process.env.SMTP_USER},to:r,subject:u,html:g,text:f}),{success:!0}}catch(e){return console.error("sendQueryDepartmentEmail error:",e),{success:!1,error:e.message}}};e.s(["sendAdmissionStatusEmail",0,f,"sendAdmissionSubmissionEmail",0,u,"sendNotificationEmail",0,d,"sendPasswordResetEmail",0,l,"sendQueryDepartmentEmail",0,v,"sendRegistrationEmail",0,n,"sendStaffVerificationEmail",0,c,"sendStudentVerificationEmail",0,r,"sendTeacherVerificationEmail",0,p,"sendWeeklyTeacherOperationsEmail",0,x,"verifyRegistrationToken",0,e=>{try{let t=i.default.verify(e,process.env.JWT_SECRET);if("teacher_registration"!==t.purpose)throw Error("Invalid token purpose");return{valid:!0,teacherId:t.teacherId,email:t.email}}catch(e){return{valid:!1,error:e.message}}}])}];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__00n22fv._.js.map

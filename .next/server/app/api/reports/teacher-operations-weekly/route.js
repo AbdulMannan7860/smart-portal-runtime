@@ -1,0 +1,11 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/reports/teacher-operations-weekly/route.js")
+R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_0cliz4n.js")
+R.c("server/chunks/_1rfsoxw._.js")
+R.c("server/chunks/[root-of-the-server]__0c9oc93._.js")
+R.c("server/chunks/node_modules_1jhqtcu._.js")
+R.c("server/chunks/[root-of-the-server]__00n22fv._.js")
+R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
+R.c("server/chunks/node_modules_next_08s853w._.js")
+R.c("server/chunks/1oeh_server_app_api_reports_teacher-operations-weekly_route_actions_0xjyjw2.js")
+R.m(266801)
+module.exports=R.m(266801).exports

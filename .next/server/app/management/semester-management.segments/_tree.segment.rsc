@@ -1,5 +1,5 @@
 :HL["/_next/static/chunks/2jahuu0ai0qdm.css","style"]
-:HL["/_next/static/chunks/0uo_nx19ch0dc.css","style"]
+:HL["/_next/static/chunks/2zc1tjv-71bl1.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"management","param":null,"prefetchHints":0,"slots":{"children":{"name":"semester-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"uE-wwimGzQRvFkSHYVgAU"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"management","param":null,"prefetchHints":0,"slots":{"children":{"name":"semester-management","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Pcu0f_6YD0bQqotpWPKUH"}

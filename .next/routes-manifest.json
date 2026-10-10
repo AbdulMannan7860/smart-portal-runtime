@@ -549,6 +549,12 @@
       "namedRegex": "^/api/admin/teacher\\-shifts(?:/)?$"
     },
     {
+      "page": "/api/admin/weekly-report-recipient",
+      "regex": "^/api/admin/weekly\\-report\\-recipient(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/weekly\\-report\\-recipient(?:/)?$"
+    },
+    {
       "page": "/api/admin-apis/announcement",
       "regex": "^/api/admin\\-apis/announcement(?:/)?$",
       "routeKeys": {},
@@ -1177,6 +1183,12 @@
       "regex": "^/api/quiz/withdraw\\-submission(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/quiz/withdraw\\-submission(?:/)?$"
+    },
+    {
+      "page": "/api/reports/teacher-operations-weekly",
+      "regex": "^/api/reports/teacher\\-operations\\-weekly(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/reports/teacher\\-operations\\-weekly(?:/)?$"
     },
     {
       "page": "/api/result-publication",

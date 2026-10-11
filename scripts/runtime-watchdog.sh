@@ -1,14 +1,23 @@
 #!/bin/bash
 set -u
 
-readonly APP_ROOT="/home/emaanedu/lms.emaan.edu.pk"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DEFAULT_APP_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+TARGET_CONFIG="${DEFAULT_APP_ROOT}/deployment-target.env"
+if [[ -f "${TARGET_CONFIG}" ]]; then
+  # shellcheck disable=SC1090
+  source "${TARGET_CONFIG}"
+fi
+
+readonly APP_ROOT="${APP_ROOT:-${DEFAULT_APP_ROOT}}"
+readonly APP_PUBLIC_URL="${APP_PUBLIC_URL:-https://lms.emaan.edu.pk}"
 readonly STATE_DIR="${APP_ROOT}/tmp"
 readonly LOG_DIR="${APP_ROOT}/logs"
 readonly FAILURE_FILE="${STATE_DIR}/runtime-watchdog-failures"
 readonly RESTART_FILE="${STATE_DIR}/runtime-watchdog-last-restart"
 readonly LOG_FILE="${LOG_DIR}/runtime-watchdog.log"
-readonly LIVE_URL="https://lms.emaan.edu.pk/api/health/live"
-readonly READY_URL="https://lms.emaan.edu.pk/api/health/ready"
+readonly LIVE_URL="${APP_PUBLIC_URL}/api/health/live"
+readonly READY_URL="${APP_PUBLIC_URL}/api/health/ready"
 readonly MAX_FAILURES=3
 readonly RESTART_COOLDOWN_SECONDS=1800
 

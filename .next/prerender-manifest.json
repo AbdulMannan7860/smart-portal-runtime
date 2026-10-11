@@ -386,6 +386,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/admit-cards": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/admit-cards",
+      "dataRoute": "/admin/admit-cards.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/attendance-compliance": {
       "experimentalBypassFor": [
         {
@@ -1390,6 +1414,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/dean/teacher-performance",
       "dataRoute": "/dean/teacher-performance.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/admit-cards": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/admit-cards",
+      "dataRoute": "/examination/admit-cards.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2576,6 +2624,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/student/admit-card": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/student/admit-card",
+      "dataRoute": "/student/admit-card.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/student/assignments": {
       "experimentalBypassFor": [
         {
@@ -3396,8 +3468,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "d1387d6bc4f209adbad169b0adc39546",
-    "previewModeSigningKey": "e086a4ec1149067d36fd29bac0adf5d65e6a99187fbe8faf6c4d704a0ef10ac5",
-    "previewModeEncryptionKey": "8a697d6fbc761f1963688ccc40396b7e19455d588328114cf4ea269009a31892"
+    "previewModeId": "b93fc2b0f5ce551b7462d25e6a8cfe68",
+    "previewModeSigningKey": "b96d8276d5d5e3d9fabc24daaba99dd908b5c27f6af8aa796dde14be4c92464b",
+    "previewModeEncryptionKey": "440cc1da2a96f0e34148c49ebb58e566613c8b21918542bbeb6b021faf31ce10"
   }
 }

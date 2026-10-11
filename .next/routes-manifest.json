@@ -249,6 +249,12 @@
       "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/admit-cards",
+      "regex": "^/admin/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admit\\-cards(?:/)?$"
+    },
+    {
       "page": "/admin/attendance-compliance",
       "regex": "^/admin/attendance\\-compliance(?:/)?$",
       "routeKeys": {},
@@ -631,6 +637,18 @@
       "regex": "^/api/admissions/queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/admissions/queries(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards",
+      "regex": "^/api/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/photo",
+      "regex": "^/api/admit\\-cards/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/photo(?:/)?$"
     },
     {
       "page": "/api/assignment/create-assignment",
@@ -1413,6 +1431,12 @@
       "namedRegex": "^/dean/teacher\\-performance(?:/)?$"
     },
     {
+      "page": "/examination/admit-cards",
+      "regex": "^/examination/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/admit\\-cards(?:/)?$"
+    },
+    {
       "page": "/examination/exam-periods",
       "regex": "^/examination/exam\\-periods(?:/)?$",
       "routeKeys": {},
@@ -1699,6 +1723,12 @@
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/student/admit-card",
+      "regex": "^/student/admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/admit\\-card(?:/)?$"
     },
     {
       "page": "/student/assignments",

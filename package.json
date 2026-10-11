@@ -1,6 +1,6 @@
 {
   "name": "smart-portal",
-  "version": "0.1.0-staging.6",
+  "version": "0.1.0-staging.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -31,6 +31,7 @@
     "multer": "^2.0.2",
     "next": "^16.2.12",
     "nodemailer": "^9.0.3",
+    "qrcode.react": "^4.2.0",
     "react": "^19.2.3",
     "react-calendar": "^6.0.0",
     "react-dom": "^19.2.3",

@@ -651,6 +651,12 @@
       "namedRegex": "^/api/admit\\-cards/photo(?:/)?$"
     },
     {
+      "page": "/api/admit-cards/verify",
+      "regex": "^/api/admit\\-cards/verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/verify(?:/)?$"
+    },
+    {
       "page": "/api/assignment/create-assignment",
       "regex": "^/api/assignment/create\\-assignment(?:/)?$",
       "routeKeys": {},
@@ -1927,6 +1933,12 @@
       "regex": "^/teacher\\-self\\-register(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher\\-self\\-register(?:/)?$"
+    },
+    {
+      "page": "/verify-admit-card",
+      "regex": "^/verify\\-admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/verify\\-admit\\-card(?:/)?$"
     },
     {
       "page": "/verify-email",

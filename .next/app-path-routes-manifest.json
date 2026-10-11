@@ -87,6 +87,7 @@
   "/api/admissions/queries/route": "/api/admissions/queries",
   "/api/admit-cards/photo/route": "/api/admit-cards/photo",
   "/api/admit-cards/route": "/api/admit-cards",
+  "/api/admit-cards/verify/route": "/api/admit-cards/verify",
   "/api/assignment/create-assignment/route": "/api/assignment/create-assignment",
   "/api/assignment/edit-assignment/route": "/api/assignment/edit-assignment",
   "/api/assignment/get-assignment-by-teacher-code/route": "/api/assignment/get-assignment-by-teacher-code",
@@ -311,5 +312,6 @@
   "/teacher/quizzes/page": "/teacher/quizzes",
   "/teacher/schedule/page": "/teacher/schedule",
   "/teacher/tasks/page": "/teacher/tasks",
+  "/verify-admit-card/page": "/verify-admit-card",
   "/verify-email/page": "/verify-email"
 }

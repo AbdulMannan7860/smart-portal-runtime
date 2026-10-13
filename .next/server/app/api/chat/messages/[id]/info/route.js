@@ -5,7 +5,7 @@ R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
-R.c("server/chunks/_1kz_a1p._.js")
+R.c("server/chunks/_0yfod4h._.js")
 R.c("server/chunks/_next-internal_server_app_api_chat_messages_[id]_info_route_actions_0vtn3pj.js")
 R.m(204747)
 module.exports=R.m(204747).exports

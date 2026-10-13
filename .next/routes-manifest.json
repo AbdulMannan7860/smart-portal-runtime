@@ -255,6 +255,12 @@
       "namedRegex": "^/admin/admit\\-cards(?:/)?$"
     },
     {
+      "page": "/admin/admit-cards/attendance-sheet",
+      "regex": "^/admin/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
       "page": "/admin/attendance-compliance",
       "regex": "^/admin/attendance\\-compliance(?:/)?$",
       "routeKeys": {},
@@ -643,6 +649,18 @@
       "regex": "^/api/admit\\-cards(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/attendance-sheet",
+      "regex": "^/api/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/attendance-sheet/photo",
+      "regex": "^/api/admit\\-cards/attendance\\-sheet/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/attendance\\-sheet/photo(?:/)?$"
     },
     {
       "page": "/api/admit-cards/photo",
@@ -1441,6 +1459,12 @@
       "regex": "^/examination/admit\\-cards(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/examination/admit-cards/attendance-sheet",
+      "regex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
     },
     {
       "page": "/examination/exam-periods",

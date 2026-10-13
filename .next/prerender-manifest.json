@@ -410,6 +410,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/admit-cards/attendance-sheet": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/admit-cards/attendance-sheet",
+      "dataRoute": "/admin/admit-cards/attendance-sheet.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/attendance-compliance": {
       "experimentalBypassFor": [
         {
@@ -1438,6 +1462,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/admit-cards",
       "dataRoute": "/examination/admit-cards.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/admit-cards/attendance-sheet": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/admit-cards/attendance-sheet",
+      "dataRoute": "/examination/admit-cards/attendance-sheet.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3492,8 +3540,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "2fec04e3b60d51fc597f8a6647a6fdc4",
-    "previewModeSigningKey": "31b81a595a2b6c9275f672f29592f08183719b1e2a355ace6785eb64e23a8b52",
-    "previewModeEncryptionKey": "306ce77deb0dcd5c1f47695a52f8bfa75d311266a0ddba5821a543459ab7d1e1"
+    "previewModeId": "a15933904fcf967e583ce2926f006b5e",
+    "previewModeSigningKey": "4a144d8c417a336b2937427dd011f2f1bbd5f4cf1556e01b3e0e23cde200a9f4",
+    "previewModeEncryptionKey": "e97a20e059bc4e0cc2240263a78aada8132ea4cb15a7ca48992a7fcbd4e543b3"
   }
 }

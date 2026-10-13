@@ -554,6 +554,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/curriculum-themes": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/curriculum-themes",
+      "dataRoute": "/admin/curriculum-themes.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/dashboard": {
       "experimentalBypassFor": [
         {
@@ -1486,6 +1510,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/admit-cards/attendance-sheet",
       "dataRoute": "/examination/admit-cards/attendance-sheet.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/curriculum-themes": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/curriculum-themes",
+      "dataRoute": "/examination/curriculum-themes.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3540,8 +3588,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "4cc43136418e95f3fa489eb0398e8797",
-    "previewModeSigningKey": "cdd1429d44c72e1ae9d17f0bb5a5307788fc47ddc56a37f11ba0cf0121c97f35",
-    "previewModeEncryptionKey": "a5bc3ba29a86b0f1361b4f040e7d0af3abe1af29ca957db88cbd3b3beafd1c4f"
+    "previewModeId": "1a597721c1a325261eb6b2d09200e90c",
+    "previewModeSigningKey": "ca03cd71cab0149e156b5d2af5b1130e436151cd1a10e831d15ac2362bee5d76",
+    "previewModeEncryptionKey": "064932e0151ae7d27ee5e7a57e9bd2fd2a25fea81469cf57640585d01830a80c"
   }
 }

@@ -1,7 +1,7 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/class-cancellations/route.js")
 R.c("server/chunks/_0e4shss._.js")
 R.c("server/chunks/src_app_lib_1iwf4do._.js")
-R.c("server/chunks/[root-of-the-server]__1bohli6._.js")
+R.c("server/chunks/[root-of-the-server]__1rzf1az._.js")
 R.c("server/chunks/[root-of-the-server]__1uw6tyb._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")

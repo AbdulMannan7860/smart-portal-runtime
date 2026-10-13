@@ -291,6 +291,12 @@
       "namedRegex": "^/admin/course\\-planner(?:/)?$"
     },
     {
+      "page": "/admin/curriculum-themes",
+      "regex": "^/admin/curriculum\\-themes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/curriculum\\-themes(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard",
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
@@ -921,6 +927,18 @@
       "namedRegex": "^/api/course\\-planner(?:/)?$"
     },
     {
+      "page": "/api/course-registration-form",
+      "regex": "^/api/course\\-registration\\-form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course\\-registration\\-form(?:/)?$"
+    },
+    {
+      "page": "/api/curriculum-themes",
+      "regex": "^/api/curriculum\\-themes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/curriculum\\-themes(?:/)?$"
+    },
+    {
       "page": "/api/dean/dashboard",
       "regex": "^/api/dean/dashboard(?:/)?$",
       "routeKeys": {},
@@ -1465,6 +1483,12 @@
       "regex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/examination/curriculum-themes",
+      "regex": "^/examination/curriculum\\-themes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/curriculum\\-themes(?:/)?$"
     },
     {
       "page": "/examination/exam-periods",

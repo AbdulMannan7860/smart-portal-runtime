@@ -1,6 +1,6 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/course-registration-form/route.js")
-R.c("server/chunks/src_app_lib_09ra310._.js")
 R.c("server/chunks/[root-of-the-server]__181fb8y._.js")
+R.c("server/chunks/src_app_lib_09ra310._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1-tou1v.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")

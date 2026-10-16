@@ -30,7 +30,7 @@ if [[ ! -f "${APP_ROOT}/.env.production" ]]; then
   exit 1
 fi
 
-for required_path in server.js mobile-api-cors.cjs realtime-protocol.cjs operations-metrics.cjs redis-runtime.cjs scripts/runtime-watchdog.sh package.json node_modules .next public; do
+for required_path in server.js teacher-audit.cjs mobile-api-cors.cjs realtime-protocol.cjs operations-metrics.cjs redis-runtime.cjs scripts/runtime-watchdog.sh package.json node_modules .next public; do
   if [[ ! -e "${RUNTIME_ROOT}/${required_path}" ]]; then
     echo "Runtime artifact is incomplete: missing ${required_path}"
     exit 1
@@ -85,6 +85,7 @@ rm -f \
   "${APP_ROOT}/postcss.config.mjs" \
   "${APP_ROOT}/mobile-api-cors.cjs" \
   "${APP_ROOT}/operations-metrics.cjs" \
+  "${APP_ROOT}/teacher-audit.cjs" \
   "${APP_ROOT}/redis-runtime.cjs" \
   "${APP_ROOT}/realtime-protocol.cjs" \
   "${APP_ROOT}/server.js" \
@@ -100,6 +101,7 @@ cp -a "${RUNTIME_ROOT}/mobile-api-cors.cjs" "${APP_ROOT}/mobile-api-cors.cjs"
 cp -a "${RUNTIME_ROOT}/realtime-protocol.cjs" "${APP_ROOT}/realtime-protocol.cjs"
 cp -a "${RUNTIME_ROOT}/operations-metrics.cjs" "${APP_ROOT}/operations-metrics.cjs"
 cp -a "${RUNTIME_ROOT}/redis-runtime.cjs" "${APP_ROOT}/redis-runtime.cjs"
+cp -a "${RUNTIME_ROOT}/teacher-audit.cjs" "${APP_ROOT}/teacher-audit.cjs"
 cp -a "${RUNTIME_ROOT}/package.json" "${APP_ROOT}/package.json"
 if [[ -f "${TARGET_CONFIG}" ]]; then
   cp -a "${TARGET_CONFIG}" "${APP_ROOT}/deployment-target.env"

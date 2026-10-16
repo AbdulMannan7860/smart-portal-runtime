@@ -411,6 +411,12 @@
       "namedRegex": "^/admin/student\\-reports(?:/)?$"
     },
     {
+      "page": "/admin/teacher-activity",
+      "regex": "^/admin/teacher\\-activity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/teacher\\-activity(?:/)?$"
+    },
+    {
       "page": "/admin/teacher-attendance",
       "regex": "^/admin/teacher\\-attendance(?:/)?$",
       "routeKeys": {},
@@ -1005,6 +1011,12 @@
       "namedRegex": "^/api/it/operations(?:/)?$"
     },
     {
+      "page": "/api/it/teacher-activity",
+      "regex": "^/api/it/teacher\\-activity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/it/teacher\\-activity(?:/)?$"
+    },
+    {
       "page": "/api/it/teacher-creation-requests",
       "regex": "^/api/it/teacher\\-creation\\-requests(?:/)?$",
       "routeKeys": {},
@@ -1579,6 +1591,12 @@
       "regex": "^/it/queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/it/queries(?:/)?$"
+    },
+    {
+      "page": "/it/teacher-activity",
+      "regex": "^/it/teacher\\-activity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/it/teacher\\-activity(?:/)?$"
     },
     {
       "page": "/it/teacher-creation-requests",

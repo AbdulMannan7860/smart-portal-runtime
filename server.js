@@ -2,6 +2,7 @@ const { createServer } = require("node:http");
 const { appendFile, mkdirSync, statSync, renameSync } = require("node:fs");
 const path = require("node:path");
 const next = require("next");
+const { attachTeacherAudit } = require("./teacher-audit.cjs");
 const {
   REALTIME_PATH,
   getRequestToken,
@@ -155,6 +156,8 @@ function pollRealtimeEvents(request, response, requestUrl) {
 
 app.prepare().then(() => {
   const server = createServer((request, response) => {
+    try { attachTeacherAudit(request, response); }
+    catch { console.error('teacher.audit.initialization_failed'); }
     const requestUrl = new URL(request.url, `http://${request.headers.host || "localhost"}`);
     const isApiRequest = requestUrl.pathname.startsWith("/api/");
     const usesDedicatedAdmissionsCors =

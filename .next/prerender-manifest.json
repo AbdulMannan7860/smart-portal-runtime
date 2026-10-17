@@ -2273,6 +2273,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/management/curriculum-themes": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/curriculum-themes",
+      "dataRoute": "/management/curriculum-themes.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/management/dashboard": {
       "experimentalBypassFor": [
         {
@@ -3636,8 +3660,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "daecab99c2d0d1374e0d638799acfe96",
-    "previewModeSigningKey": "7f6b6668e13f9aee09a0d5b97f2e17fd247e9be89205543523cf866ee4e9d015",
-    "previewModeEncryptionKey": "44910e3b4a4a4afe1ea8547d7d6cd66d2d9acc9c03f2536133a23f4fa4da7a3a"
+    "previewModeId": "9079ca821fb49007725b2fa975d419b2",
+    "previewModeSigningKey": "69bcc09fce4f795d87dd6f86d77564a5c3f6657215528d5f248b260f5798cfaf",
+    "previewModeEncryptionKey": "9448bc54289612ea89955f4c9daeb83bcb0343177a34ff75d0d15ab59c9e5de9"
   }
 }

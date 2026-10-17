@@ -939,6 +939,12 @@
       "namedRegex": "^/api/course\\-registration\\-form(?:/)?$"
     },
     {
+      "page": "/api/curriculum-departments",
+      "regex": "^/api/curriculum\\-departments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/curriculum\\-departments(?:/)?$"
+    },
+    {
       "page": "/api/curriculum-themes",
       "regex": "^/api/curriculum\\-themes(?:/)?$",
       "routeKeys": {},
@@ -1377,6 +1383,12 @@
       "namedRegex": "^/api/student\\-reports(?:/)?$"
     },
     {
+      "page": "/api/student-specializations",
+      "regex": "^/api/student\\-specializations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student\\-specializations(?:/)?$"
+    },
+    {
       "page": "/api/teacher/add-teacher-course",
       "regex": "^/api/teacher/add\\-teacher\\-course(?:/)?$",
       "routeKeys": {},
@@ -1675,6 +1687,12 @@
       "regex": "^/management/create\\-user(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/create\\-user(?:/)?$"
+    },
+    {
+      "page": "/management/curriculum-themes",
+      "regex": "^/management/curriculum\\-themes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/curriculum\\-themes(?:/)?$"
     },
     {
       "page": "/management/dashboard",

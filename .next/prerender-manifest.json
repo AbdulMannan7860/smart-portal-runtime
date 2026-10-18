@@ -554,6 +554,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/crf-submissions": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/crf-submissions",
+      "dataRoute": "/admin/crf-submissions.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/curriculum-themes": {
       "experimentalBypassFor": [
         {
@@ -866,6 +890,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/program-hierarchy": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/program-hierarchy",
+      "dataRoute": "/admin/program-hierarchy.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/public-it-queries": {
       "experimentalBypassFor": [
         {
@@ -1001,6 +1049,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/semester-management",
       "dataRoute": "/admin/semester-management.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/specialization-approvals": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/specialization-approvals",
+      "dataRoute": "/admin/specialization-approvals.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1543,6 +1615,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/examination/crf-submissions": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/crf-submissions",
+      "dataRoute": "/examination/crf-submissions.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/examination/curriculum-themes": {
       "experimentalBypassFor": [
         {
@@ -1654,6 +1750,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/papers",
       "dataRoute": "/examination/papers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/program-hierarchy": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/program-hierarchy",
+      "dataRoute": "/examination/program-hierarchy.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2273,6 +2393,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/management/crf-submissions": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/crf-submissions",
+      "dataRoute": "/management/crf-submissions.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/management/curriculum-themes": {
       "experimentalBypassFor": [
         {
@@ -2465,6 +2609,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/management/program-hierarchy": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/program-hierarchy",
+      "dataRoute": "/management/program-hierarchy.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/management/query-management": {
       "experimentalBypassFor": [
         {
@@ -2504,6 +2672,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/management/semester-management",
       "dataRoute": "/management/semester-management.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/management/specialization-approvals": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/management/specialization-approvals",
+      "dataRoute": "/management/specialization-approvals.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3660,8 +3852,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "74128c80e1b99e12dee111742fcdc0ad",
-    "previewModeSigningKey": "efbc5d6cd2974d41c1d8f725c62c9cb0a45750d47eb62df5c5d4b84977bd5954",
-    "previewModeEncryptionKey": "ff1ce5fd7e512e042761474e32a81e41604427f16c53e75f4936031ddffce547"
+    "previewModeId": "70ade453d711965e0f6e55133eb7d43b",
+    "previewModeSigningKey": "9c07284b620f4424a2d94b309bb72c0d40668675e45a7c1064f9ffd2ec15d726",
+    "previewModeEncryptionKey": "f4f3b79138b3ab7d6c18f8ed14542acb1f44858bcf3cb03b8c75a2f42c342d3e"
   }
 }

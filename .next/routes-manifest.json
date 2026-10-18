@@ -291,6 +291,12 @@
       "namedRegex": "^/admin/course\\-planner(?:/)?$"
     },
     {
+      "page": "/admin/crf-submissions",
+      "regex": "^/admin/crf\\-submissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/crf\\-submissions(?:/)?$"
+    },
+    {
       "page": "/admin/curriculum-themes",
       "regex": "^/admin/curriculum\\-themes(?:/)?$",
       "routeKeys": {},
@@ -369,6 +375,12 @@
       "namedRegex": "^/admin/portal\\-it\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/program-hierarchy",
+      "regex": "^/admin/program\\-hierarchy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/program\\-hierarchy(?:/)?$"
+    },
+    {
       "page": "/admin/public-it-queries",
       "regex": "^/admin/public\\-it\\-queries(?:/)?$",
       "routeKeys": {},
@@ -403,6 +415,12 @@
       "regex": "^/admin/semester\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/semester\\-management(?:/)?$"
+    },
+    {
+      "page": "/admin/specialization-approvals",
+      "regex": "^/admin/specialization\\-approvals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/specialization\\-approvals(?:/)?$"
     },
     {
       "page": "/admin/student-reports",
@@ -1509,6 +1527,12 @@
       "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
     },
     {
+      "page": "/examination/crf-submissions",
+      "regex": "^/examination/crf\\-submissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/crf\\-submissions(?:/)?$"
+    },
+    {
       "page": "/examination/curriculum-themes",
       "regex": "^/examination/curriculum\\-themes(?:/)?$",
       "routeKeys": {},
@@ -1537,6 +1561,12 @@
       "regex": "^/examination/papers(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/papers(?:/)?$"
+    },
+    {
+      "page": "/examination/program-hierarchy",
+      "regex": "^/examination/program\\-hierarchy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/program\\-hierarchy(?:/)?$"
     },
     {
       "page": "/examination/queries",
@@ -1689,6 +1719,12 @@
       "namedRegex": "^/management/create\\-user(?:/)?$"
     },
     {
+      "page": "/management/crf-submissions",
+      "regex": "^/management/crf\\-submissions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/crf\\-submissions(?:/)?$"
+    },
+    {
       "page": "/management/curriculum-themes",
       "regex": "^/management/curriculum\\-themes(?:/)?$",
       "routeKeys": {},
@@ -1737,6 +1773,12 @@
       "namedRegex": "^/management/options(?:/)?$"
     },
     {
+      "page": "/management/program-hierarchy",
+      "regex": "^/management/program\\-hierarchy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/program\\-hierarchy(?:/)?$"
+    },
+    {
       "page": "/management/query-management",
       "regex": "^/management/query\\-management(?:/)?$",
       "routeKeys": {},
@@ -1747,6 +1789,12 @@
       "regex": "^/management/semester\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/semester\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/specialization-approvals",
+      "regex": "^/management/specialization\\-approvals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/specialization\\-approvals(?:/)?$"
     },
     {
       "page": "/management/teacher-management",

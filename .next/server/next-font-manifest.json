@@ -84,6 +84,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/admin/crf-submissions/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/admin/curriculum-themes/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -140,6 +144,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/admin/program-hierarchy/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/admin/public-it-queries/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -161,6 +169,10 @@
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
     "[project]/src/app/admin/semester-management/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/app/admin/specialization-approvals/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
@@ -260,6 +272,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/examination/crf-submissions/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/examination/curriculum-themes/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -277,6 +293,10 @@
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
     "[project]/src/app/examination/papers/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/app/examination/program-hierarchy/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
@@ -372,6 +392,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/management/crf-submissions/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/management/curriculum-themes/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -404,11 +428,19 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/management/program-hierarchy/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/management/query-management/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
     "[project]/src/app/management/semester-management/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/app/management/specialization-approvals/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],

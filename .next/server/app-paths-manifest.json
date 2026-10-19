@@ -158,6 +158,7 @@
   "/api/lecture/get-lectures-for-student/route": "app/api/lecture/get-lectures-for-student/route.js",
   "/api/lecture/teacher-lectures/route": "app/api/lecture/teacher-lectures/route.js",
   "/api/makeup-classes/route": "app/api/makeup-classes/route.js",
+  "/api/management/dashboard/route": "app/api/management/dashboard/route.js",
   "/api/master-db/program-strength/route": "app/api/master-db/program-strength/route.js",
   "/api/master-db/student-register/route": "app/api/master-db/student-register/route.js",
   "/api/mobile/notifications/mark-read/route": "app/api/mobile/notifications/mark-read/route.js",

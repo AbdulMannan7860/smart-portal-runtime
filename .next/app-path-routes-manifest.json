@@ -165,6 +165,7 @@
   "/api/lecture/get-lectures-for-student/route": "/api/lecture/get-lectures-for-student",
   "/api/lecture/teacher-lectures/route": "/api/lecture/teacher-lectures",
   "/api/makeup-classes/route": "/api/makeup-classes",
+  "/api/management/dashboard/route": "/api/management/dashboard",
   "/api/master-db/program-strength/route": "/api/master-db/program-strength",
   "/api/master-db/student-register/route": "/api/master-db/student-register",
   "/api/mobile/notifications/mark-read/route": "/api/mobile/notifications/mark-read",

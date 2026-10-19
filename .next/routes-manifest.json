@@ -1109,6 +1109,12 @@
       "namedRegex": "^/api/makeup\\-classes(?:/)?$"
     },
     {
+      "page": "/api/management/dashboard",
+      "regex": "^/api/management/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/management/dashboard(?:/)?$"
+    },
+    {
       "page": "/api/master-db/program-strength",
       "regex": "^/api/master\\-db/program\\-strength(?:/)?$",
       "routeKeys": {},

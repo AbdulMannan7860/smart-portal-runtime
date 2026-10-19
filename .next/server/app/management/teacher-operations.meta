@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/management/layout,_N_T_/management/teacher-operations/layout,_N_T_/management/teacher-operations/page,_N_T_/management/teacher-operations"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/management/teacher-operations/__PAGE__",
+    "/management/teacher-operations",
+    "/management",
+    "/_index",
+    "/_head"
+  ]
+}

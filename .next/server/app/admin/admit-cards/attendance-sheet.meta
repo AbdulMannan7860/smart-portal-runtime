@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/admit-cards/layout,_N_T_/admin/admit-cards/attendance-sheet/layout,_N_T_/admin/admit-cards/attendance-sheet/page,_N_T_/admin/admit-cards/attendance-sheet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/admit-cards/attendance-sheet/__PAGE__",
+    "/admin/admit-cards/attendance-sheet",
+    "/admin/admit-cards",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

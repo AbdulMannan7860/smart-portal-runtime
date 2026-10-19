@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/examination/layout,_N_T_/examination/admit-cards/layout,_N_T_/examination/admit-cards/page,_N_T_/examination/admit-cards"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/examination/admit-cards/__PAGE__",
+    "/examination/admit-cards",
+    "/examination",
+    "/_index",
+    "/_head"
+  ]
+}

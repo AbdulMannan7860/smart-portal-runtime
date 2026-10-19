@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/examination/layout,_N_T_/examination/admit-cards/layout,_N_T_/examination/admit-cards/attendance-sheet/layout,_N_T_/examination/admit-cards/attendance-sheet/page,_N_T_/examination/admit-cards/attendance-sheet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/examination/admit-cards/attendance-sheet/__PAGE__",
+    "/examination/admit-cards/attendance-sheet",
+    "/examination/admit-cards",
+    "/examination",
+    "/_index",
+    "/_head"
+  ]
+}

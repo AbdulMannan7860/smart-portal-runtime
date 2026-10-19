@@ -1,0 +1,3 @@
+module.exports=[814747,(a,b,c)=>{b.exports=a.x("path",()=>require("path"))},224361,(a,b,c)=>{b.exports=a.x("util",()=>require("util"))},688947,(a,b,c)=>{b.exports=a.x("stream",()=>require("stream"))},254799,(a,b,c)=>{b.exports=a.x("crypto",()=>require("crypto"))},500874,(a,b,c)=>{b.exports=a.x("buffer",()=>require("buffer"))},427699,(a,b,c)=>{b.exports=a.x("events",()=>require("events"))},522734,(a,b,c)=>{b.exports=a.x("fs",()=>require("fs"))},406461,(a,b,c)=>{b.exports=a.x("zlib",()=>require("zlib"))},446786,(a,b,c)=>{b.exports=a.x("os",()=>require("os"))}];
+
+//# sourceMappingURL=%5Bexternals%5D__0pb_o_h._.js.map

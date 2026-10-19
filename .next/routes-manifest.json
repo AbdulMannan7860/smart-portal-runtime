@@ -249,6 +249,18 @@
       "namedRegex": "^/admin/admissions\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/admit-cards",
+      "regex": "^/admin/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/admin/admit-cards/attendance-sheet",
+      "regex": "^/admin/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
       "page": "/admin/attendance-compliance",
       "regex": "^/admin/attendance\\-compliance(?:/)?$",
       "routeKeys": {},
@@ -295,6 +307,12 @@
       "regex": "^/admin/employee\\-leaves(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/employee\\-leaves(?:/)?$"
+    },
+    {
+      "page": "/admin/exam-day-schedule",
+      "regex": "^/admin/exam\\-day\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/exam\\-day\\-schedule(?:/)?$"
     },
     {
       "page": "/admin/exam-periods",
@@ -639,6 +657,36 @@
       "namedRegex": "^/api/admissions/queries(?:/)?$"
     },
     {
+      "page": "/api/admit-cards",
+      "regex": "^/api/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/attendance-sheet",
+      "regex": "^/api/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/attendance-sheet/photo",
+      "regex": "^/api/admit\\-cards/attendance\\-sheet/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/attendance\\-sheet/photo(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/photo",
+      "regex": "^/api/admit\\-cards/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/photo(?:/)?$"
+    },
+    {
+      "page": "/api/admit-cards/verify",
+      "regex": "^/api/admit\\-cards/verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admit\\-cards/verify(?:/)?$"
+    },
+    {
       "page": "/api/assignment/create-assignment",
       "regex": "^/api/assignment/create\\-assignment(?:/)?$",
       "routeKeys": {},
@@ -907,6 +955,12 @@
       "regex": "^/api/employee\\-leaves(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/employee\\-leaves(?:/)?$"
+    },
+    {
+      "page": "/api/exam-day-schedule",
+      "regex": "^/api/exam\\-day\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/exam\\-day\\-schedule(?:/)?$"
     },
     {
       "page": "/api/exam-periods",
@@ -1425,6 +1479,24 @@
       "namedRegex": "^/dean/teacher\\-performance(?:/)?$"
     },
     {
+      "page": "/examination/admit-cards",
+      "regex": "^/examination/admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/examination/admit-cards/attendance-sheet",
+      "regex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/examination/exam-day-schedule",
+      "regex": "^/examination/exam\\-day\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/exam\\-day\\-schedule(?:/)?$"
+    },
+    {
       "page": "/examination/exam-periods",
       "regex": "^/examination/exam\\-periods(?:/)?$",
       "routeKeys": {},
@@ -1719,6 +1791,12 @@
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
     },
     {
+      "page": "/student/admit-card",
+      "regex": "^/student/admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/admit\\-card(?:/)?$"
+    },
+    {
       "page": "/student/assignments",
       "regex": "^/student/assignments(?:/)?$",
       "routeKeys": {},
@@ -1915,6 +1993,12 @@
       "regex": "^/teacher\\-self\\-register(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher\\-self\\-register(?:/)?$"
+    },
+    {
+      "page": "/verify-admit-card",
+      "regex": "^/verify\\-admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/verify\\-admit\\-card(?:/)?$"
     },
     {
       "page": "/verify-email",

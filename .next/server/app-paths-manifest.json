@@ -290,6 +290,8 @@
   "/management/semester-management/page": "app/management/semester-management/page.js",
   "/management/specialization-approvals/page": "app/management/specialization-approvals/page.js",
   "/management/teacher-management/page": "app/management/teacher-management/page.js",
+  "/management/teacher-operations/classes/[classKey]/page": "app/management/teacher-operations/classes/[classKey]/page.js",
+  "/management/teacher-operations/page": "app/management/teacher-operations/page.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/page": "app/page.js",
   "/privacy-policy/page": "app/privacy-policy/page.js",

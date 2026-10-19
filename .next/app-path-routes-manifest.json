@@ -290,6 +290,8 @@
   "/management/semester-management/page": "/management/semester-management",
   "/management/specialization-approvals/page": "/management/specialization-approvals",
   "/management/teacher-management/page": "/management/teacher-management",
+  "/management/teacher-operations/classes/[classKey]/page": "/management/teacher-operations/classes/[classKey]",
+  "/management/teacher-operations/page": "/management/teacher-operations",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
   "/page": "/",
   "/privacy-policy/page": "/privacy-policy",

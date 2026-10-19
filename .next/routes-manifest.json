@@ -135,6 +135,14 @@
       "namedRegex": "^/dean/teacher\\-performance/(?<nxtPteacherCode>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/management/teacher-operations/classes/[classKey]",
+      "regex": "^/management/teacher\\-operations/classes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPclassKey": "nxtPclassKey"
+      },
+      "namedRegex": "^/management/teacher\\-operations/classes/(?<nxtPclassKey>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/qec/teacher-evaluations/[scopeKey]",
       "regex": "^/qec/teacher\\-evaluations/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -1819,6 +1827,12 @@
       "regex": "^/management/teacher\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/teacher\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/teacher-operations",
+      "regex": "^/management/teacher\\-operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/teacher\\-operations(?:/)?$"
     },
     {
       "page": "/manifest.webmanifest",

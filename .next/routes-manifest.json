@@ -977,6 +977,12 @@
       "namedRegex": "^/api/exam\\-periods(?:/)?$"
     },
     {
+      "page": "/api/examination/dashboard",
+      "regex": "^/api/examination/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/examination/dashboard(?:/)?$"
+    },
+    {
       "page": "/api/examination-papers",
       "regex": "^/api/examination\\-papers(?:/)?$",
       "routeKeys": {},
@@ -1503,6 +1509,12 @@
       "regex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/examination/dashboard",
+      "regex": "^/examination/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/dashboard(?:/)?$"
     },
     {
       "page": "/examination/exam-day-schedule",

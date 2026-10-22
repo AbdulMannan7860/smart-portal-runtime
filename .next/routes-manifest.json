@@ -425,6 +425,12 @@
       "namedRegex": "^/admin/result\\-publication(?:/)?$"
     },
     {
+      "page": "/admin/retake-requests",
+      "regex": "^/admin/retake\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-requests(?:/)?$"
+    },
+    {
       "page": "/admin/semester-control",
       "regex": "^/admin/semester\\-control(?:/)?$",
       "routeKeys": {},
@@ -1869,6 +1875,12 @@
       "regex": "^/management/query\\-management(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/management/query\\-management(?:/)?$"
+    },
+    {
+      "page": "/management/retake-requests",
+      "regex": "^/management/retake\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/retake\\-requests(?:/)?$"
     },
     {
       "page": "/management/semester-management",

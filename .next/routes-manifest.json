@@ -1349,6 +1349,12 @@
       "namedRegex": "^/api/retake\\-applications(?:/)?$"
     },
     {
+      "page": "/api/retake-schedule",
+      "regex": "^/api/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-schedule(?:/)?$"
+    },
+    {
       "page": "/api/retake-verify",
       "regex": "^/api/retake\\-verify(?:/)?$",
       "routeKeys": {},

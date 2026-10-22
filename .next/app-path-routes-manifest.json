@@ -207,6 +207,7 @@
   "/api/result-finalization/route": "/api/result-finalization",
   "/api/result-publication/route": "/api/result-publication",
   "/api/retake-applications/route": "/api/retake-applications",
+  "/api/retake-schedule/route": "/api/retake-schedule",
   "/api/retake-verify/photo/route": "/api/retake-verify/photo",
   "/api/retake-verify/route": "/api/retake-verify",
   "/api/schedule/create-bulk-schedule/route": "/api/schedule/create-bulk-schedule",

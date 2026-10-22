@@ -207,6 +207,7 @@
   "/api/result-finalization/route": "app/api/result-finalization/route.js",
   "/api/result-publication/route": "app/api/result-publication/route.js",
   "/api/retake-applications/route": "app/api/retake-applications/route.js",
+  "/api/retake-verify/photo/route": "app/api/retake-verify/photo/route.js",
   "/api/retake-verify/route": "app/api/retake-verify/route.js",
   "/api/schedule/create-bulk-schedule/route": "app/api/schedule/create-bulk-schedule/route.js",
   "/api/schedule/create-schedule/route": "app/api/schedule/create-schedule/route.js",

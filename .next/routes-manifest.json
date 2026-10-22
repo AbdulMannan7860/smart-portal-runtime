@@ -1355,6 +1355,12 @@
       "namedRegex": "^/api/retake\\-verify(?:/)?$"
     },
     {
+      "page": "/api/retake-verify/photo",
+      "regex": "^/api/retake\\-verify/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-verify/photo(?:/)?$"
+    },
+    {
       "page": "/api/schedule/create-bulk-schedule",
       "regex": "^/api/schedule/create\\-bulk\\-schedule(?:/)?$",
       "routeKeys": {},

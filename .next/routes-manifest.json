@@ -1319,6 +1319,12 @@
       "namedRegex": "^/api/reports/teacher\\-operations\\-weekly(?:/)?$"
     },
     {
+      "page": "/api/result-finalization",
+      "regex": "^/api/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/result\\-finalization(?:/)?$"
+    },
+    {
       "page": "/api/result-publication",
       "regex": "^/api/result\\-publication(?:/)?$",
       "routeKeys": {},
@@ -1617,6 +1623,12 @@
       "regex": "^/examination/queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/queries(?:/)?$"
+    },
+    {
+      "page": "/examination/result-finalization",
+      "regex": "^/examination/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/result\\-finalization(?:/)?$"
     },
     {
       "page": "/examination/results",

@@ -5,7 +5,7 @@ R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1z69tnc.
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
 R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__0-3zx3g._.js")
+R.c("server/chunks/[root-of-the-server]__0_ydbu7._.js")
 R.c("server/chunks/_next-internal_server_app_api_course-planner_route_actions_1mjplx-.js")
 R.m(569054)
 module.exports=R.m(569054).exports

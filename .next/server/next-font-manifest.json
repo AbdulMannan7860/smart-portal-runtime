@@ -24,6 +24,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/accounts/retake-applications/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/accounts/teacher-attendance/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -324,6 +328,14 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/examination/retake-applications/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/app/examination/retake-schedule/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/examination/student-reports/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -508,6 +520,10 @@
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
+    "[project]/src/app/retake-verify/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
     "[project]/src/app/student/admit-card/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
@@ -565,6 +581,10 @@
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],
     "[project]/src/app/student/result/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/app/student/retake/page": [
       "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
       "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
     ],

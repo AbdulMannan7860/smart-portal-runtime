@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/assignment/get-assignments-by-course-code-session-and-day/route.js")
 R.c("server/chunks/[root-of-the-server]__0p0bfzv._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
-R.c("server/chunks/_082n4tt._.js")
+R.c("server/chunks/_17-1etk._.js")
 R.c("server/chunks/[root-of-the-server]__0sbml3h._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")

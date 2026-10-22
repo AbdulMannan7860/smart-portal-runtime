@@ -209,6 +209,12 @@
       "namedRegex": "^/accounts/queries(?:/)?$"
     },
     {
+      "page": "/accounts/retake-applications",
+      "regex": "^/accounts/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/retake\\-applications(?:/)?$"
+    },
+    {
       "page": "/accounts/teacher-attendance",
       "regex": "^/accounts/teacher\\-attendance(?:/)?$",
       "routeKeys": {},
@@ -1331,6 +1337,18 @@
       "namedRegex": "^/api/result\\-publication(?:/)?$"
     },
     {
+      "page": "/api/retake-applications",
+      "regex": "^/api/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/api/retake-verify",
+      "regex": "^/api/retake\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-verify(?:/)?$"
+    },
+    {
       "page": "/api/schedule/create-bulk-schedule",
       "regex": "^/api/schedule/create\\-bulk\\-schedule(?:/)?$",
       "routeKeys": {},
@@ -1637,6 +1655,18 @@
       "namedRegex": "^/examination/results(?:/)?$"
     },
     {
+      "page": "/examination/retake-applications",
+      "regex": "^/examination/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/examination/retake-schedule",
+      "regex": "^/examination/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-schedule(?:/)?$"
+    },
+    {
       "page": "/examination/student-reports",
       "regex": "^/examination/student\\-reports(?:/)?$",
       "routeKeys": {},
@@ -1913,6 +1943,12 @@
       "namedRegex": "^/reset\\-password(?:/)?$"
     },
     {
+      "page": "/retake-verify",
+      "regex": "^/retake\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/retake\\-verify(?:/)?$"
+    },
+    {
       "page": "/robots.txt",
       "regex": "^/robots\\.txt(?:/)?$",
       "routeKeys": {},
@@ -2007,6 +2043,12 @@
       "regex": "^/student/result(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/student/result(?:/)?$"
+    },
+    {
+      "page": "/student/retake",
+      "regex": "^/student/retake(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/retake(?:/)?$"
     },
     {
       "page": "/student/student-dashboard",

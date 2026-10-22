@@ -194,6 +194,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/accounts/retake-applications": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/accounts/retake-applications",
+      "dataRoute": "/accounts/retake-applications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/accounts/teacher-attendance": {
       "experimentalBypassFor": [
         {
@@ -1927,6 +1951,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/examination/retake-applications": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/retake-applications",
+      "dataRoute": "/examination/retake-applications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/retake-schedule": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/retake-schedule",
+      "dataRoute": "/examination/retake-schedule.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/examination/student-reports": {
       "experimentalBypassFor": [
         {
@@ -3046,6 +3118,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/retake-verify": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/retake-verify",
+      "dataRoute": "/retake-verify.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/robots.txt": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -3431,6 +3527,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/student/result",
       "dataRoute": "/student/result.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/student/retake": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/student/retake",
+      "dataRoute": "/student/retake.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3972,8 +4092,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "bcf3645dd218c72c3943efdbd74f3d52",
-    "previewModeSigningKey": "58da6162f1f3adf056be29705c9bb23513311ff80b204e51ca6001e3a721f7d9",
-    "previewModeEncryptionKey": "2d4d7aba51d8828c642af0b8a28611067c0d679a1d075794196d2a0c4b367fab"
+    "previewModeId": "d150bb47110bb47b160981c4bc6fb898",
+    "previewModeSigningKey": "b3d3688daa8f992ef106cd3624dd68574237363860c0896287175b07a7add915",
+    "previewModeEncryptionKey": "21924c8030de0c6b692725360e3ecb8708f829eddc113100b6c0840fb5d0d5d4"
   }
 }

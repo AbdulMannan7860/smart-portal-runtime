@@ -1034,6 +1034,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/result-finalization": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/result-finalization",
+      "dataRoute": "/admin/result-finalization.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/result-publication": {
       "experimentalBypassFor": [
         {
@@ -1058,6 +1082,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/retake-admit-cards": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/retake-admit-cards",
+      "dataRoute": "/admin/retake-admit-cards.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/retake-applications": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/retake-applications",
+      "dataRoute": "/admin/retake-applications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/retake-requests": {
       "experimentalBypassFor": [
         {
@@ -1073,6 +1145,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/admin/retake-requests",
       "dataRoute": "/admin/retake-requests.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/admin/retake-schedule": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/retake-schedule",
+      "dataRoute": "/admin/retake-schedule.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4212,8 +4308,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e010ab8cd4c54ad7b6e171acc47d6e7c",
-    "previewModeSigningKey": "dd768d2106655176509ad5022835712d9d292be98e3fe359228e32d0615bcee1",
-    "previewModeEncryptionKey": "879491f9b29c857dcea4ad737d20010073e985b1d8e1f6c8fece354ed2b661d2"
+    "previewModeId": "46431ac858d16a41d6169a20c5e2e30a",
+    "previewModeSigningKey": "139a634e0d5ad6ae1235e5581bc4b1bb7dce1783028573a3520e3beb121a92e1",
+    "previewModeEncryptionKey": "d7bc7e4705ba42179459fc3b2e2828e680be9b0edfb245d4a1b7e9ea7b2fa3d4"
   }
 }

@@ -419,16 +419,40 @@
       "namedRegex": "^/admin/query\\-management(?:/)?$"
     },
     {
+      "page": "/admin/result-finalization",
+      "regex": "^/admin/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/result\\-finalization(?:/)?$"
+    },
+    {
       "page": "/admin/result-publication",
       "regex": "^/admin/result\\-publication(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/result\\-publication(?:/)?$"
     },
     {
+      "page": "/admin/retake-admit-cards",
+      "regex": "^/admin/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-applications",
+      "regex": "^/admin/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-applications(?:/)?$"
+    },
+    {
       "page": "/admin/retake-requests",
       "regex": "^/admin/retake\\-requests(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/retake\\-requests(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-schedule",
+      "regex": "^/admin/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-schedule(?:/)?$"
     },
     {
       "page": "/admin/semester-control",

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/retake-applications/layout,_N_T_/admin/retake-applications/page,_N_T_/admin/retake-applications"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/retake-applications/__PAGE__",
+    "/admin/retake-applications",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

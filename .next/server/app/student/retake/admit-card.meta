@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/student/layout,_N_T_/student/retake/layout,_N_T_/student/retake/admit-card/layout,_N_T_/student/retake/admit-card/page,_N_T_/student/retake/admit-card"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/student/retake/admit-card/__PAGE__",
+    "/student/retake/admit-card",
+    "/student/retake",
+    "/student",
+    "/_index",
+    "/_head"
+  ]
+}

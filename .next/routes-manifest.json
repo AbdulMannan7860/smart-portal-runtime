@@ -1343,6 +1343,18 @@
       "namedRegex": "^/api/result\\-publication(?:/)?$"
     },
     {
+      "page": "/api/retake-admit-cards",
+      "regex": "^/api/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/api/retake-admit-cards/verify",
+      "regex": "^/api/retake\\-admit\\-cards/verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-admit\\-cards/verify(?:/)?$"
+    },
+    {
       "page": "/api/retake-applications",
       "regex": "^/api/retake\\-applications(?:/)?$",
       "routeKeys": {},
@@ -1673,6 +1685,12 @@
       "namedRegex": "^/examination/results(?:/)?$"
     },
     {
+      "page": "/examination/retake-admit-cards",
+      "regex": "^/examination/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
       "page": "/examination/retake-applications",
       "regex": "^/examination/retake\\-applications(?:/)?$",
       "routeKeys": {},
@@ -1967,6 +1985,12 @@
       "namedRegex": "^/reset\\-password(?:/)?$"
     },
     {
+      "page": "/retake-admit-card-verify",
+      "regex": "^/retake\\-admit\\-card\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/retake\\-admit\\-card\\-verify(?:/)?$"
+    },
+    {
       "page": "/retake-verify",
       "regex": "^/retake\\-verify(?:/)?$",
       "routeKeys": {},
@@ -2073,6 +2097,12 @@
       "regex": "^/student/retake(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/student/retake(?:/)?$"
+    },
+    {
+      "page": "/student/retake/admit-card",
+      "regex": "^/student/retake/admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/retake/admit\\-card(?:/)?$"
     },
     {
       "page": "/student/student-dashboard",

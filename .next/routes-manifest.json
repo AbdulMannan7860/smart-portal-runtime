@@ -425,6 +425,12 @@
       "namedRegex": "^/admin/retake\\-applications(?:/)?$"
     },
     {
+      "page": "/admin/retake-reports",
+      "regex": "^/admin/retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-reports(?:/)?$"
+    },
+    {
       "page": "/admin/retake-requests",
       "regex": "^/admin/retake\\-requests(?:/)?$",
       "routeKeys": {},
@@ -609,6 +615,12 @@
       "regex": "^/api/admin/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/api/admin/retake-reports",
+      "regex": "^/api/admin/retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin/retake\\-reports(?:/)?$"
     },
     {
       "page": "/api/admin/teacher-shifts",

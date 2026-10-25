@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0-staging.66",
+  "version": "0.1.0-staging.67",
   "tag": "staging",
-  "commit": "c77bb3c4014a94e0e6ce9d106be01dd2812bfbc7",
-  "deployedAt": "2026-10-25T09:44:26Z",
+  "commit": "cc320c6b1300b0185790dca16fed3e36994407da",
+  "deployedAt": "2026-10-25T09:51:17Z",
   "environment": "staging"
 }

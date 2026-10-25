@@ -209,6 +209,12 @@
       "namedRegex": "^/accounts/queries(?:/)?$"
     },
     {
+      "page": "/accounts/retake-applications",
+      "regex": "^/accounts/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/retake\\-applications(?:/)?$"
+    },
+    {
       "page": "/accounts/teacher-attendance",
       "regex": "^/accounts/teacher\\-attendance(?:/)?$",
       "routeKeys": {},
@@ -395,10 +401,40 @@
       "namedRegex": "^/admin/query\\-management(?:/)?$"
     },
     {
+      "page": "/admin/result-finalization",
+      "regex": "^/admin/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/result\\-finalization(?:/)?$"
+    },
+    {
       "page": "/admin/result-publication",
       "regex": "^/admin/result\\-publication(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/result\\-publication(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-admit-cards",
+      "regex": "^/admin/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-applications",
+      "regex": "^/admin/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-requests",
+      "regex": "^/admin/retake\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-requests(?:/)?$"
+    },
+    {
+      "page": "/admin/retake-schedule",
+      "regex": "^/admin/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/retake\\-schedule(?:/)?$"
     },
     {
       "page": "/admin/semester-control",
@@ -1277,10 +1313,52 @@
       "namedRegex": "^/api/reports/teacher\\-operations\\-weekly(?:/)?$"
     },
     {
+      "page": "/api/result-finalization",
+      "regex": "^/api/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/result\\-finalization(?:/)?$"
+    },
+    {
       "page": "/api/result-publication",
       "regex": "^/api/result\\-publication(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/result\\-publication(?:/)?$"
+    },
+    {
+      "page": "/api/retake-admit-cards",
+      "regex": "^/api/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/api/retake-admit-cards/verify",
+      "regex": "^/api/retake\\-admit\\-cards/verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-admit\\-cards/verify(?:/)?$"
+    },
+    {
+      "page": "/api/retake-applications",
+      "regex": "^/api/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/api/retake-schedule",
+      "regex": "^/api/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-schedule(?:/)?$"
+    },
+    {
+      "page": "/api/retake-verify",
+      "regex": "^/api/retake\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-verify(?:/)?$"
+    },
+    {
+      "page": "/api/retake-verify/photo",
+      "regex": "^/api/retake\\-verify/photo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-verify/photo(?:/)?$"
     },
     {
       "page": "/api/schedule/create-bulk-schedule",
@@ -1553,10 +1631,34 @@
       "namedRegex": "^/examination/queries(?:/)?$"
     },
     {
+      "page": "/examination/result-finalization",
+      "regex": "^/examination/result\\-finalization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/result\\-finalization(?:/)?$"
+    },
+    {
       "page": "/examination/results",
       "regex": "^/examination/results(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/results(?:/)?$"
+    },
+    {
+      "page": "/examination/retake-admit-cards",
+      "regex": "^/examination/retake\\-admit\\-cards(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-admit\\-cards(?:/)?$"
+    },
+    {
+      "page": "/examination/retake-applications",
+      "regex": "^/examination/retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/examination/retake-schedule",
+      "regex": "^/examination/retake\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-schedule(?:/)?$"
     },
     {
       "page": "/examination/student-reports",
@@ -1745,6 +1847,12 @@
       "namedRegex": "^/management/query\\-management(?:/)?$"
     },
     {
+      "page": "/management/retake-requests",
+      "regex": "^/management/retake\\-requests(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/management/retake\\-requests(?:/)?$"
+    },
+    {
       "page": "/management/semester-management",
       "regex": "^/management/semester\\-management(?:/)?$",
       "routeKeys": {},
@@ -1809,6 +1917,18 @@
       "regex": "^/reset\\-password(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/retake-admit-card-verify",
+      "regex": "^/retake\\-admit\\-card\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/retake\\-admit\\-card\\-verify(?:/)?$"
+    },
+    {
+      "page": "/retake-verify",
+      "regex": "^/retake\\-verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/retake\\-verify(?:/)?$"
     },
     {
       "page": "/robots.txt",
@@ -1905,6 +2025,18 @@
       "regex": "^/student/result(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/student/result(?:/)?$"
+    },
+    {
+      "page": "/student/retake",
+      "regex": "^/student/retake(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/retake(?:/)?$"
+    },
+    {
+      "page": "/student/retake/admit-card",
+      "regex": "^/student/retake/admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/student/retake/admit\\-card(?:/)?$"
     },
     {
       "page": "/student/student-dashboard",

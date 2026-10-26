@@ -12,6 +12,7 @@
   "/admin/academic-operations/page": "/admin/academic-operations",
   "/admin/accounts-enrollment/page": "/admin/accounts-enrollment",
   "/admin/accounts-queries/page": "/admin/accounts-queries",
+  "/admin/accounts-retake-applications/page": "/admin/accounts-retake-applications",
   "/admin/administrator-queries/page": "/admin/administrator-queries",
   "/admin/admissions-queries/page": "/admin/admissions-queries",
   "/admin/admissions/page": "/admin/admissions",

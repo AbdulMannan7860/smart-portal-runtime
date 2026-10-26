@@ -194,11 +194,11 @@ Cell: ${e.phone||""}`})),await Promise.all(d),{success:!0}}catch(e){return conso
         `,text:`${u}
 Applicant: ${i||""}
 Program: ${s||""}
-Updated By: ${r||""}`})),await Promise.all(g),{success:!0}}catch(e){return console.error("sendAdmissionStatusEmail error:",e),{success:!1,error:e.message}}},g=e=>String(e??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"),x=async({recipients:e=[],report:t,pdfBuffer:i,pdfFileName:a,logoBase64:s})=>{let n=[...new Set(e.map(e=>String(e||"").trim().toLowerCase()).filter(Boolean))];if(!n.length)return{success:!1,error:"No report recipients configured"};try{let e=o(),r=(t?.teachers||[]).map(e=>{let t=Number(e.conductedClasses||0),i=Number(e.totalClasses||e.classTotal||0),a=t>0&&Number(e.plannedClasses||0)===t&&Number(e.attendanceMarkedClasses||0)===t&&Number(e.lectureUploadedClasses||0)===t;return`<tr>
+Updated By: ${r||""}`})),await Promise.all(g),{success:!0}}catch(e){return console.error("sendAdmissionStatusEmail error:",e),{success:!1,error:e.message}}},g=e=>String(e??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"),x=async({recipients:e=[],report:t,pdfBuffer:i,pdfFileName:a,logoBase64:s})=>{let n=[...new Set(e.map(e=>String(e||"").trim().toLowerCase()).filter(Boolean))];if(!n.length)return{success:!1,error:"No report recipients configured"};try{let e=o(),r=(t?.teachers||[]).map(e=>{let t=Number(e.conductedClasses||0),i=Number(e.totalClasses||e.classTotal||0),a=t>0&&Number(e.plannedClasses||0)===Number(e.requiredPlannerClasses??t)&&Number(e.attendanceMarkedClasses||0)===t&&Number(e.lectureUploadedClasses||0)===t;return`<tr>
         <td style="padding:9px;border:1px solid #ddd;"><strong>${g(e.teacherName)}</strong><br><small>ID ${g(e.teacherCode)}</small></td>
         <td style="padding:9px;border:1px solid #ddd;">${t}/${i}</td>
         <td style="padding:9px;border:1px solid #ddd;color:#991b1b;font-weight:600;">${Number(e.cancelledClasses||0)}</td>
-        <td style="padding:9px;border:1px solid #ddd;">${Number(e.plannedClasses||0)}/${t}</td>
+        <td style="padding:9px;border:1px solid #ddd;">${Number(e.plannedClasses||0)}/${Number(e.requiredPlannerClasses??t)}</td>
         <td style="padding:9px;border:1px solid #ddd;">${Number(e.attendanceMarkedClasses||0)}/${t}</td>
         <td style="padding:9px;border:1px solid #ddd;">${Number(e.lectureUploadedClasses||0)}/${t}</td>
         <td style="padding:9px;border:1px solid #ddd;color:${a?"#047857":"#92400e"};font-weight:600;">${a?"Complete":t?"Needs attention":"No conducted class"}</td>

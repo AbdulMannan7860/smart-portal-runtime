@@ -245,6 +245,12 @@
       "namedRegex": "^/admin/accounts\\-queries(?:/)?$"
     },
     {
+      "page": "/admin/accounts-retake-applications",
+      "regex": "^/admin/accounts\\-retake\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/accounts\\-retake\\-applications(?:/)?$"
+    },
+    {
       "page": "/admin/administrator-queries",
       "regex": "^/admin/administrator\\-queries(?:/)?$",
       "routeKeys": {},

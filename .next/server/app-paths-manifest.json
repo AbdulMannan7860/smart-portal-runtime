@@ -12,6 +12,7 @@
   "/admin/academic-operations/page": "app/admin/academic-operations/page.js",
   "/admin/accounts-enrollment/page": "app/admin/accounts-enrollment/page.js",
   "/admin/accounts-queries/page": "app/admin/accounts-queries/page.js",
+  "/admin/accounts-retake-applications/page": "app/admin/accounts-retake-applications/page.js",
   "/admin/administrator-queries/page": "app/admin/administrator-queries/page.js",
   "/admin/admissions-queries/page": "app/admin/admissions-queries/page.js",
   "/admin/admissions/page": "app/admin/admissions/page.js",

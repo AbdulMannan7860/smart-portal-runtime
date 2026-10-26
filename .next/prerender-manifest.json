@@ -338,6 +338,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/accounts-retake-applications": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/accounts-retake-applications",
+      "dataRoute": "/admin/accounts-retake-applications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/administrator-queries": {
       "experimentalBypassFor": [
         {
@@ -4068,8 +4092,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "558e59c372d3afbb2dede6aabfce456e",
-    "previewModeSigningKey": "c69101be596bd7e7767e33716edd907fec610d4d5c460ee5756b384012e645be",
-    "previewModeEncryptionKey": "2367f4564382f5cf81f2eed5314cd69a9dec6d5cb78f95e3b5f7f9732ba565ac"
+    "previewModeId": "359df7b9ac43697b1513d67f3c2c89f5",
+    "previewModeSigningKey": "0db995898f9d7244a64be5d3f2235814d075aeb6cd474aec62484b890a4e52c7",
+    "previewModeEncryptionKey": "460574fe161d760ff067fce093d5c48741d4aa428d8d1111a898fd063306af18"
   }
 }

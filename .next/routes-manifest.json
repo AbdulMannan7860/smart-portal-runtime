@@ -299,6 +299,12 @@
       "namedRegex": "^/admin/completed\\-courses(?:/)?$"
     },
     {
+      "page": "/admin/course-allocation-review",
+      "regex": "^/admin/course\\-allocation\\-review(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/course\\-allocation\\-review(?:/)?$"
+    },
+    {
       "page": "/admin/course-management",
       "regex": "^/admin/course\\-management(?:/)?$",
       "routeKeys": {},
@@ -989,6 +995,12 @@
       "namedRegex": "^/api/course/update\\-course(?:/)?$"
     },
     {
+      "page": "/api/course-allocation-review",
+      "regex": "^/api/course\\-allocation\\-review(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/course\\-allocation\\-review(?:/)?$"
+    },
+    {
       "page": "/api/course-planner",
       "regex": "^/api/course\\-planner(?:/)?$",
       "routeKeys": {},
@@ -1605,6 +1617,12 @@
       "regex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/admit\\-cards/attendance\\-sheet(?:/)?$"
+    },
+    {
+      "page": "/examination/course-allocation-review",
+      "regex": "^/examination/course\\-allocation\\-review(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/course\\-allocation\\-review(?:/)?$"
     },
     {
       "page": "/examination/dashboard",

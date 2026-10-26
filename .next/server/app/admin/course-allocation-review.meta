@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/course-allocation-review/layout,_N_T_/admin/course-allocation-review/page,_N_T_/admin/course-allocation-review"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/course-allocation-review/__PAGE__",
+    "/admin/course-allocation-review",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

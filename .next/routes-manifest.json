@@ -1169,6 +1169,12 @@
       "namedRegex": "^/api/lecture/get\\-lectures\\-for\\-student(?:/)?$"
     },
     {
+      "page": "/api/lecture/integrity",
+      "regex": "^/api/lecture/integrity(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/lecture/integrity(?:/)?$"
+    },
+    {
       "page": "/api/lecture/teacher-lectures",
       "regex": "^/api/lecture/teacher\\-lectures(?:/)?$",
       "routeKeys": {},

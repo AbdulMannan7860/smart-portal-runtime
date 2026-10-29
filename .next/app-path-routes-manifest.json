@@ -168,6 +168,7 @@
   "/api/it/unverified-accounts/route": "/api/it/unverified-accounts",
   "/api/lecture/add-lecture/route": "/api/lecture/add-lecture",
   "/api/lecture/get-lectures-for-student/route": "/api/lecture/get-lectures-for-student",
+  "/api/lecture/integrity/route": "/api/lecture/integrity",
   "/api/lecture/teacher-lectures/route": "/api/lecture/teacher-lectures",
   "/api/makeup-classes/route": "/api/makeup-classes",
   "/api/management/dashboard/route": "/api/management/dashboard",

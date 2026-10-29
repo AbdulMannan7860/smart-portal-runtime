@@ -168,6 +168,7 @@
   "/api/it/unverified-accounts/route": "app/api/it/unverified-accounts/route.js",
   "/api/lecture/add-lecture/route": "app/api/lecture/add-lecture/route.js",
   "/api/lecture/get-lectures-for-student/route": "app/api/lecture/get-lectures-for-student/route.js",
+  "/api/lecture/integrity/route": "app/api/lecture/integrity/route.js",
   "/api/lecture/teacher-lectures/route": "app/api/lecture/teacher-lectures/route.js",
   "/api/makeup-classes/route": "app/api/makeup-classes/route.js",
   "/api/management/dashboard/route": "app/api/management/dashboard/route.js",

@@ -1211,6 +1211,12 @@
       "namedRegex": "^/api/qec/folders(?:/)?$"
     },
     {
+      "page": "/api/qec/progress",
+      "regex": "^/api/qec/progress(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/qec/progress(?:/)?$"
+    },
+    {
       "page": "/api/qec/teacher-evaluations",
       "regex": "^/api/qec/teacher\\-evaluations(?:/)?$",
       "routeKeys": {},

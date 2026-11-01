@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/teacher/manual-submissions/route.js")
 R.c("server/chunks/[root-of-the-server]__0leu5-5._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_0653b1y.js")
-R.c("server/chunks/[root-of-the-server]__1hqzjbb._.js")
+R.c("server/chunks/[root-of-the-server]__091i2w7._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")

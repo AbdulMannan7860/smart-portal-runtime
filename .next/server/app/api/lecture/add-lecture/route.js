@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/lecture/add-lecture/route.js")
 R.c("server/chunks/_0frl36k._.js")
 R.c("server/chunks/[root-of-the-server]__0kmv1j4._.js")
-R.c("server/chunks/[root-of-the-server]__0td-3j0._.js")
+R.c("server/chunks/[root-of-the-server]__0-32190._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")

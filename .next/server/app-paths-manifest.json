@@ -190,6 +190,7 @@
   "/api/public/announcement/route": "app/api/public/announcement/route.js",
   "/api/qec/evidence/[id]/file/route": "app/api/qec/evidence/[id]/file/route.js",
   "/api/qec/folders/route": "app/api/qec/folders/route.js",
+  "/api/qec/progress/route": "app/api/qec/progress/route.js",
   "/api/qec/teacher-evaluations/route": "app/api/qec/teacher-evaluations/route.js",
   "/api/query/change-status/route": "app/api/query/change-status/route.js",
   "/api/query/generate-query/route": "app/api/query/generate-query/route.js",

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/examination/layout,_N_T_/examination/retake-reports/layout,_N_T_/examination/retake-reports/page,_N_T_/examination/retake-reports"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/examination/retake-reports/__PAGE__",
+    "/examination/retake-reports",
+    "/examination",
+    "/_index",
+    "/_head"
+  ]
+}

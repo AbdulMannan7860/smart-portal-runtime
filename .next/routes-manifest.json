@@ -215,6 +215,12 @@
       "namedRegex": "^/accounts/retake\\-applications(?:/)?$"
     },
     {
+      "page": "/accounts/retake-reports",
+      "regex": "^/accounts/retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/accounts/retake\\-reports(?:/)?$"
+    },
+    {
       "page": "/accounts/teacher-attendance",
       "regex": "^/accounts/teacher\\-attendance(?:/)?$",
       "routeKeys": {},
@@ -1427,6 +1433,12 @@
       "namedRegex": "^/api/retake\\-applications(?:/)?$"
     },
     {
+      "page": "/api/retake-reports",
+      "regex": "^/api/retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/retake\\-reports(?:/)?$"
+    },
+    {
       "page": "/api/retake-schedule",
       "regex": "^/api/retake\\-schedule(?:/)?$",
       "routeKeys": {},
@@ -1767,6 +1779,12 @@
       "regex": "^/examination/retake\\-applications(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/retake\\-applications(?:/)?$"
+    },
+    {
+      "page": "/examination/retake-reports",
+      "regex": "^/examination/retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/retake\\-reports(?:/)?$"
     },
     {
       "page": "/examination/retake-schedule",

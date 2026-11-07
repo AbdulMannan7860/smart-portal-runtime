@@ -218,6 +218,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/accounts/retake-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/accounts/retake-reports",
+      "dataRoute": "/accounts/retake-reports.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/accounts/teacher-attendance": {
       "experimentalBypassFor": [
         {
@@ -2206,6 +2230,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/retake-applications",
       "dataRoute": "/examination/retake-applications.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/retake-reports": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/retake-reports",
+      "dataRoute": "/examination/retake-reports.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -4404,8 +4452,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "dab7bae4bb0fbdbe439f1e9a08d650b2",
-    "previewModeSigningKey": "ad3193af3150933e4e222468e2cb2cac7bfdc5b539743e8243ae487f2954a4c0",
-    "previewModeEncryptionKey": "6e8a7d4e8151bb7a196802e4397221463ee4a80f8a3ac314e68e3151d44711e2"
+    "previewModeId": "1169ccb72009ff51297316fa2740794a",
+    "previewModeSigningKey": "702c8cab2bc46516de892dea5aec21f276a927a12ae16aa66ae63cecf0087d28",
+    "previewModeEncryptionKey": "fdbe80d8cc8b07f64887d64dc23218a0767ade48347fd9a1febf58ddfbf5e999"
   }
 }

@@ -257,6 +257,12 @@
       "namedRegex": "^/admin/accounts\\-retake\\-applications(?:/)?$"
     },
     {
+      "page": "/admin/accounts-retake-reports",
+      "regex": "^/admin/accounts\\-retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/accounts\\-retake\\-reports(?:/)?$"
+    },
+    {
       "page": "/admin/administrator-queries",
       "regex": "^/admin/administrator\\-queries(?:/)?$",
       "routeKeys": {},
@@ -363,6 +369,12 @@
       "regex": "^/admin/examination\\-queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/examination\\-queries(?:/)?$"
+    },
+    {
+      "page": "/admin/examination-retake-reports",
+      "regex": "^/admin/examination\\-retake\\-reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/examination\\-retake\\-reports(?:/)?$"
     },
     {
       "page": "/admin/institute-overview",

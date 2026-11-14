@@ -1,5 +1,5 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/retake-schedule/route.js")
-R.c("server/chunks/[root-of-the-server]__1p6opm0._.js")
+R.c("server/chunks/[root-of-the-server]__1a3q1i4._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1hvceu0.js")
 R.c("server/chunks/node_modules_next_05zc8vy._.js")

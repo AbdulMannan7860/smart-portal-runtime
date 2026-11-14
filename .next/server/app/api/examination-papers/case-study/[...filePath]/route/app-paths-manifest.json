@@ -1,0 +1,3 @@
+{
+  "/api/examination-papers/case-study/[...filePath]/route": "app/api/examination-papers/case-study/[...filePath]/route.js"
+}

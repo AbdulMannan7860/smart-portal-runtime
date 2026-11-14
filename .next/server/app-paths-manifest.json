@@ -163,6 +163,8 @@
   "/api/employee-leaves/route": "app/api/employee-leaves/route.js",
   "/api/exam-day-schedule/route": "app/api/exam-day-schedule/route.js",
   "/api/exam-periods/route": "app/api/exam-periods/route.js",
+  "/api/examination-papers/case-study/[...filePath]/route": "app/api/examination-papers/case-study/[...filePath]/route.js",
+  "/api/examination-papers/case-study/route": "app/api/examination-papers/case-study/route.js",
   "/api/examination-papers/draft-key/route": "app/api/examination-papers/draft-key/route.js",
   "/api/examination-papers/media/route": "app/api/examination-papers/media/route.js",
   "/api/examination-papers/route": "app/api/examination-papers/route.js",

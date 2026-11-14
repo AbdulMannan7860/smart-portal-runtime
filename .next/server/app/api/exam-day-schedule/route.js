@@ -1,7 +1,7 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/exam-day-schedule/route.js")
 R.c("server/chunks/src_app_lib_0d628sd._.js")
 R.c("server/chunks/src_app_lib_0jynf8y._.js")
-R.c("server/chunks/[root-of-the-server]__0-32190._.js")
+R.c("server/chunks/[root-of-the-server]__1b246dk._.js")
 R.c("server/chunks/_0jow2-_._.js")
 R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")

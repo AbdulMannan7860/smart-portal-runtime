@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/attendance/finalize-sessions/route.js")
 R.c("server/chunks/src_app_lib_0jynf8y._.js")
-R.c("server/chunks/[root-of-the-server]__0-32190._.js")
+R.c("server/chunks/[root-of-the-server]__1b246dk._.js")
 R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1ic69e_.js")
 R.c("server/chunks/src_app_lib_1k3umpv._.js")
 R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")

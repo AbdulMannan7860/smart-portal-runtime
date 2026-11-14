@@ -87,6 +87,14 @@
       "namedRegex": "^/api/chat/messages/(?<nxtPid>[^/]+?)/info(?:/)?$"
     },
     {
+      "page": "/api/examination-papers/case-study/[...filePath]",
+      "regex": "^/api/examination\\-papers/case\\-study/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPfilePath": "nxtPfilePath"
+      },
+      "namedRegex": "^/api/examination\\-papers/case\\-study/(?<nxtPfilePath>.+?)(?:/)?$"
+    },
+    {
       "page": "/api/it-support/[id]",
       "regex": "^/api/it\\-support/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -1071,6 +1079,12 @@
       "regex": "^/api/examination\\-papers(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/examination\\-papers(?:/)?$"
+    },
+    {
+      "page": "/api/examination-papers/case-study",
+      "regex": "^/api/examination\\-papers/case\\-study(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/examination\\-papers/case\\-study(?:/)?$"
     },
     {
       "page": "/api/examination-papers/draft-key",

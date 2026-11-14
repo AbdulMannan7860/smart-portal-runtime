@@ -163,6 +163,7 @@
   "/api/employee-leaves/route": "/api/employee-leaves",
   "/api/exam-day-schedule/route": "/api/exam-day-schedule",
   "/api/exam-periods/route": "/api/exam-periods",
+  "/api/examination-papers/draft-key/route": "/api/examination-papers/draft-key",
   "/api/examination-papers/media/route": "/api/examination-papers/media",
   "/api/examination-papers/route": "/api/examination-papers",
   "/api/examination/dashboard/route": "/api/examination/dashboard",

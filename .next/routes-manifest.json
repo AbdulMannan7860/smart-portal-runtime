@@ -1115,6 +1115,12 @@
       "namedRegex": "^/api/examination\\-papers(?:/)?$"
     },
     {
+      "page": "/api/examination-papers/draft-key",
+      "regex": "^/api/examination\\-papers/draft\\-key(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/examination\\-papers/draft\\-key(?:/)?$"
+    },
+    {
       "page": "/api/examination-papers/media",
       "regex": "^/api/examination\\-papers/media(?:/)?$",
       "routeKeys": {},

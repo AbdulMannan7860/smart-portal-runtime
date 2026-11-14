@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/quiz/withdraw-submission/route.js")
-R.c("server/chunks/[root-of-the-server]__146jwyk._.js")
+R.c("server/chunks/[root-of-the-server]__0gkwqvr._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")

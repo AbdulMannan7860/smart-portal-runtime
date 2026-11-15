@@ -1298,6 +1298,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/student-attendance-report": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/student-attendance-report",
+      "dataRoute": "/admin/student-attendance-report.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/student-reports": {
       "experimentalBypassFor": [
         {
@@ -4236,8 +4260,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "941094d9deeddb6b47211aae915b9956",
-    "previewModeSigningKey": "34d300965260ae15f2b7723a620b4ccf45153b2864b1dec0e2312390b92fff53",
-    "previewModeEncryptionKey": "f064b0a0b58b3b2646de327c347eb779d6d5b4b5d57667466db50d2a48578d3a"
+    "previewModeId": "5bae2019fc69986dcad46ed54b0b67f5",
+    "previewModeSigningKey": "d620e4f983766719268833af2fa1ea9f361fe36a4d651a0ecabeba4757c889a2",
+    "previewModeEncryptionKey": "5930af37f1c76a51da365e20584eb69817331eba68321eb63f3c532c06acc5fd"
   }
 }

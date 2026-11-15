@@ -493,6 +493,12 @@
       "namedRegex": "^/admin/semester\\-management(?:/)?$"
     },
     {
+      "page": "/admin/student-attendance-report",
+      "regex": "^/admin/student\\-attendance\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/student\\-attendance\\-report(?:/)?$"
+    },
+    {
       "page": "/admin/student-reports",
       "regex": "^/admin/student\\-reports(?:/)?$",
       "routeKeys": {},
@@ -1541,6 +1547,18 @@
       "regex": "^/api/student/remove\\-course(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/student/remove\\-course(?:/)?$"
+    },
+    {
+      "page": "/api/student-attendance-report",
+      "regex": "^/api/student\\-attendance\\-report(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student\\-attendance\\-report(?:/)?$"
+    },
+    {
+      "page": "/api/student-attendance-report/records",
+      "regex": "^/api/student\\-attendance\\-report/records(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/student\\-attendance\\-report/records(?:/)?$"
     },
     {
       "page": "/api/student-leaves",

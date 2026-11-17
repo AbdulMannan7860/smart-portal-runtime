@@ -1,6 +1,6 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/retake-admit-cards/route.js")
-R.c("server/chunks/[root-of-the-server]__183wngs._.js")
 R.c("server/chunks/_1rfsoxw._.js")
+R.c("server/chunks/[root-of-the-server]__0e0o4rc._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_next_05zc8vy._.js")

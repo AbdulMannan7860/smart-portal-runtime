@@ -421,6 +421,12 @@
       "namedRegex": "^/admin/it\\-query(?:/)?$"
     },
     {
+      "page": "/admin/manual-admit-card",
+      "regex": "^/admin/manual\\-admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/manual\\-admit\\-card(?:/)?$"
+    },
+    {
       "page": "/admin/options",
       "regex": "^/admin/options(?:/)?$",
       "routeKeys": {},
@@ -1237,6 +1243,12 @@
       "namedRegex": "^/api/management/dashboard(?:/)?$"
     },
     {
+      "page": "/api/manual-retake-card",
+      "regex": "^/api/manual\\-retake\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/manual\\-retake\\-card(?:/)?$"
+    },
+    {
       "page": "/api/master-db/program-strength",
       "regex": "^/api/master\\-db/program\\-strength(?:/)?$",
       "routeKeys": {},
@@ -1787,6 +1799,12 @@
       "regex": "^/examination/leave\\-requests(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/leave\\-requests(?:/)?$"
+    },
+    {
+      "page": "/examination/manual-admit-card",
+      "regex": "^/examination/manual\\-admit\\-card(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/manual\\-admit\\-card(?:/)?$"
     },
     {
       "page": "/examination/papers",

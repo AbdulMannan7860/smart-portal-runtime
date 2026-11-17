@@ -1,6 +1,6 @@
 {
   "name": "smart-portal",
-  "version": "2.35.14",
+  "version": "2.35.15",
   "private": true,
   "scripts": {
     "dev": "next dev",

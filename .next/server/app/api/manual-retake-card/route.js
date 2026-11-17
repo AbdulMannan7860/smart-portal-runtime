@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/manual-retake-card/route.js")
+R.c("server/chunks/[root-of-the-server]__17anpkq._.js")
+R.c("server/chunks/node_modules_1jhqtcu._.js")
+R.c("server/chunks/_1rfsoxw._.js")
+R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")
+R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
+R.c("server/chunks/node_modules_next_05zc8vy._.js")
+R.c("server/chunks/_105dmyw._.js")
+R.c("server/chunks/_next-internal_server_app_api_manual-retake-card_route_actions_109gynq.js")
+R.m(246402)
+module.exports=R.m(246402).exports

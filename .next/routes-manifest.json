@@ -547,12 +547,6 @@
       "namedRegex": "^/admin/teacher\\-attendance(?:/)?$"
     },
     {
-      "page": "/admin/teacher-course-visibility",
-      "regex": "^/admin/teacher\\-course\\-visibility(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/admin/teacher\\-course\\-visibility(?:/)?$"
-    },
-    {
       "page": "/admin/teacher-creation-requests",
       "regex": "^/admin/teacher\\-creation\\-requests(?:/)?$",
       "routeKeys": {},

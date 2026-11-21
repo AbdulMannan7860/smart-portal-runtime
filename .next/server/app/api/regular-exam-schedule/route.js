@@ -1,0 +1,12 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/regular-exam-schedule/route.js")
+R.c("server/chunks/src_app_lib_1iorrm7._.js")
+R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_0lb1hew.js")
+R.c("server/chunks/[root-of-the-server]__0-32190._.js")
+R.c("server/chunks/node_modules_1jhqtcu._.js")
+R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")
+R.c("server/chunks/node_modules_next_05zc8vy._.js")
+R.c("server/chunks/_1rfsoxw._.js")
+R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
+R.c("server/chunks/_next-internal_server_app_api_regular-exam-schedule_route_actions_1_4o33e.js")
+R.m(430807)
+module.exports=R.m(430807).exports

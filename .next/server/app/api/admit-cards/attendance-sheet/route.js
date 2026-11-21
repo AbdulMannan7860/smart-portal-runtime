@@ -1,7 +1,7 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/admit-cards/attendance-sheet/route.js")
 R.c("server/chunks/[root-of-the-server]__0-32190._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
-R.c("server/chunks/_1bcl2-v._.js")
+R.c("server/chunks/_1i-joqe._.js")
 R.c("server/chunks/[root-of-the-server]__0w4j-19._.js")
 R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")

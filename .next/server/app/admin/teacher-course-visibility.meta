@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/teacher-course-visibility/layout,_N_T_/admin/teacher-course-visibility/page,_N_T_/admin/teacher-course-visibility"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/teacher-course-visibility/__PAGE__",
+    "/admin/teacher-course-visibility",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

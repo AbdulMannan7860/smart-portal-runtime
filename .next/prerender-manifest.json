@@ -1514,6 +1514,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/teacher-course-visibility": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/teacher-course-visibility",
+      "dataRoute": "/admin/teacher-course-visibility.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/teacher-creation-requests": {
       "experimentalBypassFor": [
         {
@@ -4572,8 +4596,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "abd8adaa72e05e71011f48b848209d0b",
-    "previewModeSigningKey": "c4e6d439cd8187a3fdeb3d3e108185ea5d230e90ffc2c16f0fc22f6e1ae73c5d",
-    "previewModeEncryptionKey": "e20e4f58f3aed4d2de0f4414dcff9de50a3fe13df2eedf0a03deb7b28f0fc324"
+    "previewModeId": "889a53e871dfb4026227135ddb2c8e2e",
+    "previewModeSigningKey": "1820c702cabaa2d7e3661930cd3444f6a53053d9612226913fdb7899e31aa448",
+    "previewModeEncryptionKey": "e3938ae4ab831b0d97ed565bb46aad34167485694cbb8811cd170aa6eef45d5d"
   }
 }

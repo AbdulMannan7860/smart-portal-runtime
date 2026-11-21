@@ -247,6 +247,7 @@
   "/api/student/get-students/[studentId]/route": "app/api/student/get-students/[studentId]/route.js",
   "/api/student/get-total-students/route": "app/api/student/get-total-students/route.js",
   "/api/student/remove-course/route": "app/api/student/remove-course/route.js",
+  "/api/teacher-course-visibility/route": "app/api/teacher-course-visibility/route.js",
   "/api/teacher-evaluations/route": "app/api/teacher-evaluations/route.js",
   "/api/teacher-performance/route": "app/api/teacher-performance/route.js",
   "/api/teacher-reports/route": "app/api/teacher-reports/route.js",

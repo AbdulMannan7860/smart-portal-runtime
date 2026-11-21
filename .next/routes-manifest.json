@@ -1645,6 +1645,12 @@
       "namedRegex": "^/api/teacher/verify\\-registration\\-token(?:/)?$"
     },
     {
+      "page": "/api/teacher-course-visibility",
+      "regex": "^/api/teacher\\-course\\-visibility(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher\\-course\\-visibility(?:/)?$"
+    },
+    {
       "page": "/api/teacher-evaluations",
       "regex": "^/api/teacher\\-evaluations(?:/)?$",
       "routeKeys": {},

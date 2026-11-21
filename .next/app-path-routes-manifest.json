@@ -247,6 +247,7 @@
   "/api/student/get-students/[studentId]/route": "/api/student/get-students/[studentId]",
   "/api/student/get-total-students/route": "/api/student/get-total-students",
   "/api/student/remove-course/route": "/api/student/remove-course",
+  "/api/teacher-course-visibility/route": "/api/teacher-course-visibility",
   "/api/teacher-evaluations/route": "/api/teacher-evaluations",
   "/api/teacher-performance/route": "/api/teacher-performance",
   "/api/teacher-reports/route": "/api/teacher-reports",

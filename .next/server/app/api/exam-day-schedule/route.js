@@ -1,6 +1,6 @@
 var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/exam-day-schedule/route.js")
 R.c("server/chunks/src_app_lib_0d628sd._.js")
-R.c("server/chunks/src_app_lib_0jynf8y._.js")
+R.c("server/chunks/src_app_lib_1m26qm5._.js")
 R.c("server/chunks/node_modules_@opentelemetry_api_build_esm_index_1jp9ij0.js")
 R.c("server/chunks/[root-of-the-server]__0-32190._.js")
 R.c("server/chunks/_1xx-poo._.js")

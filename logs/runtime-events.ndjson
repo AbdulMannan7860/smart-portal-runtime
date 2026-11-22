@@ -1,1 +1,1 @@
-{"timestamp":"2026-11-21T15:27:35.908Z","level":"info","event":"server.started","pid":3916,"uptimeSeconds":2,"hostname":"0.0.0.0","port":3187,"maximumActiveApiRequests":24,"realtimeTransport":"short-poll"}
+{"timestamp":"2026-11-22T09:10:59.001Z","level":"info","event":"server.started","pid":3903,"uptimeSeconds":1,"hostname":"0.0.0.0","port":3187,"maximumActiveApiRequests":24,"realtimeTransport":"short-poll"}

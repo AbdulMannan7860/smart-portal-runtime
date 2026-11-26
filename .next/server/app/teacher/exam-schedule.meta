@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/teacher/layout,_N_T_/teacher/exam-schedule/layout,_N_T_/teacher/exam-schedule/page,_N_T_/teacher/exam-schedule"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/teacher/exam-schedule/__PAGE__",
+    "/teacher/exam-schedule",
+    "/teacher",
+    "/_index",
+    "/_head"
+  ]
+}

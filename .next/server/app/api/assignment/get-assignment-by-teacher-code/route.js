@@ -1,9 +1,10 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/assignment/get-assignment-by-teacher-code/route.js")
 R.c("server/chunks/[root-of-the-server]__1w5g91m._.js")
-R.c("server/chunks/_1rfsoxw._.js")
-R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
-R.c("server/chunks/node_modules_next_08s853w._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
+R.c("server/chunks/node_modules_@opentelemetry_api_build_esm_index_1jp9ij0.js")
+R.c("server/chunks/[root-of-the-server]__1y_g68p._.js")
+R.c("server/chunks/node_modules_next_08s853w._.js")
+R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/1oeh_server_app_api_assignment_get-assignment-by-teacher-code_route_actions_180ep4e.js")
 R.m(367606)
 module.exports=R.m(367606).exports

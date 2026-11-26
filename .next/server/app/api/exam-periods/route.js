@@ -3,8 +3,9 @@ R.c("server/chunks/node_modules_next_dist_esm_build_templates_app-route_1wn26gf.
 R.c("server/chunks/_1rfsoxw._.js")
 R.c("server/chunks/[root-of-the-server]__0usceof._.js")
 R.c("server/chunks/node_modules_1jhqtcu._.js")
-R.c("server/chunks/[root-of-the-server]__0--l0zb._.js")
+R.c("server/chunks/[root-of-the-server]__1y_g68p._.js")
 R.c("server/chunks/node_modules_next_08s853w._.js")
+R.c("server/chunks/node_modules_@opentelemetry_api_build_esm_index_1jp9ij0.js")
 R.c("server/chunks/_next-internal_server_app_api_exam-periods_route_actions_1qetgnc.js")
 R.m(695830)
 module.exports=R.m(695830).exports

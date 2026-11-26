@@ -445,6 +445,12 @@
       "namedRegex": "^/admin/query\\-management(?:/)?$"
     },
     {
+      "page": "/admin/regular-exam-schedule",
+      "regex": "^/admin/regular\\-exam\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/regular\\-exam\\-schedule(?:/)?$"
+    },
+    {
       "page": "/admin/result-finalization",
       "regex": "^/admin/result\\-finalization(?:/)?$",
       "routeKeys": {},
@@ -1405,6 +1411,12 @@
       "namedRegex": "^/api/quiz/withdraw\\-submission(?:/)?$"
     },
     {
+      "page": "/api/regular-exam-schedule",
+      "regex": "^/api/regular\\-exam\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/regular\\-exam\\-schedule(?:/)?$"
+    },
+    {
       "page": "/api/reports/teacher-operations-weekly",
       "regex": "^/api/reports/teacher\\-operations\\-weekly(?:/)?$",
       "routeKeys": {},
@@ -1657,6 +1669,12 @@
       "namedRegex": "^/api/teacher\\-evaluations(?:/)?$"
     },
     {
+      "page": "/api/teacher-exam-schedule",
+      "regex": "^/api/teacher\\-exam\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/teacher\\-exam\\-schedule(?:/)?$"
+    },
+    {
       "page": "/api/teacher-performance",
       "regex": "^/api/teacher\\-performance(?:/)?$",
       "routeKeys": {},
@@ -1763,6 +1781,12 @@
       "regex": "^/examination/queries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/examination/queries(?:/)?$"
+    },
+    {
+      "page": "/examination/regular-exam-schedule",
+      "regex": "^/examination/regular\\-exam\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/examination/regular\\-exam\\-schedule(?:/)?$"
     },
     {
       "page": "/examination/result-finalization",
@@ -2225,6 +2249,12 @@
       "regex": "^/teacher/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/teacher/dashboard(?:/)?$"
+    },
+    {
+      "page": "/teacher/exam-schedule",
+      "regex": "^/teacher/exam\\-schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teacher/exam\\-schedule(?:/)?$"
     },
     {
       "page": "/teacher/examination-papers",

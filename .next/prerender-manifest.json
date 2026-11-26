@@ -1106,6 +1106,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/admin/regular-exam-schedule": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/admin/regular-exam-schedule",
+      "dataRoute": "/admin/regular-exam-schedule.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/admin/result-finalization": {
       "experimentalBypassFor": [
         {
@@ -2086,6 +2110,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/examination/queries",
       "dataRoute": "/examination/queries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/examination/regular-exam-schedule": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/examination/regular-exam-schedule",
+      "dataRoute": "/examination/regular-exam-schedule.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -3968,6 +4016,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/teacher/exam-schedule": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/teacher/exam-schedule",
+      "dataRoute": "/teacher/exam-schedule.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/teacher/examination-papers": {
       "experimentalBypassFor": [
         {
@@ -4308,8 +4380,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "33d29d9720c977eeabdff6e74f6a2ac5",
-    "previewModeSigningKey": "be80ad6695a3981ce27c7ef9a64b55a72e1101d5856fcf57424d8ffa465aa71b",
-    "previewModeEncryptionKey": "78407b255cae8db0246eb41eb8e494efbfe084ba693062246d0009c5850ee97e"
+    "previewModeId": "194701357d17edff0c38d9bbede4333e",
+    "previewModeSigningKey": "67afcfa5f27cf4a8634f0b78ae52b13847083049f2530d67f09f50e0f4ff405e",
+    "previewModeEncryptionKey": "837071acc6a4e517acb098cc43ab7de7a607efe3803f62cba3c8f6144a9acacf"
   }
 }
